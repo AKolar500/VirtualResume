@@ -1,0 +1,9 @@
+2021-03-19T23:04:01+00:00 CRITICAL Uncaught Error: Class 'Automattic\Jetpack\Connection\Tokens' not found in C:\MAMP\htdocs\wordpress\wp-content\plugins\jetpack\vendor\automattic\jetpack-connection\src\class-client.php:75
+Stack trace:
+#0 C:\MAMP\htdocs\wordpress\wp-content\plugins\jetpack\vendor\automattic\jetpack-connection\src\class-client.php(26): Automattic\Jetpack\Connection\Client::build_signed_request(Array, NULL)
+#1 C:\MAMP\htdocs\wordpress\wp-content\plugins\jetpack\vendor\automattic\jetpack-connection\src\class-client.php(429): Automattic\Jetpack\Connection\Client::remote_request(Array, NULL)
+#2 C:\MAMP\htdocs\wordpress\wp-content\plugins\jetpack\class.jetpack-plan.php(202): Automattic\Jetpack\Connection\Client::wpcom_json_api_request_as_blog('/sites/0', '1.1')
+#3 C:\MAMP\htdocs\wordpress\wp-includes\class-wp-hook.php(287): Jetpack_Plan::refresh_from_wpcom('')
+#4 C:\MAMP\htdocs\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 C:\MAMP\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Ar in C:\MAMP\htdocs\wordpress\wp-content\plugins\jetpack\vendor\automattic\jetpack-connection\src\class-client.php on line 75
+
