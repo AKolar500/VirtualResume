@@ -585,7 +585,7 @@ msgstr ""
 msgid "0.0"
 msgstr "0.0"
 
-#: woocommerce-services.php:1438
+#: woocommerce-services.php:1440
 msgid "Shipment Tracking"
 msgstr ""
 
@@ -597,23 +597,23 @@ msgstr ""
 msgid "Customs information incomplete"
 msgstr ""
 
-#: woocommerce-services.php:1481
+#: woocommerce-services.php:1483
 msgid "Packing Log:"
 msgstr ""
 
-#: woocommerce-services.php:1468
+#: woocommerce-services.php:1470
 msgid "Chosen Rate:"
 msgstr ""
 
-#: woocommerce-services.php:1464
+#: woocommerce-services.php:1466
 msgid "Shipping Method ID:"
 msgstr ""
 
-#: woocommerce-services.php:1460
+#: woocommerce-services.php:1462
 msgid "Shipping Method Name:"
 msgstr ""
 
-#: woocommerce-services.php:1444
+#: woocommerce-services.php:1446
 msgid "Shipping Debug"
 msgstr ""
 
@@ -634,11 +634,11 @@ msgid "Unable to send request to WooCommerce Shipping & Tax server. Jetpack Toke
 msgstr ""
 
 #. translators: %1$s: error code, %2$s: error message, %3$d: HTTP response code
-#: classes/class-wc-connect-api-client-live.php:119
+#: classes/class-wc-connect-api-client-live.php:127
 msgid "Error: The WooCommerce Shipping & Tax server returned: %1$s %2$s ( %3$d )"
 msgstr ""
 
-#: classes/class-wc-connect-api-client-live.php:105
+#: classes/class-wc-connect-api-client-live.php:108
 msgid "Error: The WooCommerce Shipping & Tax server returned ( %d ) and an empty response body."
 msgstr ""
 
@@ -1321,11 +1321,11 @@ msgstr "Länka ett PayPal-konto"
 msgid "Refresh"
 msgstr "Uppdatera"
 
-#: woocommerce-services.php:1220
+#: woocommerce-services.php:1221
 msgid "Tracking number"
 msgstr "Spårningsnummer"
 
-#: woocommerce-services.php:1219
+#: woocommerce-services.php:1220
 msgid "Provider"
 msgstr "Leverantör"
 
@@ -1338,39 +1338,39 @@ msgstr ""
 msgid "Hosted services for WooCommerce: automated tax calculation, shipping label printing, and smoother payment setup."
 msgstr ""
 
-#: classes/class-wc-connect-taxjar-integration.php:1135
+#: classes/class-wc-connect-taxjar-integration.php:1137
 msgid "Tax Class"
 msgstr "Momssats"
 
-#: classes/class-wc-connect-taxjar-integration.php:1134
+#: classes/class-wc-connect-taxjar-integration.php:1136
 msgid "Shipping"
 msgstr "Frakt"
 
-#: classes/class-wc-connect-taxjar-integration.php:1133
+#: classes/class-wc-connect-taxjar-integration.php:1135
 msgid "Compound"
 msgstr ""
 
-#: classes/class-wc-connect-taxjar-integration.php:1132
+#: classes/class-wc-connect-taxjar-integration.php:1134
 msgid "Priority"
 msgstr "Prioritet"
 
-#: classes/class-wc-connect-taxjar-integration.php:1131
+#: classes/class-wc-connect-taxjar-integration.php:1133
 msgid "Tax Name"
 msgstr "Momsnamn"
 
-#: classes/class-wc-connect-taxjar-integration.php:1130
+#: classes/class-wc-connect-taxjar-integration.php:1132
 msgid "Rate %"
 msgstr "Betygsätt %"
 
-#: classes/class-wc-connect-taxjar-integration.php:1128
+#: classes/class-wc-connect-taxjar-integration.php:1130
 msgid "ZIP/Postcode"
 msgstr "Postnummer"
 
-#: classes/class-wc-connect-taxjar-integration.php:1127
+#: classes/class-wc-connect-taxjar-integration.php:1129
 msgid "State Code"
 msgstr ""
 
-#: classes/class-wc-connect-taxjar-integration.php:1126
+#: classes/class-wc-connect-taxjar-integration.php:1128
 msgid "Country Code"
 msgstr "Landskod"
 
@@ -1469,7 +1469,7 @@ msgstr ""
 msgid "Bad request"
 msgstr ""
 
-#: classes/class-wc-rest-connect-shipping-label-controller.php:28
+#: classes/class-wc-rest-connect-shipping-label-controller.php:50
 msgid "Order not found"
 msgstr "Beställningen hittades inte"
 
@@ -1665,19 +1665,19 @@ msgid "Add a credit card"
 msgstr "Lägg till ett kreditkort"
 
 #. translators: %d: Deleted Product ID
-#: classes/class-wc-connect-compatibility-wc26.php:116
 #: classes/class-wc-connect-compatibility-wc30.php:130
+#: classes/class-wc-connect-compatibility-wc26.php:116
 msgid "#%d - [Deleted product]"
 msgstr "#%d - [Ta bort produkt]"
 
 #. translators: %1$d: Product ID, %2$s: Product Name
-#: classes/class-wc-connect-compatibility-wc26.php:111
 #: classes/class-wc-connect-compatibility-wc30.php:125
+#: classes/class-wc-connect-compatibility-wc26.php:111
 msgid "#%1$d - %2$s"
 msgstr "#%1$d - %2$s"
 
 #. translators: %s Support url
-#: woocommerce-services.php:1554
+#: woocommerce-services.php:1556
 msgid "<a href=\"%s\">Support</a>"
 msgstr "<a href=\"%s\">Support</a>"
 
@@ -1685,8 +1685,8 @@ msgstr "<a href=\"%s\">Support</a>"
 msgid "There was an error installing Jetpack. Please try installing it manually."
 msgstr "Det var det fel att installera JetPack. Prova installera det manuellt."
 
-#: i18n/strings.php:135 woocommerce-services.php:1056
-#: woocommerce-services.php:1059
+#: woocommerce-services.php:1057 woocommerce-services.php:1060
+#: i18n/strings.php:135
 msgid "Shipping Labels"
 msgstr "Fraktetiketter"
 
@@ -1699,8 +1699,8 @@ msgstr "Automattic"
 msgid "https://woocommerce.com/"
 msgstr "https://woocommerce.com/"
 
-#: i18n/strings.php:235 i18n/strings.php:371 woocommerce-services.php:1504
-#: woocommerce-services.php:1532
+#: woocommerce-services.php:1506 woocommerce-services.php:1534
+#: i18n/strings.php:235 i18n/strings.php:371
 msgid "Phone"
 msgstr "Telefon"
 
@@ -1797,7 +1797,7 @@ msgstr "Prisjustering"
 msgid "Saved Packages"
 msgstr "Sparade paket"
 
-#: woocommerce-services.php:1208 woocommerce-services.php:1215
+#: woocommerce-services.php:1209 woocommerce-services.php:1216
 msgid "Tracking"
 msgstr "Spårning"
 
@@ -1820,7 +1820,7 @@ msgstr "Företag"
 msgid "Address"
 msgstr "Adress"
 
-#: classes/class-wc-connect-taxjar-integration.php:1129 i18n/strings.php:232
+#: classes/class-wc-connect-taxjar-integration.php:1131 i18n/strings.php:232
 #: i18n/strings.php:374
 msgid "City"
 msgstr "Ort"
@@ -1926,13 +1926,13 @@ msgstr "Mer"
 msgid "Invalid PDF request."
 msgstr "Ogiltig PDF-begäran."
 
-#: classes/class-wc-rest-connect-shipping-label-controller.php:106
 #: classes/class-wc-connect-shipping-method.php:509
+#: classes/class-wc-rest-connect-shipping-label-controller.php:128
 msgid "Unknown package"
 msgstr "Okänt paket"
 
-#: classes/class-wc-rest-connect-shipping-label-controller.php:102
 #: classes/class-wc-connect-shipping-method.php:511
+#: classes/class-wc-rest-connect-shipping-label-controller.php:124
 msgid "Individual packaging"
 msgstr ""
 
@@ -1961,7 +1961,7 @@ msgstr "Det gick inte att uppdatera inställningarna. %s"
 msgid "Packaging"
 msgstr ""
 
-#: woocommerce-services.php:1587
+#: woocommerce-services.php:1589
 msgid "Section not loading? Visit the <a href=\"%s\">status page</a> for troubleshooting steps."
 msgstr ""
 
@@ -1973,7 +1973,7 @@ msgstr ""
 msgid "Note: Jetpack is connected, but development mode is also enabled on this site. Please disable development mode."
 msgstr "Obs! Jetpack är ansluten, men utvecklingsläget är också aktiverat på denna webbplats. Inaktivera utvecklingsläget."
 
-#: woocommerce-services.php:1440
+#: woocommerce-services.php:1442
 msgid "Shipping Label"
 msgstr "Fraktetikett"
 
@@ -2143,7 +2143,7 @@ msgstr "Ställ in basplats i WooCommerce-inställningar > Allmänt"
 msgid "WooCommerce %1$s or higher is required (You are running %2$s)"
 msgstr ""
 
-#: classes/class-wc-connect-error-notice.php:104 woocommerce-services.php:1623
+#: classes/class-wc-connect-error-notice.php:104 woocommerce-services.php:1625
 msgid "Dismiss this notice"
 msgstr "Avfärda denna notis"
 
