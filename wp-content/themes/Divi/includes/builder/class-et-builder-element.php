@@ -3017,17 +3017,21 @@ class ET_Builder_Element {
 
 			foreach ( $disabled_on_array as $value ) {
 				if ( 'on' === $value ) {
-					// Added specific declaration to fix the problem when
+					// Added specific selector and declaration to fix the problem when
 					// Video module is hidden for desktop the fullscreen
 					// won't work on mobile screen size.
-					$declaration = 'et_pb_video' === $render_slug ? 'height: 0; padding: 0; overflow: hidden;' : 'display: none !important;';
+					$selector    = 'et_pb_video' === $render_slug ? '.et_pb_video%%order_class%%' : '%%order_class%%';
+					$declaration = 'et_pb_video' === $render_slug ? 'min-height: 0; height: 0; margin: 0 !important; padding: 0; overflow: hidden;' : 'display: none !important;';
+
 					$el_style    = array(
-						'selector'    => '%%order_class%%',
+						'selector'    => $selector,
 						'declaration' => $declaration,
 						'media_query' => self::get_media_query( $current_media_query ),
 					);
+
 					ET_Builder_Module::set_style( $render_slug, $el_style );
 				}
+
 				$i++;
 				$current_media_query = 1 === $i ? '768_980' : 'min_width_981';
 			}

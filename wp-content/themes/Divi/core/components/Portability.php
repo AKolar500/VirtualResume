@@ -1097,8 +1097,8 @@ class ET_Core_Portability {
 		$global_colors = array();
 
 		foreach ( $incoming_global_colors as $incoming_gcolor ) {
-			$key                   = sanitize_text_field( $incoming_gcolor[0] );
-			$global_colors[ $key ] = sanitize_text_field( $incoming_gcolor[1] );
+			$key                   = et_()->sanitize_text_fields( $incoming_gcolor[0] );
+			$global_colors[ $key ] = et_()->sanitize_text_fields( $incoming_gcolor[1] );
 		}
 
 		$stored_global_colors = et_builder_get_all_global_colors();

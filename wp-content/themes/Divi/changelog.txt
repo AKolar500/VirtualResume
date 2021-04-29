@@ -1,3 +1,61 @@
+version 4.9.4 ( updated 04-13-2021 )
+- Fixed search module custom left and right padding not working when you hide the search button.
+- Fixed incorrect scrollTo behavior when the $target is sticky module that sticks to top.
+- Fixed builder crash when Content Security Policy (CSP) header is enabled.
+- Fixed button hover color from theme customizer affects the media library button when editing products.
+- Fixed an issue with the Testimonial module where the spacing on builder and frontend were irregular.
+- Added Logo Width and Height options to the Menu module.
+- Fix fullwidth header image bottom alignment not working on the default layout.
+- Fixed global color set on hover state overwrites normal state on save.
+- Fixed incorrect posts result on the Blog module when Relevanssi Premium plugin is active.
+- Fixed the color picker input shows up when Rank Math plugin is activated.
+- Allow third-party extensions to access post or page setting values on builder via ET_Builder.API.
+- Fixed the color picker input shows up when Rank Math plugin is activated.
+- Fixed a bug where when importing a layout with global colors the colors would not be imported as global.
+- Fixed the color picker input shows up when Rank Math plugin is activated.
+	* core/admin/js/wp-color-picker-alpha.min.js
+	* core/components/Portability.php
+	* core/ui/utils/frames.js
+	* core/ui/utils/utils.js
+	* epanel/js/wp-color-picker-alpha.min.js
+	* includes/builder/frontend-builder/bundle.js
+	* includes/builder/languages/et_builder-en_US-et-builder-gutenberg.po
+	* includes/builder/module/ContactFormItem.php
+	* includes/builder/module/FullwidthMenu.php
+	* includes/builder/module/Menu.php
+	* includes/builder/plugin-compat/relevanssi-premium.php
+	* includes/builder/plugin-compat/relevanssi.php
+	* includes/builder/plugin-compat/wp-simple-firewall.php
+	* includes/builder/scripts/ext/wp-color-picker-alpha.js
+	* includes/builder/scripts/ext/wp-color-picker-alpha.min.js
+	* includes/builder/scripts/utils/sticky.js
+
+version 4.9.3 ( updated 04-01-2021 )
+- Fixed inability to click into the search field in a FullwidthMenu module on small screens.
+- Fixed Theme Builder not saved properly when has many templates.
+- Fixed global colors confirmation dialog appears in the layers view (LV) when LV is open.
+- Fixed flashing styles inherited from existing module not in viewport when creating/duplicating module.
+- Introduces orderClassName property on custom module moduleInfo property to display module order class name.
+- Improved JSON data retrieving method to prevent VB saving interruption.
+- Fixed an issue with the VIdeo module that caused the element to still be displayed when hidden.
+- Fixed issue where builder freezes when dragging padding and margin fast.
+- Fixed Post Title Module comment placeholder in the Visual Builder.
+- Suppressed warnings in React 16.12.0 when in development environment.
+- Fixed custom padding bottom set in the module's settings dialog not working for the last contact form item.
+- Fixed issue where links are not clickable on IOS when hover content is enabled.
+- Fixed responsive content not being rendered on small screen devices.
+- Fixed responsive content not being rendered when there is an anchor links in content.
+- Fixed page jump on clicking the pagination links in Gallery.
+- Improves how HTML elements can be removed or excluded from the builder via et_fb_ignore and et_fb_ignore_iframe class.
+	* core/ui/utils/frames.js
+	* core/ui/utils/utils.js
+	* includes/builder/class-et-builder-element.php
+	* includes/builder/frontend-builder/bundle.js
+	* includes/builder/frontend-builder/theme-builder/api.php
+	* includes/builder/module/ContactFormItem.php
+	* includes/builder/scripts/frontend/scripts.js
+	* js/src/custom.js
+
 version 4.9.2 ( updated 03-12-2021 )
 - Fixed meta links color on the Front End not matching the Visual Builder in the Blog module when using grid layout.
 - Improved logic to allow the last and only row to be moved outside specialty sections.

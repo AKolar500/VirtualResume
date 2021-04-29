@@ -874,6 +874,10 @@ class ET_Builder_Module_Contact_Form_Item extends ET_Builder_Module {
 			$this->add_classname( 'et_pb_contact_field--hidden' );
 		}
 
+		if ( $this->_has_background() ) {
+			$this->add_classname( 'has-background' );
+		}
+
 		// Remove automatically added classname
 		$this->remove_classname( 'et_pb_module' );
 
@@ -901,6 +905,20 @@ class ET_Builder_Module_Contact_Form_Item extends ET_Builder_Module {
 		);
 
 		return $output;
+	}
+
+	/**
+	 * Checks if module has background.
+	 *
+	 * @since 4.9.3
+	 *
+	 * @return bool
+	 */
+	protected function _has_background() {
+		return 'on' === self::$_->array_get( $this->props, 'background_enable_color' )
+			|| 'on' === self::$_->array_get( $this->props, 'background_enable_image' )
+			|| 'on' === self::$_->array_get( $this->props, 'background_enable_video_mp4' )
+			|| 'on' === self::$_->array_get( $this->props, 'background_enable_video_webm' );
 	}
 }
 
