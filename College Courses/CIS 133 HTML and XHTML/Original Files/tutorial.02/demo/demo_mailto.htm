@@ -1,0 +1,187 @@
+<html>
+<head>
+<!-- 
+   New Perspectives on HTML and XHTML 5th Edition
+   Tutorial 2
+   Tutorial Case
+
+   Mailto Demo
+   Author: Patrick Carey
+   Date:   3/1/2011
+
+   Filename:         demo_mailto.htm
+   Supporting files: demo.gif
+-->
+<title>Mailto Demo</title>
+<style type="text/css">
+/* use for all demo pages */
+   html       {height: 100%}
+   body       {background-color: white; background-image: url(demo2.gif); margin: 0px; 
+               width: 100%; height: 100%}
+   #demo_page {background-color: white; 
+               border-right: 5px solid rgb(0,0,128); position: absolute; top: 0px; left: 0px;
+               width: 900px; padding-bottom: 15px; min-height: 100%}
+   * html #demo_page {height: 100%}
+
+   #demo_intro {width: 100%; position: relative; margin: 0px 10px}
+   #demo_intro table {margin: 0px; padding: 0px; border: 0px; width: 97%}
+   #demo_intro table td {vertical-align: bottom; padding-bottom: 5px}
+   #h2heading {color:yellow; background-image: url(demo.gif); letter-spacing: 0.5em; 
+               font-family: Arial, Helvetica, sans-serif; width: 97%; 
+               font-size: 1.5em; margin: 0px; text-align: right; 
+               border: 1px solid black}
+
+   #para      {font-size: 1em; border: 1px solid black; width: 97%;
+               background-color: ivory}
+   #para p    {margin: 8px}
+
+   #demo_container {position: relative; top: 10px; left: 0px; width: 100%;
+                    margin: 0px 10px}
+   #demo_footer {text-align: center; font-size: 8pt; border-top: 1px solid black; 
+                 margin: 25px 10px; width: 97%}
+   span.btitle {font-style: italic}
+
+/* styles specific to this demo */
+   #mailtable    {background-color: rgb(212,212,212); border: 10px outset rgb(198, 198, 198)}
+   #mailtable td {border: 1px solid black; vertical-align: top; padding: 3px 10px 3px 15px}
+   #mailbody {width: 500px; height: 200px}
+   #mailoutput {margin-top: 10px}
+   #mailoutput td {vertical-align: top; padding: 3px 10px 3px 15px}
+   #mailtourl {width: 500px; height: 100px}
+   #to, #cc, #bcc, #subject, #mailbody {border: 1px inset rgb(198, 198, 198)}
+
+</style>
+
+<script type="text/javascript">
+var urltext;
+function createMailTo() {
+   var mto = document.getElementById("to");
+   var mcc = document.getElementById("cc");
+   var mbcc = document.getElementById("bcc");
+   var msubject = document.getElementById("subject");
+   var mbody = document.getElementById("mailbody");
+   var murl = document.getElementById("mailtourl");
+   var ml = document.getElementById("maillink");
+   
+   urltext = "mailto:";
+
+   if (mto.value =="" ) {
+      alert ("You must enter an e-mail address in the TO field");
+    } else {
+      urltext += mto.value;
+      addField(mcc.value, "CC");
+      addField(mbcc.value, "BCC");
+      addField(msubject.value, "Subject");
+      addField(mbody.value, "Body");
+
+      murl.value = urltext;
+
+      ml.innerHTML="<a href='"+urltext+"'>Test the URL</a>";
+   }
+}
+
+function addField(mfield, fname) {
+   if (mfield != "") {
+      urltext= addSeparator(urltext);
+      urltext += fname+"="+escape(mfield);
+   }
+}
+
+function addSeparator(inputString) {
+
+    var inString = inputString;
+
+    if (inString.indexOf("?") == -1) {
+        inString += "?";
+    }
+    else {
+        inString += "&";
+    }
+    return inString;
+}
+
+</script>
+
+</head>
+
+<body>
+<form id="mailtoform" name="tagform">
+<div id="demo_page">
+
+<div id="demo_intro">
+   <table>
+   <tr><td style="width: 50%"><img src="cengage.jpg" alt="Course Technology Cengage Learning" /></td>
+       <td style="width: 50%; text-align:right; font-family: Arial, Helvetica, sans-serif; font-size: 14pt">
+          New Perspectives on HTML and XHTML<br />Tutorial 2
+   </td></tr>
+   </table>
+
+   <h2 id="h2heading">The mailto URL </h2>
+   <div id="para">
+   <p>This page shows how to create e-mail hypertext links by using the mailto URL. The general
+   form of the mailto URL is:<br /><br />
+   <span style="font-family: monospace">mailto:<i>address</i></span><br /><br />
+   where <i>address</i> is the e-mail address of the recipient. If you want to add more information to 
+   the e-mail link by including such headers as cc, bcc, or subject, you can add them to the URL as
+   name/value pairs with the header name and header value separated by an equal sign. Each name/value
+   pair must be separated by an &amp; character. The first name/value pair must be preceded by a question mark 
+   to separate it from the e-mail address.<br /><br />
+   To explore how to translate an e-mail message into a URL, enter your e-mail message in the form below.
+   Click <b>Generate URL</b> to view the URL for the message.</p>
+  </p>
+  </div>
+</div>
+
+<div id="demo_container">
+   <table id="mailtable">
+      <tr>
+         <td>TO:</td>
+         <td><input name="to" id="to" size="50" /></td>
+      </tr>
+      <tr>
+         <td>CC:</td>
+         <td><input name="to" id="cc" size="50" /></td>
+      </tr>
+      <tr>
+         <td>BCC:</td>
+         <td><input name="to" id="bcc" size="50" /></td>
+      </tr>
+      <tr>
+         <td>SUBJECT:</td>
+         <td><input name="to" id="subject" size="50" /></td>
+      </tr>
+      <tr>
+         <td style="width: 200px">BODY:</td>
+         <td><textarea name="mailbody" id="mailbody"></textarea></td>
+      </tr>
+      <tr>
+         <td colspan="2" style="text-align: center">
+            <input type="button" value="Generate URL" onclick="createMailTo()" />
+         </td>
+      </tr>
+   </table>
+   <table id="mailoutput" name="mailoutput">
+      <tr>
+         <td style="width: 200px">mailto URL:</td>
+         <td><textarea name="mailtourl" id="mailtourl"></textarea></td>
+      </tr>
+      <tr>
+         <td colspan="2" style="text-align: center" id="maillink">
+         </td>
+         </td>
+      </tr>
+   </table>
+</div>
+
+<div id="demo_footer">
+   Carey, P.
+   <span class="btitle">New Perspectives on HTML and XHTML 5th Edition</span>,
+   Course Technology: Boston, 2008.
+</div>
+
+</div>
+</form>
+</body>
+</html>
+
+

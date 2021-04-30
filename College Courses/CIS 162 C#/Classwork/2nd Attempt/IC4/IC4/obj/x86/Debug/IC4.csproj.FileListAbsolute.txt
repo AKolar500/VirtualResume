@@ -1,0 +1,11 @@
+C:\Users\AlexJKolar\AppData\Local\Temporary Projects\IC4\bin\Debug\IC4.exe
+C:\Users\AlexJKolar\AppData\Local\Temporary Projects\IC4\bin\Debug\IC4.pdb
+C:\Users\AlexJKolar\AppData\Local\Temporary Projects\IC4\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\AlexJKolar\AppData\Local\Temporary Projects\IC4\obj\x86\Debug\IC4.Form1.resources
+C:\Users\AlexJKolar\AppData\Local\Temporary Projects\IC4\obj\x86\Debug\IC4.Properties.Resources.resources
+C:\Users\AlexJKolar\AppData\Local\Temporary Projects\IC4\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\AlexJKolar\AppData\Local\Temporary Projects\IC4\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\AlexJKolar\AppData\Local\Temporary Projects\IC4\obj\x86\Debug\IC4.exe
+C:\Users\AlexJKolar\AppData\Local\Temporary Projects\IC4\obj\x86\Debug\IC4.pdb
+F:\College Courses\CIS 162\Classwork\2nd Attempt\IC4\IC4\obj\x86\Debug\IC4.exe
+F:\College Courses\CIS 162\Classwork\2nd Attempt\IC4\IC4\obj\x86\Debug\IC4.pdb

@@ -1,0 +1,793 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="Description" content="JavaScript Rich Progress Bar, animated, oriented horizontally or vertically, easy to integrate and very simple to manipulate it's appearance">
+	<meta name="Language" content="english">
+	<meta name="Author" content="Piotr Salaciak, salaciak.blogspot.com">
+	<meta name="keywords" content="Progress Bar, animated, horizontal, vertical, border radius">
+	
+	<title>JavaScript Progress Bar</title>
+	<script type="text/javascript">
+	
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-22748497-2']);
+	  _gaq.push(['_trackPageview']);
+	
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	
+	</script>
+</head>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" type="text/css" href="progressbar.css" />
+
+<script type="text/javascript" src="preview.js"></script>
+<script type="text/javascript" src="progressbar_mini.js"></script>
+
+<body>
+
+<div class="wrapper">
+	<div class="main_title">JavaScript Progress Bar</div>
+	<div class="main_subtitle">by <a href="http://codecanyon.net/user/psalaciak?ref=psalaciak" target="_blank">Piotr Sałaciak</a> (psalaciak 2010)</div>
+	<div class="main_subtitle">JavaScript</div>
+</div>
+
+<div class="wrapper" id="usage_examples">
+<div class="title">Usage examples<span class="sample_number">1</span></div>
+
+<div style="width: 800px; margin: 0px auto;">
+	<div id="preview_code_cont">
+		<textarea id="preview_code"></textarea>
+		<div style="font-size: 11px; float: left; width: 720px; height: 30px; line-height: 30px;">If this code above is badly formatted, then try to use a different browser. IE or Chrome should display this code much better.</div>
+		<button onclick="hideCode(); return false;" style="float: right; margin-right: 10px; margin-top: 5px;">Hide</button>
+	</div>	
+	
+	<div class="list_container">
+		<div class="list_item" onclick="showItem(0);">Classic usage</div>
+		<div class="list_item" onclick="showItem(1);">Progress orientation</div>
+		<div class="list_item" onclick="showItem(2);">Horizontal progress directions</div>
+		<div class="list_item" onclick="showItem(3);">Vertical progress directions</div>
+		<div class="list_item" onclick="showItem(4);">Dimensions</div>
+		<div class="list_item" onclick="showItem(5);">Rounded edges</div>
+		
+		<div class="list_item" onclick="showItem(6);">Animated foreground</div>
+		<div class="list_item" onclick="showItem(13);">Animated progress move</div>
+		<div class="list_item" onclick="showItem(7);">Changing appearance according progress value</div>
+
+		<div class="list_item" onclick="showItem(8);">Custom caption</div>
+		<div class="list_item" onclick="showItem(9);">Custom caption II</div>
+
+		<div class="list_item" onclick="showItem(10);">Untypical usage: bar graphs</div>
+		<div class="list_item" onclick="showItem(11);">Untypical usage: equalizer</div>
+		<div class="list_item" onclick="showItem(12);">Untypical usage: poll result</div>
+		
+		<div class="list_item" onclick="showItem(14);">Other example 1</div>
+		<div class="list_item" onclick="showItem(15);">Other example 2</div>
+		<div class="list_item" onclick="showItem(16);">Other example 3</div>
+		<div class="list_item" onclick="showItem(17);">Other example 4</div>
+		<div class="list_item" onclick="showItem(19);">Other example 5</div>
+		<div class="list_item" onclick="showItem(18);">Other example 6</div>
+
+	</div>
+	
+	
+	<div id="preview_container">
+		
+		<div id="preview_item"></div>
+		<div id="preview_custom"></div>
+		<div id="preview_description"></div>
+		
+	</div>
+
+</div>
+<br style="clear: both;">
+	<button onclick="showCode(); return false;" style="position: relative; left: 280px; top: -310px;/*margin-left: 25px; margin-top: 5px;*/">Show code</button>
+	
+<style id="preview_styles" type="text/css">
+.ex10 {
+	border-width: 0px;
+}
+.ex10_wrapper {
+	float: left;
+	border-width: 0px;
+}
+.ex10_background {
+	border-width: 0px;
+	background-image: none;
+	background-color: white;
+}
+.ex10_vertical_text {
+	line-height: 380px;
+	color: black;
+}
+
+.ex11 {
+	border-width: 0px;
+}
+.ex11_wrapper {
+	float: left;
+	border-width: 0px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.ex11_background {
+	background-image: none;
+	background-color: black;
+}
+
+.ex12 {
+	border-width: 0px;
+}
+.ex12_wrapper {
+	float: left;
+	border-width: 0px;
+}
+.ex12_background {
+	border-width: 0px;
+	background-image: none;
+}
+.ex12_horizontal_text {
+	text-align: right;
+	color: black;
+}
+
+.ex14 {
+	border: 3px solid #dedede;
+}
+.ex14_text_horizontal {
+	color: #eeeeee;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.ex15_wrapper {
+	border: 1px solid #000000;
+}
+
+.ex17_text_horizontal {
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.ex18_wrapper {
+	border: 2px solid #050505;
+}
+.ex18_text_horizontal {
+	color: #eeeeee;
+	font-size: 18px;
+	font-family: tahoma;
+}
+
+</style>
+
+<div style="display: none;">
+	<div id="item_default">
+		<div style="width: 100%; height: 100%; margin: 0px auto;">
+			<div name="progressbar" style="position: relative; top: 45%; margin: 0px auto;"></div>
+		</div>
+	</div>
+	
+	<div id="item_0">
+		<div style="width: 100%; height: 100%; margin: 0px auto;">
+			<div name="progressbar" style="position: relative; top: 45%; margin: 0px auto;"></div>
+		</div>
+	</div>
+	<div id="item_description_0"><h2 class="description">Classic usage</h2>The most common use of a progress bar is to display level of completion of some kind of process, like loading, copying or installation. It can also be used in a variety of ways, so please, check other examples.</div>
+	
+	<div id="item_1">
+		<div style="width: 100%; height: 100%; margin: 0px auto;">
+			<div name="progressbar" style="position: relative; top: 15%; margin: 0px auto;"></div>
+		</div>
+	</div>
+	<div id="item_description_1"><h2 class="description">Progress orientation</h2>Progress bar can be horizontally or vertically oriented. Horizontal progress bar is commonly used to show loading, copying or installation process, goods ordering stage or user registration step. While vertically oriented progress bars, are mostly used to display disk usage, battery condition, fuel level or amount of some kind of energy.</div>
+
+	<div id="item_2">
+		<div style="width: 100%; height: 100%; margin: 0px auto;">
+			<div name="progressbar" style="position: relative; top: 20%; margin: 0px auto;"></div>
+			<div name="progressbar" style="position: relative; top: 35%; margin: 0px auto;"></div>
+		</div>
+	</div>
+	<div id="item_description_2"><h2 class="description">Horizontal progress directions</h2>There are two kinds of progress directions when progress bar is horizontally oriented. Progress can rise from left edge to the right edge, or which is less common, from right edge to the left edge.</div>
+
+	<div id="item_3">
+		<div style="width: 100%; height: 100%; margin: 0px auto;">
+			<div name="progressbar" style="position: relative; top: 15%; margin: 0px 50px; float: left;"></div>
+			<div name="progressbar" style="position: relative; top: 15%; margin: 0px 50px; float: right;"></div>
+		</div>
+	</div>
+	<div id="item_description_3"><h2 class="description">Vertical progress directions</h2>If progress bar is vertically oriented, there can be aplied two kinds of progress directions. Progress can rise from bottom edge to the top edge, or which is less common, from top edge to the bottom edge.</div>
+
+	<div id="item_4">
+		<div style="width: 100%; height: 100%; margin: 0px auto;">
+			<div name="progressbar" style="position: relative; top: 20%; margin: 0px auto;"></div>
+			<div name="progressbar" style="position: relative; top: 35%; margin: 0px auto;"></div>
+			<div name="progressbar" style="position: relative; top: 50%; margin: 0px auto;"></div>
+		</div>
+	</div>
+	
+	<div id="item_5">
+		<div style="width: 100%; height: 100%; margin: 0px auto;">
+			<div name="progressbar" style="position: relative; top: 15%; margin: 0px auto;"></div>
+			<div name="progressbar" style="position: relative; top: 25%; margin: 0px auto;"></div>
+			<div name="progressbar" style="position: relative; top: 35%; margin: 0px auto;"></div>
+		</div>
+	</div>
+	
+	<div id="item_8">
+		<div style="width: 100%; height: 100%; margin: 0px auto;">
+			<div style="position: relative; width: 402px; top: 35%; margin: 0px auto;">
+				<div style="z-index: 10; width: 110px; position: relative; top: 25px;"></div><div name="progressbar"></div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="item_9">
+		<div style="width: 100%; height: 100%; margin: 0px auto;">
+			<div style="position: relative; width: 402px; top: 35%; margin: 0px auto;
+				-moz-border-radius: 15px; 
+				-webkit-border-radius: 15px; 
+				-khtml-border-radius: 15px; 
+				border-radius: 15px; 
+				background-color: #787878;
+				padding: 10px;
+				background-image: url(bg/bg6.jpg);
+			">
+				<div name="progressbar" style="margin: 0px;"></div><div style="color: #f0f0f0; height: 30px; margin: 0px; text-align: right;">Loaded in 0 %</div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="item_10">
+		<div style="width: 100%; height: 100%; margin: 0px auto;">
+			<div style="
+				margin: 0px auto; 
+				width: 300px; 
+				border: 1px dotted #454545;
+				background-color: #FFFFFF; 
+				height: 200px; 
+				position: relative; 
+				top: 15%;
+				-moz-box-shadow: 2px 2px 5px #000000;
+				-webkit-box-shadow: 2px 2px 5px #000000;
+				-khtml-box-shadow: 2px 2px 5px #000000;
+				box-shadow: 2px 2px 5px #000000;">
+				<div name="progressbar" style="width: 310px; margin: 0px auto;"></div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="item_11">
+		<div style="width: 100%; height: 100%; margin: 0px auto;">
+			<div style="
+				margin: 0px auto; 
+				width: 300px; 
+				border: none;
+				background: none; 
+				height: 110px; 
+				position: relative; 
+				top: 30%;
+				-moz-box-shadow: 2px 2px 5px #000000;
+				-webkit-box-shadow: 2px 2px 5px #000000;
+				-khtml-box-shadow: 2px 2px 5px #000000;
+				box-shadow: 2px 2px 5px #000000;">
+				<div name="progressbar" style="width: 310px; padding-top: 5px"></div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="item_12">
+		<div style="width: 100%; height: 100%; margin: 0px auto;">
+			<h3 style="width: 300px; margin: 0px auto;">What is Your favorite cartoon character?</h3>
+			<div style="
+				margin: 0px auto; 
+				width: 300px; 
+				height: 120px; 
+				position: relative; 
+				top: 15%;
+				border-left: 1px solid #565656;">
+				<div name="progressbar" style="width: 330px; margin: 0px auto;"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript">
+	showItem(0);
+</script>
+
+<br style="clear: both;"/>
+
+
+</div>
+
+<div class="wrapper">
+<div class="title">Features<span class="sample_number">2</span></div>
+	<ul>
+		<li>Progress bar is fully-customizable.</li>
+		<li>You can change it's appearance, shape, borders and text style programmatically or with CSS</li>
+		<li>Minimal and maximal value as a float or integer</li>
+		<li>Custom labels, with user format</li>
+		<li>You can specify, whether text on progress bar is shown or not</li>
+		<li>Progress bar can be horizontally or vertically oriented</li>
+		<li>Various progress direction - from left to right or from right to left for horizotnal orientation and from top to bottom or from bottom to top for vertical orientation.</li>
+		<li>Animated, smoothed progress move</li>
+		<li>Custom events, e.g. called when progress bar is loaded or it's current value has changed</li>
+		<li>Easy coding and cofiguring thanks to implemented, descriptive enumerations</li> 
+	</ul>
+<div class="title">Supported browsers<span class="sample_number">3</span></div>
+	<img src="images/browser_logos.png" width="200" height="76" alt="Supported browser logos" style="float: left; margin-right: 50px;"/>
+	
+	Note that roundness and some opacity (regarding PNG alpha) is not supported by Internet Explorer and some older Opera browsers.
+	
+	<br style="clear: both;"/>
+
+</div>
+
+<div class="wrapper">
+<div class="title">Documentation<span class="sample_number">4</span></div>
+<h3 onclick="toggleVisibility('doc_progressbar_integration');" class="doc_section_expand">Integration</h3>
+<div id="doc_progressbar_integration" class="section_text">
+	Placing ProgressBar on Your website can be made in a 3 simple steps.<br/>
+	1. Add JavaScript and CSS definitions.<br/>
+	
+	2. Define HTML element, which You want to set as a progress bar container.<br/>
+	
+	3. Add JavaScript code which will create Your progress bar.<br/>
+	
+<pre class="code">
+&lt;script type="text/javascript" src="progressbar.js"&gt;&lt;/script&gt;
+&lt;link rel="stylesheet" type="text/css" href="progressbar.css" /&gt;
+
+&lt;div id="my_progress_bar"&gt;&lt;/div&gt;
+
+&lt;script type="text/javascript"&gt;
+
+	var config = {
+		borderRadius: 10,
+		width: 300,
+		height: 20,
+		imageUrl: 'images/h_fg2.png',
+	};
+	
+	var myProgressBar = new ProgressBar("my_progress_bar", config);
+
+&lt;/script&gt;
+
+</pre>
+Look at the <a href="#doc_ProgressBarConfiguration_Properties">configuration object property list</a> to find out how ProgressBar can be configured. 
+Note, that some configuration properties and also ProgressBar properties are of integer type, but instead of simple integer value an <a href="#doc_ProgressBar_Enumerations">enumeration</a> is used for a better value description.<br/>
+<br/>
+After ProgressBar object is created, You can set it's current value by calling this method:
+<pre class="code">
+	myProgressBar.setValue(50);
+</pre>
+
+</div>
+
+<h3 class="doc_section">ProgressBar Object</h3>
+	<div style="margin-left: 20px;">
+		<h4 onclick="toggleVisibility('doc_ProgressBar_Properties');" class="doc_section">Properties</h4>
+		<table id="doc_ProgressBar_Properties" class="property_list" cellpadding="4">
+			<tr class="property_list_head">
+				<td class="property_list_head">Name</td>
+				<td class="property_list_head">Type</td>
+				<td class="property_list_head">Default value</td>
+			</tr>
+			<tr><td class="property_list_item">animationInterval</td><td>Number (integer)</td><td>100</td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2">Number of milliseconds between animation steps.</td></tr>
+			
+			<tr><td class="property_list_item">animationSmoothness</td><td>ProgressBar.AnimationSmoothness</td><td>ProgressBar.AnimationSmoothness.None</td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2">Indicates how progress between value A and value B is visualized. <a href="#" onclick="return showExample(13);">See usage example</a></td></tr>
+			
+			<tr><td class="property_list_item">animationSpeed</td><td>Number (float)</td><td>1.0</td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2">Animation speed factor (beside animationInterval). It's value should be set between 0.1 and 3. <a href="#" onclick="return showExample(6);">See usage example</a></td></tr>
+			
+			<tr><td class="property_list_item">animationStyle</td><td>ProgressBar.AnimationStyle</td><td>ProgressBar.AnimationStyle.None</td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2">Indicates animation style that is running on a progress bar. <a href="#" onclick="return showExample(6);">See usage example</a></td></tr>
+			
+			<tr><td class="property_list_item">backgroundElement</td><td>HTMLDivElement</td><td>null</td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2">HTML element that is used as a background. This property is accessible after progress bar was fully loaded (isLoaded is set to true).</td></tr>
+			
+			<tr><td class="property_list_item">backgroundUrl</td><td>String</td><td>(empty string)</td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2">An URL that points to a location of a progress bar background image. <a href="#" onclick="return showExample(0);">See usage example</a></td></tr>
+			
+			<tr><td class="property_list_item">borderRadius</td><td>Number (integer)</td><td>0</td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2">Determines progress bar edge rounding. <a href="#" onclick="return showExample(5);">See usage example</a></td></tr>
+			
+			<tr><td class="property_list_item">creationType</td><td>ProgressBar.CreationType</td><td>ProgressBar.CreationType.Replace</td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2">Determines how progress bar is created inside it's parent HTML element. Whether parent content is replaced with progress bar, or if progress bar is added at the end of a childNodes collection. <a href="#" onclick="return showExample(12);">See usage example</a></td></tr>
+			
+			<tr><td class="property_list_item">direction</td><td>ProgressBar.Direction</td><td>ProgressBar.Direction.LeftToRight</td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2">Determines progress direction. It could be from left to right or from right to left for horizontal orientation. For vertical orientation it coould be from top to bottom or from bottom to top. <a href="#" onclick="return showExample(2);">See usage example</a></td></tr>
+			
+			<tr><td class="property_list_item">extraClassName</td><td>Object</td><td>(see extraClassName object)</td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2">This object contains CSS class names for every HTML elements that progress bar consist of. <a href="#" onclick="return showExample(10);">See usage example</a></td></tr>
+						
+			<tr><td class="property_list_item">height</td><td>Number (integer)</td><td>20</td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2">Progress bar height (in pixels)</td></tr>
+			
+			<tr><td class="property_list_item">image</td><td>Image</td><td>null</td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2">An Image object that is used as a progress bar foreground.</td></tr>
+			
+			<tr><td class="property_list_item">imageUrl</td><td>String</td><td>(empty string)</td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2">An URL that points to a location of a progress bar foreground image. <a href="#" onclick="return showExample(0);">See usage example</a></td></tr>
+			
+			<tr><td class="property_list_item">isLoaded</td><td>Boolean</td><td>false</td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2">Indicates whether progress bar was fully loaded or not.</td></tr>
+			
+			<tr><td class="property_list_item">labelText</td><td>String</td><td>(empty string)</td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2">Sets custom text on a progress bar. This property may contain special tags like {value} and {progress} which are replaced with appropriate values.<br/>
+			<br/>
+			tag {value} - is replaced with current progress bar value,<br/>
+			tag {value,0} - is replaced with current progress bar value, rounded to the nearest integer,<br/>
+			tag {value,1} - is replaced with current progress bar value, rounded to the float number with 1 decimal digit,<br/>
+			tag {value,N} - is replaced with current progress bar value, rounded to the float number with N decimal digits,<br/>
+			tag {progress} - is replaced with percentage progress value, rounded to the nearest integer<br/>
+			<a href="#" onclick="return showExample(0);">See usage example</a>
+			</td></tr>
+			
+			<tr><td class="property_list_item">leftElement</td><td>HTMLDivElement</td><td>null</td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2">HTML element that is used as a left part of a progress bar (or a top part in vertical orientation). This property is accessible after progress bar was fully loaded (isLoaded is set to true) and only when progress foreground image (passed during progress bar creation) width is less than whole progress bar width. Image height and progress bar height are taken in vertical orientation respectively.</td></tr>
+			
+			<tr><td class="property_list_item">markerUrl</td><td>String</td><td>(empty string)</td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2">An URL that points to a location of a progress bar marker image. This marker image is used with animations. It can also be set in CSS file provided with this Progress Bar solution. <a href="#" onclick="return showExample(6);">See usage example</a></td></tr>
+			
+			<tr><td class="property_list_item">maxValue</td><td>Number</td><td>100</td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2">Maximal value that the progress bar can have.</td></tr>
+			
+			<tr><td class="property_list_item">middleElement</td><td>HTMLDivElement</td><td>null</td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2">HTML element that is used as a middle part of a progress bar. This element is a wrapper for valueElement. This property is accessible after progress bar was fully loaded (isLoaded is set to true) and only when progress foreground image (passed during progress bar creation) width is less than whole progress bar width. Image height and progress bar height are taken in vertical orientation respectively.</td></tr>
+			
+			<tr><td class="property_list_item">minValue</td><td>Number</td><td>0</td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2">Minimal value that the progress bar can have.</td></tr>
+			
+			<tr><td class="property_list_item">onAnimate</td><td>Function</td><td>null</td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2">This function is called when progress bar is animated with interval defined in animationInterval. Note that animationStyle should be set.</td></tr>
+			
+			<tr><td class="property_list_item">onAnimationStyleChanged</td><td>Function</td><td>null</td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2">This function is called when animationStyle property has changed.</td></tr>
+			
+			<tr><td class="property_list_item">onLoad</td><td>Function</td><td>null</td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2">This function is called when progress bar was fully loaded.</td></tr>
+			
+			<tr><td class="property_list_item">onValueChanged</td><td>Function</td><td>null</td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2">This function is called when progress bar value has changed.</td></tr>
+			
+			<tr><td class="property_list_item">orientation</td><td>ProgressBar.Orientation</td><td>ProgressBar.Orientation.Horizontal</td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2">Determines the progress bar orientation. It can be horizontal or vertical. <a href="#" onclick="return showExample(1);">See usage example</a></td></tr>
+			
+			<tr><td class="property_list_item">parentElement</td><td>HTMLElement</td><td>null</td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2">HTML element that is used as a progress bar container.</td></tr>
+			
+			<tr><td class="property_list_item">progress</td><td>Number (float)</td><td>0.0</td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2">A number between 0.0 and 1.0 that indicated the current progress.</td></tr>
+			
+			<tr><td class="property_list_item">progressPosition</td><td>Number (integer)</td><td>0</td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2">Gets current progress shift in pixels, regarding progress bar width (in horizontal orientation) or height (in vertical orientation). This property could be used while extending progress bar with some extra HTML elements. <a href="#" onclick="return showExample(8);">See usage example</a></td></tr>
+			
+			<tr><td class="property_list_item">rightElement</td><td>HTMLDivElement</td><td>null</td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2">HTML element that is used as a right part of a progress bar (or a bottom part in vertical orientation). This property is accessible after progress bar was fully loaded (isLoaded is set to true) and only when progress foreground image (passed during progress bar creation) width is less than whole progress bar width. Image height and progress bar height are taken in vertical orientation respectively.</td></tr>
+			
+			<tr><td class="property_list_item">showLabel</td><td>Boolean</td><td>true</td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2">Determines whether label should be shown or not.</td></tr>
+			
+			<tr><td class="property_list_item">textElement</td><td>HTMLDivElement</td><td>null</td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2">HTML element that is used as a progress bar label for displaying current progress.</td></tr>
+			
+			<tr><td class="property_list_item">value</td><td>Number</td><td>0</td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2">Current progress value.</td></tr>
+			
+			<tr><td class="property_list_item">valueElement</td><td>HTMLDivElement</td><td>null</td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2">HTML element that is used as a progress indicator. It's contained inside middleElement. This property is accessible after progress bar was fully loaded (isLoaded is set to true) and only when progress foreground image (passed during progress bar creation) width is less than whole progress bar width. Image height and progress bar height are taken in vertical orientation respectively.</td></tr>
+			
+			<tr><td class="property_list_item">width</td><td>Number (integer)</td><td>300</td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2">Progress bar width (in pixels)</td></tr>
+			
+			<tr><td class="property_list_item">wrapperElement</td><td>HTMLDivElement</td><td>null</td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2">HTML element that is used as a progress indicator. It's contained directly inside parentElement. This property is accessible after progress bar was fully loaded (isLoaded is set to true) and only when progress foreground image (passed during progress bar creation) width is greater or equal the progress bar whole width. Image height and progress bar height are taken in vertical orientation respectively.</td></tr>
+		</table>
+
+
+		<h4 onclick="toggleVisibility('doc_ProgressBar_Methods');" class="doc_section">Methods</h4>
+		<table id="doc_ProgressBar_Methods" class="property_list" cellpadding="4">
+			<tr class="property_list_head">
+				<td class="property_list_head">Name</td>
+				<td class="property_list_head">Parameters</td>
+				<td class="property_list_head">Returns</td>
+			</tr>
+			<tr><td class="property_list_item">setAnimationStyle</td><td>ProgressBar.AnimationStyle newStyle</td><td>void</td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2">
+				Sets animation style for the ProgressBar object.
+				<h3>Example</h3>
+				<div class="code">
+					myProgressBar.setAnimationStyle(ProgressBar.AnimationStyle.LeftToRight1);
+				</div>
+			</td></tr>
+			
+			<tr><td class="property_list_item">setBackground</td><td>String url</td><td>void</td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2">
+				Sets new background image loaded from the given location.
+				<h3>Example</h3>
+				<div class="code">
+					myProgressBar.setBackground('images/bg01.jpg');
+				</div>
+			</td></tr>
+			
+			<tr><td class="property_list_item">setForeground</td><td>String url</td><td>void</td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2">
+				Sets new foreground image loaded from the given location.
+				<h3>Example</h3>
+				<div class="code">
+					myProgressBar.setForeground('images/pb02.jpg');
+				</div>
+				<a href="#" onclick="return showExample(7);">See usage example</a>
+			</td></tr>
+			
+			<tr><td class="property_list_item">setMarkerImage</td><td>String url</td><td>void</td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2">
+				Sets new marker image loaded from the given location.
+				<h3>Example</h3>
+				<div class="code">
+					myProgressBar.setMarkerImage('images/marker02.jpg');
+				</div>
+			</td></tr>
+			
+			<tr><td class="property_list_item">setValue</td><td>Number newValue</td><td>void</td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2">
+				Sets progress bar new value. If newValue is less than minValue, then minValue is used as a new value. If value is greater than maxValue, then maxValue is used as a new value.
+				<h3>Example</h3>
+				<div class="code">
+					myProgressBar.setValue(67);
+				</div>				
+			</td></tr>
+			
+		</table>
+		
+	</div>
+
+
+<h3 class="doc_section">ProgressBar Configuration Object</h3>
+	<div style="margin-left: 20px;">
+		<h4 onclick="toggleVisibility('doc_ProgressBarConfiguration_Properties');" class="doc_section">Properties</h4>
+		<table id="doc_ProgressBarConfiguration_Properties" class="property_list" cellpadding="4">
+			<tr class="property_list_head">
+				<td class="property_list_head">Name</td>
+				<td class="property_list_head">Type</td>
+				<td class="property_list_head">Default value</td>
+			</tr>
+			<tr><td class="property_list_item">animationInterval</td><td></td><td></td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2"></td></tr>
+			
+			<tr><td class="property_list_item">animationSmoothness</td><td></td><td></td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2"></td></tr>
+			
+			<tr><td class="property_list_item">animationSpeed</td><td></td><td></td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2"></td></tr>
+			
+			<tr><td class="property_list_item">animationStyle</td><td></td><td></td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2"></td></tr>
+			
+			<tr><td class="property_list_item">backgroundUrl</td><td></td><td></td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2"></td></tr>
+			
+			<tr><td class="property_list_item">borderRadius</td><td></td><td></td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2"></td></tr>
+			
+			<tr><td class="property_list_item">creationType</td><td></td><td></td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2"></td></tr>
+
+			<tr><td class="property_list_item">direction</td><td></td><td></td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2"></td></tr>
+			
+			<tr><td class="property_list_item">extraClassName</td><td></td><td></td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2"></td></tr>
+			
+			<tr><td class="property_list_item">height</td><td></td><td></td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2"></td></tr>
+			
+			<tr><td class="property_list_item">imageUrl</td><td></td><td></td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2"></td></tr>
+			
+			<tr><td class="property_list_item">labelText</td><td></td><td></td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2"></td></tr>
+			
+			<tr><td class="property_list_item">markerUrl</td><td></td><td></td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2"></td></tr>
+			
+			<tr><td class="property_list_item">maxValue</td><td></td><td></td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2"></td></tr>
+			
+			<tr><td class="property_list_item">minValue</td><td></td><td></td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2"></td></tr>
+			
+			<tr><td class="property_list_item">onAnimate</td><td></td><td></td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2"></td></tr>
+			
+			<tr><td class="property_list_item">onAnimationStyleChanged</td><td></td><td></td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2"></td></tr>
+			
+			<tr><td class="property_list_item">onLoad</td><td></td><td></td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2"></td></tr>
+			
+			<tr><td class="property_list_item">onValueChanged</td><td></td><td></td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2"></td></tr>
+			
+			<tr><td class="property_list_item">orientation</td><td></td><td></td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2"></td></tr>
+			
+			<tr><td class="property_list_item">showLabel</td><td></td><td></td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2"></td></tr>
+			
+			<tr><td class="property_list_item">width</td><td></td><td></td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2"></td></tr>
+		</table>
+	</div>
+	
+	
+<h3 class="doc_section">extraClassName Object</h3>
+	<div style="margin-left: 20px;">
+		<h4 onclick="toggleVisibility('doc_ProgressBar.ExtraClassName_Properties');" class="doc_section">Properties</h4>
+		<table id="doc_ProgressBar.ExtraClassName_Properties" class="property_list" cellpadding="4">
+			<tr class="property_list_head">
+				<td class="property_list_head">Name</td>
+				<td class="property_list_head">Type</td>
+				<td class="property_list_head">Default value</td>
+			</tr>
+			<tr><td class="property_list_item">background</td><td>String</td><td>(empty string)</td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2">CSS class name for backgroundElement</td></tr>
+			
+			<tr><td class="property_list_item">horizontalText</td><td>String</td><td>(empty string)</td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2">CSS class name for textElement when progress bar is horizontally oriented.</td></tr>
+			
+			<tr><td class="property_list_item">left</td><td>String</td><td>(empty string)</td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2">CSS class name for leftElement</td></tr>
+			
+			<tr><td class="property_list_item">marker</td><td>String</td><td>(empty string)</td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2">CSS class name for markerElement</td></tr>
+			
+			<tr><td class="property_list_item">middle</td><td>String</td><td>(empty string)</td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2">CSS class name for middleElement</td></tr>
+			
+			<tr><td class="property_list_item">parent</td><td>String</td><td>(empty string)</td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2">CSS class name for parentElement</td></tr>
+			
+			<tr><td class="property_list_item">right</td><td>String</td><td>(empty string)</td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2">CSS class name for rightElement</td></tr>
+			
+			<tr><td class="property_list_item">verticalText</td><td>String</td><td>(empty string)</td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2">CSS class name for textElement when progress bar is vertically oriented.</td></tr>
+			
+			<tr><td class="property_list_item">wrapper</td><td>String</td><td>(empty string)</td></tr>
+			<tr><td></td><td class="property_list_desc" colspan="2">CSS class name for wrapperElement</td></tr>
+			
+			
+		</table>
+	</div>
+	
+	
+<h3 onclick="toggleVisibility('doc_ProgressBar_Enumerations');" class="doc_section_expand">ProgressBar Enumerations</h3>
+	<div style="margin-left: 20px;">
+		<table id="doc_ProgressBar_Enumerations" class="property_list" cellpadding="4">
+			<tr class="property_list_head">
+				<td class="property_list_head">Name</td>
+				<td class="property_list_head">Values</td>
+			</tr>
+			<tr><td class="enum_item">ProgressBar.AnimationSmoothness</td>
+				<td class="enum_desc">
+				None : 0,<br/>
+				Smooth1 : 1,<br/>
+				Smooth2 : 2,<br/>
+				Smooth3 : 3,<br/>
+				Smooth4 : 4,<br/>
+			</td></tr>
+			<tr><td class="enum_item">ProgressBar.AnimationStyle</td>
+				<td class="enum_desc">
+				None : 0,<br/>
+				Static : 1,<br/>
+				StaticFull : 2,<br/>
+				Custom : 3,<br/>
+				CustomFull : 4,<br/>
+				Flickering1 : 10,<br/>
+				Flickering2 : 11,<br/>
+				Flickering3 : 12,<br/>
+				LeftToRight1 : 20,<br/>
+				LeftToRight2 : 21,<br/>
+				RightToLeft1 : 22,<br/>
+				RightToLeft2 : 23,<br/>
+				TwoWay : 24,<br/>
+			</td></tr>
+			<tr><td class="enum_item">ProgressBar.CreationType</td>
+				<td class="enum_desc">
+				Replace : 0,<br/>
+				AppendChild : 1,<br/>
+			</td></tr>
+			<tr><td class="enum_item">ProgressBar.Direction</td>
+				<td class="enum_desc">
+				LeftToRight : 0,<br/>
+				RightToLeft : 1,<br/>
+				TopToBottom : 0,<br/>
+				BottomToTop : 1,<br/>
+			</td></tr>
+			<tr><td class="enum_item">ProgressBar.Orientation</td>
+				<td class="enum_desc">
+				Horizontal : 0,<br/>
+				Vertical : 1,<br/>
+			</td></tr>
+		</table>
+	</div>
+	
+	
+<h3 onclick="toggleVisibility('doc_progressbar_html');" class="doc_section_expand">HTML code for Progress Bar</h3>
+<div id="doc_progressbar_html" class="section_text">
+	Progress bar is created by adding some HTML code to element specified while calling ProgressBar constructor. 
+	If a foreground image width is smaller than progress bar width, then either for horizontal and vertical progress bar, HTML looks like that:
+<pre class="code">
+&lt;div id="my_progress_bar" class="progressbar_parent"&gt;
+	&lt;div class="progressbar_background"&gt;&lt;/div&gt;
+	&lt;div class="progressbar_left"&gt;&lt;/div&gt;
+	&lt;div class="progressbar_middle"&gt;
+		&lt;div class=""&gt;&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="progressbar_right"&gt;&lt;/div&gt;
+	&lt;div class="progressbar_marker"&gt;&lt;/div&gt;
+	&lt;div class="progressbar_text_horizontal"&gt;Loaded in 45 %&lt;/div&gt;
+&lt;/div&gt;
+</pre>
+	Whereas if foreground image width is greater or equal to progress bar width, then progress bar HTML looks like that:
+	<pre class="code">
+&lt;div id="my_progress_bar" class="progressbar_parent"&gt;
+	&lt;div class="progressbar_background"&gt;&lt;/div&gt;
+	&lt;div class="progressbar_wrapper"&gt;&lt;/div&gt;
+	&lt;div class="progressbar_marker"&gt;&lt;/div&gt;
+	&lt;div class="progressbar_text_horizontal"&gt;Loaded in 45 %&lt;/div&gt;
+&lt;/div&gt;
+</pre>
+	Knowing this could be useful when You would like to modify progress bar appearance by CSS styles or programmatically.
+</div>
+	
+<script type="text/javascript">
+
+function loadDoc(){
+	var p1 = document.getElementById("doc_ProgressBar_Properties");
+	var p2 = document.getElementById("doc_ProgressBarConfiguration_Properties");
+	
+	var i = 0, j = 0;
+	
+	for (i = 1; i < p2.rows.length; i += 2){
+		if (p2.rows[i].cells[1].innerHTML == '' || p2.rows[i].cells[2].innerHTML == '' || p2.rows[i+1].cells[1].innerHTML == ''){
+			var propName = p2.rows[i].cells[0].innerHTML;
+			for (j = 1; j < p1.rows.length; j += 2){
+				if (p1.rows[j].cells[0].innerHTML == propName){
+					if (p2.rows[i].cells[1].innerHTML == '')
+						p2.rows[i].cells[1].innerHTML = p1.rows[j].cells[1].innerHTML;
+					if (p2.rows[i].cells[2].innerHTML == '')
+						p2.rows[i].cells[2].innerHTML = p1.rows[j].cells[2].innerHTML;
+					if (p2.rows[i+1].cells[1].innerHTML == '')
+						p2.rows[i+1].cells[1].innerHTML = p1.rows[j+1].cells[1].innerHTML;
+				}
+			}
+		}
+	}
+}
+
+loadDoc();
+
+</script>
+	
+</div>
+
+<div class="wrapper">
+<div class="title">JavaScript Progress Bar<span class="sample_number">psalaciak 2010</span></div>
+If You have any question or need some help with integration, feel free to contact me. I'll do my best to assist You.<br/>
+Please, take a look at <a href="http://codecanyon.net/user/psalaciak/portfolio?ref=psalaciak">my portfolio</a>, maybe You would find something useful there.
+<span class="sample_number"><a href="http://codecanyon.net/user/psalaciak?ref=psalaciak" target="_blank">Piotr Sałaciak</a></span>
+<br/>
+</div>
+
+</body>
+</html>

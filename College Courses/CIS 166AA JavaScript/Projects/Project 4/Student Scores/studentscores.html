@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Student Scores</title>
+	<style type="text/css">@import url("studentscores.css");</style>
+	<script type="text/javascript" src="studentscores.js"></script>
+</head>
+
+<body>
+<div id="content">
+    <h1>Student Scores</h1>
+		
+        <label for="firstname">First Name: </label>
+		<input type="text" id="firstname" /><br />
+		
+        <label for="lastname">Last Name: </label>
+		<input type="text" id="lastname" /><br />
+		
+        <label for="score">Score: </label>
+		<input type="text" id="score" /><br />
+		
+        <input type="button" id="addstudentscores" value="Add Student Scores" /><br />
+		<br />
+		<br />
+		<hr size="5" width="100%" color="black">
+		<br />
+		<br />
+		
+		<textarea rows="4" cols="50" id="studentscores" disabled="disabled"></textarea><br />
+		
+		<label for="average">Average Score: </label>
+		<input type="text" id="average" disabled="disabled" /><br />
+		
+        <input type="button" id="clearstudentscores" value="Clear Student Scores" /><br />
+		
+        <input type="button" id="sortlastname" value="Sort by Last Name" />
+</div>
+</body>
+</html>

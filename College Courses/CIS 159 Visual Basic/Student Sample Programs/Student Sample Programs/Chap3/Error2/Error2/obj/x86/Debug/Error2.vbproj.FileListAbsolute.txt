@@ -1,0 +1,14 @@
+C:\Users\Chris\AppData\Local\Temporary Projects\Error2\bin\Debug\Error2.exe
+C:\Users\Chris\AppData\Local\Temporary Projects\Error2\bin\Debug\Error2.pdb
+C:\Users\Chris\AppData\Local\Temporary Projects\Error2\bin\Debug\Error2.xml
+C:\Users\Chris\AppData\Local\Temporary Projects\Error2\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Chris\AppData\Local\Temporary Projects\Error2\obj\x86\Debug\Error2.Form1.resources
+C:\Users\Chris\AppData\Local\Temporary Projects\Error2\obj\x86\Debug\Error2.Resources.resources
+C:\Users\Chris\AppData\Local\Temporary Projects\Error2\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Chris\AppData\Local\Temporary Projects\Error2\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Chris\AppData\Local\Temporary Projects\Error2\obj\x86\Debug\Error2.exe
+C:\Users\Chris\AppData\Local\Temporary Projects\Error2\obj\x86\Debug\Error2.xml
+C:\Users\Chris\AppData\Local\Temporary Projects\Error2\obj\x86\Debug\Error2.pdb
+C:\Users\Chris\documents\visual studio 10\Projects\Error2\Error2\obj\x86\Debug\Error2.exe
+C:\Users\Chris\documents\visual studio 10\Projects\Error2\Error2\obj\x86\Debug\Error2.xml
+C:\Users\Chris\documents\visual studio 10\Projects\Error2\Error2\obj\x86\Debug\Error2.pdb

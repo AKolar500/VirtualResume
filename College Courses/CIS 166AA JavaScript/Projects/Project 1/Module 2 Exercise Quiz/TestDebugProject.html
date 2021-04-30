@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Test Debug Project</title>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+<script type="text/javascript">
+/* <![CDATA[*/
+var answers = new Array();
+answers[0] = "c";
+answers[1] = "b";
+
+//Global DOM inspector function returns the document element by id 
+var $ = function(id) {
+	return document.getElementById(id);
+}
+
+//This function returns a numeric score using the 
+//values of the form and compares them to the answer key
+function gradeQuiz() {
+	var score = 0;
+	
+	//get the answer to question 1
+	var userAnswer1 = getSelectedRadioValue("question_1");
+	
+	//get the answer to question 2
+	var userAnswer2 = getSelectedRadioValue("question_2");
+	//score question 1
+	if (userAnswer1 == answers[0]) {
+		score++;
+	}
+	//score question 2
+	if (userAnswer2 == answers[1]) {
+		score++;
+	}
+	//get the number of characters in the sentence
+	var numCharsTyped = $("sentence").value.length;
+	//get the value of the answer the user typed
+	var numCharsAnswered = parseInt($("numChars").value);
+	//see if they are equal
+	if (numCharsTyped == numCharsAnswered) {
+		score++;
+	}
+	//return the score 
+	return score;
+}
+//Gets a selected radio button value by its group name
+function getSelectedRadioValue(groupName) {
+	//evaluates the string and creates a reference to the radio buttons by the groupName variable
+	var groupElements = eval("document.forms[0]." + groupName);
+	for (i = 0; i < groupElements.length; i++) {
+		if (groupElements[i].checked == true) {
+			return groupElements[i].value;
+		}
+	}	
+}
+/* ]]> */
+</script>
+</head>
+
+<body>
+<form id="quizForm" method="get">
+  <h1>JavaScript Quiz  </h1>
+  <ol>
+    <li><strong>What color is the sky?
+     
+      </strong>
+      <ol type="a"> <br />
+        <li>
+          <input name="question_1" type="radio" value="a" />
+        Red</li>
+        <li>
+          <input name="question_1" type="radio" value="b" />
+        Green</li>
+        <li>
+          <input name="question_1" type="radio" value="c" />
+        Blue        </li><br />
+      </ol>
+    </li>
+    <li><strong>What is 2 + 4?
+      
+      </strong>
+      <ol type="a"><br />
+        <li>
+          <input name="question_2" type="radio" value="a" />
+        5</li>
+        <li>
+          <input name="question_2" type="radio" value="b" />
+        6</li>
+        <li>
+          <input name="question_2" type="radio" value="c" />
+          7<br />
+          <br />
+        </li>
+      </ol>
+    </li>
+    <li>
+		<strong>For this question, type in a word/phrase in the provided field and enter 
+				how many characters are in that word/phrase in the other field.
+		</strong>
+	</li>
+  </ol>
+  <blockquote>
+    <p><strong>Type word/phrase here:</strong> 
+      <input name="sentence" type="text" id="sentence" size="25" />
+      <strong>Number of characters here:</strong>  
+    <input name="numChars" type="text" id="numChars" size="3" maxlength="3" />
+    </p>
+    <p>
+      <input id="grade_btn" type="button" name="Button" value="Grade Quiz" onclick="alert('Your score is: ' + gradeQuiz() + ' out of 3');" />
+	  <input id="reset_btn" type="reset" name="reset_btn" value="Reset Quiz"/>
+    </p>
+  </blockquote>
+</form>
+</body>
+</html>

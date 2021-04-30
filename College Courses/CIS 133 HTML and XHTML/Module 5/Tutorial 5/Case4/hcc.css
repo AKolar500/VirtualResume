@@ -1,0 +1,21 @@
+/*
+Alex Kolar
+7/2/2012
+
+The styles in this file are for the page itself, not the table in the middleColumn.
+*/
+
+#head {position:relative; left:0px; top:0px}
+
+#linksRow {clear:left; font-family: Arial, Helvetica, sans-serif; font-size:14px}
+#linksRow ul {list-style-type:none; padding:0px; margin:5px 0px 0px 5px}
+#linksRow li {display:inline; float:left; margin-right:5px; background:url(rightbox.jpg) no-repeat right center}
+#linksRow a {display:block; background:url(leftbox.jpg) no-repeat left center; text-decoration:none; color:white; padding:8px}
+#linksRow a:hover {color:red}
+
+#middleCol {float:left; margin:10px 20px 10px 0px; font-family: Arial, Helvetica, sans-serif; font-size:12px}
+
+#rightCol {float:left; margin:10px 0px 10px 0px; font-family: Arial, Helvetica, sans-serif; font-size:12px}
+
+#content {clear:left; margin:10px}
+#content p {font-family: Arial, Helvetica, sans-serif; font-size:13px}

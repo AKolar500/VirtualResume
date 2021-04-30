@@ -1,0 +1,20 @@
+C:\Documents and Settings\John\Desktop\cis162ad\cs10\ic10_032713\ic10_032713\bin\Debug\ic10_032713.exe
+C:\Documents and Settings\John\Desktop\cis162ad\cs10\ic10_032713\ic10_032713\bin\Debug\ic10_032713.pdb
+C:\Documents and Settings\John\Desktop\cis162ad\cs10\ic10_032713\ic10_032713\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\John\Desktop\cis162ad\cs10\ic10_032713\ic10_032713\obj\x86\Debug\ic10_032713.Form1.resources
+C:\Documents and Settings\John\Desktop\cis162ad\cs10\ic10_032713\ic10_032713\obj\x86\Debug\ic10_032713.Properties.Resources.resources
+C:\Documents and Settings\John\Desktop\cis162ad\cs10\ic10_032713\ic10_032713\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\John\Desktop\cis162ad\cs10\ic10_032713\ic10_032713\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\John\Desktop\cis162ad\cs10\ic10_032713\ic10_032713\obj\x86\Debug\ic10_032713.exe
+C:\Documents and Settings\John\Desktop\cis162ad\cs10\ic10_032713\ic10_032713\obj\x86\Debug\ic10_032713.pdb
+F:\College Courses\CIS 162 C#\Templates\Attempt 2\ic10_032713\ic10_032713\obj\x86\Debug\ic10_032713.exe
+F:\College Courses\CIS 162 C#\Templates\Attempt 2\ic10_032713\ic10_032713\obj\x86\Debug\ic10_032713.pdb
+F:\College Courses\CIS 162 C#\Templates\Attempt 2\ic10_032713\ic10_032713\bin\Debug\ic10_032713.exe
+F:\College Courses\CIS 162 C#\Templates\Attempt 2\ic10_032713\ic10_032713\bin\Debug\ic10_032713.pdb
+F:\College Courses\CIS 162 C#\Templates\Attempt 2\ic10_032713\ic10_032713\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\College Courses\CIS 162 C#\Templates\Attempt 2\ic10_032713\ic10_032713\obj\x86\Debug\ic10_032713.Form1.resources
+F:\College Courses\CIS 162 C#\Templates\Attempt 2\ic10_032713\ic10_032713\obj\x86\Debug\ic10_032713.Properties.Resources.resources
+F:\College Courses\CIS 162 C#\Templates\Attempt 2\ic10_032713\ic10_032713\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\College Courses\CIS 162 C#\Templates\Attempt 2\ic10_032713\ic10_032713\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\College Courses\CIS 162 C#\Templates\Attempt 2\ic10_032713\ic10_032713\obj\x86\Debug\ic10_032713.exe
+E:\College Courses\CIS 162 C#\Templates\Attempt 2\ic10_032713\ic10_032713\obj\x86\Debug\ic10_032713.pdb

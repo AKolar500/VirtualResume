@@ -1,0 +1,25 @@
+/*
+   New Perspectives on HTML and XHTML 5th Edition
+   Tutorial 5
+   Review Assignment
+
+   Programming Table Style Sheet
+   Author: Alex Kolar
+   Date: 6/30/2012
+
+   Filename:         programs.css
+   Supporting Files: left.jpg, right.jpg, top.jpg, topleft.jpg, topright.jpg 
+
+*/
+
+table.programs {width:100%; font-family:Trebuchet MS, Arial, Verdana, sans-serif; border-collapse:collapse}
+table.programs caption {position:absolute; right:0px; bottom:0px; font-size:0.8em}
+table.programs td {font-size:0.7em; vertical-align:top; border-left:1px solid gray; border-bottom:1px solid gray}
+table.programs th {font-size:0.7em; border-bottom:1px solid gray}
+table.programs tr {height:25px}
+table.programs thead {color:white; background-color:rgb(105, 177, 60) }
+table.programs col.timeColumn {width:7%; background-color:rgb(215, 205, 151); background:url(left.jpg) repeat-y left}
+table.programs col.daysColumn {width:13%}
+table.programs col.lastColumn {width:13%; background-color:white; background:url(right.jpg) repeat-y right}
+table.programs #topLeft {background:rgb(105, 177, 60) url(topLeft.jpg) repeat-y left}
+table.programs #topRight {background:rgb(105, 177, 60) url(topRight.jpg) no-repeat top right}

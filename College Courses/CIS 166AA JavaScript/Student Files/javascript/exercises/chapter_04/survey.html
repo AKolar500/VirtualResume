@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Survey</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+
+<body>
+
+<form action="write_survey.php" method="get" >
+	<h1>Survey</h1>
+	<p>If you have a moment, we'd appreciate it if you would fill out this survey.</p>
+	<h3>Your information:</h3>
+  
+	<label for="firstName">First Name:</label>
+	<input type="text" id="firstName" name="firstName" tabindex="1" />  <br/><br/>
+	<label for="lastName">Last Name:</label>
+	<input type="text" id="lastName" name="lastName" tabindex="1" /> <br/><br/>
+	<label for="emailAddress">Email Address:</label>
+	<input type="text" id="emailAddress" name="emailAddress" tabindex="1" > <br/>
+	
+	<h3>How did you hear about us?</h3>
+	<p>
+		<input type="radio" id="heardFrom1" name="heardFrom" value="Search Engine" 
+			   tabindex="1" />Search engine
+		<input type="radio" id="heardFrom2" name="heardFrom" value="Friend" 
+			   tabindex="-1"/>Word of mouth
+		<input type=radio id="heardFrom3" name="heardFrom" value="Other" 
+			   tabindex="-1" />Other
+	</p>
+  
+	<h3>Would you like to receive announcements about new products and special offers?</h3>
+	<p>
+		<input type="checkbox" id="wantsUpdates" name="wantsUpdates" checked="checked" tabindex="-1" /> 
+		YES, I'd like to receive information about new products and special offers.
+	</p>
+  
+	<p>	Please contact me by
+		<select id="contactVia" name="contactVia" tabindex="-1" >
+			<option value="email">Email</option>
+			<option value="postalMail">Postal mail</option>
+			<option value="both" >Both</option>
+		</select>
+	</p>
+	
+	<p>
+		<input type="submit" value="Submit" tabindex="1" />
+	</p>
+</form>
+
+</body>
+
+</html>

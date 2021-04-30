@@ -1,0 +1,36 @@
+/*
+   New Perspectives on HTML and XHTML 5th Edition
+   Tutorial 5
+   Case Problem 3
+
+   Dome Table Style Sheet
+   Author: Alex Kolar
+   Date: 7/1/2012
+
+   Filename:         dtable.css
+   Supporting Files: bottom.jpg, bottomleft.jpg, bottomright.jpg, left.jpg, 
+                     right.jpg, tableback.jpg, top.jpg, topleft.jpg, topright.jpg
+*/
+
+table.domeSpecs {float:right; font-size:12px; margin:0px 0px 10px 20px; border-collapse:collapse; background:url(tableback.jpg) 98% 70% no-repeat}
+table.domeSpecs caption {font-size:16px; letter-spacing:5px; text-align:center; vertical-align:top}
+
+table.domeSpecs.firstColumn, table.domeSpecs.LastColumn {width:22%}
+table.domeSpecs.middleColumns {width:28%}
+
+table.domeSpecs thead tr {border-bottom:2px solid gray; background:url(top.jpg) repeat-x top}
+table.domeSpecs tbody tr {border:1px dotted gray}
+table.domeSpecs tfoot tr {border-top:2px solid gray; text-align:center; background:url(bottom.jpg) repeat-x bottom}
+
+table.domeSpecs th, td {padding:0px 5px 5px 0px}
+table.domeSpecs th {letter-spacing:2px}
+table.domeSpecs tr {height:30px}
+
+table.domeSpecs.firstColumn {background:url(left.jpg) repeat-y left}
+table.domeSpecs.middleColumns {background:url(blank.gif) repeat}
+table.domeSpecs.lastColumn {background:url(right.jpg) repeat-y right}
+
+table.domeSpecs #topLeft {background:url(topleft.jpg) no-repeat left top}
+table.domeSpecs #topRight {background:url(topright.jpg) no-repeat right top}
+table.domeSpecs #bottomLeft {background:url(bottomleft.jpg) no-repeat left bottom}
+table.domeSpecs #bottomRight {background:url(bottomright.jpg) no-repeat right bottom}

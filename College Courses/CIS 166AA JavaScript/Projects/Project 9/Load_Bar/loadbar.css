@@ -1,0 +1,11 @@
+.loadbar {
+    margin: 1em auto;
+	padding: 1px;
+	border: 2px solid black;
+	min-height: 40px;
+	width: 400px;
+}
+
+.highlight {
+    background-color: gray;
+}

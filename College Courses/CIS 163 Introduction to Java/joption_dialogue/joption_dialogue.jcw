@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspace>
+	<settings>
+		<label>joption_dialogue</label>
+		<id>60</id>
+		<version>0</version>
+	</settings>
+	<users>
+		<user>
+			<path>joption_dialogue.jcu</path>
+		</user>
+	</users>
+	<projects>
+		<project>
+			<path>..\guessbirthday\guessbirthday.jcp</path>
+		</project>
+		<project>
+			<path>joption_dialogue.jcp</path>
+		</project>
+	</projects>
+</workspace>

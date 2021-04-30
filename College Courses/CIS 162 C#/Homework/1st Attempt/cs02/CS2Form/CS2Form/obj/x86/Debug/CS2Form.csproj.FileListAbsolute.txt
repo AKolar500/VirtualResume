@@ -1,0 +1,9 @@
+F:\College Courses\CIS 162\Homework\cs02\CS2Form\CS2Form\bin\Debug\CS2Form.exe
+F:\College Courses\CIS 162\Homework\cs02\CS2Form\CS2Form\bin\Debug\CS2Form.pdb
+F:\College Courses\CIS 162\Homework\cs02\CS2Form\CS2Form\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\College Courses\CIS 162\Homework\cs02\CS2Form\CS2Form\obj\x86\Debug\CS2_Kolar.Form1.resources
+F:\College Courses\CIS 162\Homework\cs02\CS2Form\CS2Form\obj\x86\Debug\CS2_Kolar.Properties.Resources.resources
+F:\College Courses\CIS 162\Homework\cs02\CS2Form\CS2Form\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\College Courses\CIS 162\Homework\cs02\CS2Form\CS2Form\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\College Courses\CIS 162\Homework\cs02\CS2Form\CS2Form\obj\x86\Debug\CS2Form.exe
+F:\College Courses\CIS 162\Homework\cs02\CS2Form\CS2Form\obj\x86\Debug\CS2Form.pdb

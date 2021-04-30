@@ -1,0 +1,121 @@
+<html>
+<head>
+<!-- 
+   New Perspectives on HTML and XHTML 5th Edition
+   Tutorial 3
+   Tutorial Case
+
+   Safety Palette Demo
+   Author: Patrick Carey
+   Date:   3/1/2011
+
+   Filename:         demo_safety_palette.htm
+   Supporting files: demo.gif, demo2.gif
+-->
+<title>Safety Palette Demo</title>
+<style type="text/css">
+/* use for all demo pages */
+   html       {height: 100%}
+   body       {background-color: white; background-image: url(demo2.gif); margin: 0px; 
+               width: 100%; height: 100%}
+   #demo_page {background-color: white; 
+               border-right: 5px solid rgb(0,0,128); position: absolute; top: 0px; left: 0px;
+               width: 900px; padding-bottom: 15px; min-height: 100%}
+   * html #demo_page {height: 100%}
+
+   #demo_intro {width: 100%; position: relative; margin: 0px 10px}
+   #demo_intro table {margin: 0px; padding: 0px; border: 0px; width: 97%}
+   #demo_intro table td {vertical-align: bottom; padding-bottom: 5px}
+   #h2heading {color:yellow; background-image: url(demo.gif); letter-spacing: 0.5em; 
+               font-family: Arial, Helvetica, sans-serif; width: 97%; 
+               font-size: 1.5em; margin: 0px; text-align: right; 
+               border: 1px solid black}
+
+   #para      {font-size: 1em; border: 1px solid black; width: 97%;
+               background-color: ivory}
+   #para p    {margin: 8px}
+
+   #demo_container {position: relative; top: 10px; left: 0px; width: 100%;
+                    margin: 0px 10px}
+   #demo_footer {text-align: center; font-size: 8pt; border-top: 1px solid black; 
+                 margin: 25px 10px; width: 97%; clear: left}
+   span.btitle {font-style: italic}
+
+/* styles specific to this demo */
+   #demo_container table {float: left; margin: 10 15 15 0; width:30%}
+   #demo_container th, #demo_container td {font-weight: bold; border: 1px solid black; font-size: 0.8em}
+   #demo_container td.col {width: 10%};
+   #demo_container th.blue {width: 13%; color:blue}
+   #demo_container th.red {width: 26%; text-align: center; color:red}
+   #demo_container th.green {text-align: center; color:green}
+</style>
+
+
+</head>
+
+<body>
+<div id="demo_page">
+
+<div id="demo_intro">
+   <table>
+   <tr><td style="width: 50%"><img src="cengage.jpg" alt="Course Technology Cengage Learning" /></td>
+       <td style="width: 50%; text-align:right; font-family: Arial, Helvetica, sans-serif; font-size: 14pt">
+          New Perspectives on HTML and XHTML<br />Tutorial 3
+   </td></tr>
+   </table>
+
+   <h2 id="h2heading">The Safety Palette </h2>
+   <div id="para">
+      <p>GIFs are limited to a palette of 256 colors. If a graphic is converted to the GIF format,
+         colors that lie outside of that palette are approximated using a process called
+         dithering. In the <i>dithering</i> process, 
+         alternating pixels of similar colors approximate the original color's appearance. Dithering 
+         can cause GIFs to appear with jagged edges and fuzzy colors. To avoid dithering, you can
+         limit your GIFs to only use colors from the safety palette.<br /><br />
+         The <i>safety palette</i> is a collection of 216 colors that are guaranteed to be displayed
+         without dithering. The palette limits the red, green, and blue components to 
+         the values: 0, 51, 102, 153, 204, and 255. Thus a color value like (204, 51, 153) would be 
+         part of the safety palette, but (192, 124, 255) would not. The tables below show all of the 
+         colors of the safety palette along with the values of their red, green, and blue components. 
+         Note that the safety palette is only required for GIFs. Other graphic formats such as JPEG 
+         and PNG support higher color resolutions and thus will not have to employ dithering to 
+         display colors outside of the safety palette.</p>
+   </div>
+</div>
+
+<div id="demo_container">
+
+   <script type="text/javascript">
+      colors=new Array ('0','51','102','153','204','255');
+      for (i=0; i<=5; i++) {
+         document.write("<table>");
+         document.write("<tr><th class='red' rowspan='2' colspan='2'>red = "+colors[i]+"</th>");
+         document.write("<th class='green' colspan='6'>green</th></tr>");
+         for (j=0; j<=5; j++) {
+            document.write("<th style='color:green'>"+colors[j]+"</th>");
+         }
+         document.write("</tr>");
+         document.write("<tr><th class='blue' rowspan='6'>blue</th>");
+         for (k=0; k<=5; k++) {
+            if (k!=0) document.write("<tr>");
+               document.write("<th class='blue'>"+colors[k]+"</th>");
+            for (j=0; j<=5; j++) {
+               document.write("<td class='col' style='background-color:rgb("+colors[i]+","+colors[j]+","+colors[k]+")'>&nbsp;</td>");
+            }
+            document.write("</tr>");
+         }
+         document.write("</table>");
+      }
+  </script>
+
+<div id="demo_footer">
+   Carey, P.
+   <span class="btitle">New Perspectives on HTML and XHTML 5th Edition</span>,
+   Course Technology: Boston, 2008.
+</div>
+
+</div>
+</body>
+</html>
+
+

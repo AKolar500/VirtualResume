@@ -1,0 +1,25 @@
+C:\Users\AlexJKolar\AppData\Local\Temporary Projects\StateAbbreviations_Kolar\bin\Debug\StateAbbreviations_Kolar.exe
+C:\Users\AlexJKolar\AppData\Local\Temporary Projects\StateAbbreviations_Kolar\bin\Debug\StateAbbreviations_Kolar.pdb
+C:\Users\AlexJKolar\AppData\Local\Temporary Projects\StateAbbreviations_Kolar\bin\Debug\StateAbbreviations_Kolar.xml
+C:\Users\AlexJKolar\AppData\Local\Temporary Projects\StateAbbreviations_Kolar\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\AlexJKolar\AppData\Local\Temporary Projects\StateAbbreviations_Kolar\obj\x86\Debug\StateAbbreviations_Kolar.Form1.resources
+C:\Users\AlexJKolar\AppData\Local\Temporary Projects\StateAbbreviations_Kolar\obj\x86\Debug\StateAbbreviations_Kolar.Resources.resources
+C:\Users\AlexJKolar\AppData\Local\Temporary Projects\StateAbbreviations_Kolar\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\AlexJKolar\AppData\Local\Temporary Projects\StateAbbreviations_Kolar\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\AlexJKolar\AppData\Local\Temporary Projects\StateAbbreviations_Kolar\obj\x86\Debug\StateAbbreviations_Kolar.exe
+C:\Users\AlexJKolar\AppData\Local\Temporary Projects\StateAbbreviations_Kolar\obj\x86\Debug\StateAbbreviations_Kolar.xml
+C:\Users\AlexJKolar\AppData\Local\Temporary Projects\StateAbbreviations_Kolar\obj\x86\Debug\StateAbbreviations_Kolar.pdb
+F:\College Courses\CIS 159\Modules\Module 2\StateAbbreviations_Kolar\StateAbbreviations_Kolar\obj\x86\Debug\StateAbbreviations_Kolar.exe
+F:\College Courses\CIS 159\Modules\Module 2\StateAbbreviations_Kolar\StateAbbreviations_Kolar\obj\x86\Debug\StateAbbreviations_Kolar.xml
+F:\College Courses\CIS 159\Modules\Module 2\StateAbbreviations_Kolar\StateAbbreviations_Kolar\obj\x86\Debug\StateAbbreviations_Kolar.pdb
+F:\College Courses\CIS 159\Modules\Module 2\StateAbbreviations_Kolar\StateAbbreviations_Kolar\bin\Debug\StateAbbreviations_Kolar.exe
+F:\College Courses\CIS 159\Modules\Module 2\StateAbbreviations_Kolar\StateAbbreviations_Kolar\bin\Debug\StateAbbreviations_Kolar.pdb
+F:\College Courses\CIS 159\Modules\Module 2\StateAbbreviations_Kolar\StateAbbreviations_Kolar\bin\Debug\StateAbbreviations_Kolar.xml
+F:\College Courses\CIS 159\Modules\Module 2\StateAbbreviations_Kolar\StateAbbreviations_Kolar\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\College Courses\CIS 159\Modules\Module 2\StateAbbreviations_Kolar\StateAbbreviations_Kolar\obj\x86\Debug\StateAbbreviations_Kolar.Form1.resources
+F:\College Courses\CIS 159\Modules\Module 2\StateAbbreviations_Kolar\StateAbbreviations_Kolar\obj\x86\Debug\StateAbbreviations_Kolar.Resources.resources
+F:\College Courses\CIS 159\Modules\Module 2\StateAbbreviations_Kolar\StateAbbreviations_Kolar\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\College Courses\CIS 159\Modules\Module 2\StateAbbreviations_Kolar\StateAbbreviations_Kolar\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\College Courses\CIS 159 Visual Basic\Modules\Module 2\State Abbreviations\StateAbbreviations_Kolar\StateAbbreviations_Kolar\obj\x86\Debug\StateAbbreviations_Kolar.exe
+E:\College Courses\CIS 159 Visual Basic\Modules\Module 2\State Abbreviations\StateAbbreviations_Kolar\StateAbbreviations_Kolar\obj\x86\Debug\StateAbbreviations_Kolar.xml
+E:\College Courses\CIS 159 Visual Basic\Modules\Module 2\State Abbreviations\StateAbbreviations_Kolar\StateAbbreviations_Kolar\obj\x86\Debug\StateAbbreviations_Kolar.pdb

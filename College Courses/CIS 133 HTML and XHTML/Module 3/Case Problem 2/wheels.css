@@ -1,0 +1,26 @@
+/*
+   New Perspectives on HTML and XHTML 5th Edition
+   Tutorial 3
+   Case Problem 2
+
+   Mountain Wheels Style Sheet
+   Author: Alex Kolar
+   Date: 6/16/2012
+
+   Filename:         wheel.css
+   Supporting Files: body.jpg, block.jpg, h1back.jpg
+
+*/
+
+body {font-family:Verdana, Helvetica, sans-serif; margin:0px; background:white url(body.jpg) repeat-y}
+h1 {text-align:center; height:100px; margin:0px; background:white url(h1back.jpg) repeat-x; border-bottom:1px solid black}
+h2 {text-indent:30px; color:white; background:rgb(108, 87, 12); letter-spacing:8; margin:0px; font:small-caps}
+h3 {margin-left:10px}
+p {margin:10px 20px 20px 10px}
+blockquote {width:200px; padding:10px; font:16 white; border:3px solid black; background:rgb(255, 204, 0) url(block.jpg) repeat-x; margin:5px 10px 5px 5px; float:right}
+a {display:block; padding:2px; margin:5px 5px 5px 0px; font:10; text-decoration:none; border:1px solid black; background:rgb(255, 255, 192) }
+address {text-align:center; font:10 normal; background:white; padding:10px; border-top:1px solid black; clear:both}
+
+#column1 {width:140px; padding-left:10px; padding-top:20px; float:left}
+#column2 {width:40%; float:left; border-left:1px solid black; border-right:1px solid black}
+#column3 {width:40%; float:left}

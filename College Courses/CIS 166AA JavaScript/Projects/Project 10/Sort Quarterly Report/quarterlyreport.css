@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #666666;
+}
+
+#content {
+    width: 760px;
+    margin: 10px auto;
+    padding: 5px 20px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+}
+
+.center { text-align: center; }
+
+#product_list {
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+#product_list th {
+    border-bottom: 2px solid black;
+}
+
+#product_list th img {
+    cursor: pointer;
+}
+
+.left-col {
+    text-align: left;
+}
+
+.qs {
+	text-align: center;
+	width: 6em;
+}

@@ -1,0 +1,16 @@
+/*
+Alex Kolar
+6/16/2012
+*/
+
+body {background:url(parch.jpg); color:black; font-family:Arial, Helvetica, sans-serif}
+a {display:block; background:rgb(255, 255, 192); text-decoration:none; width:150px; padding:2px; margin:5px 5px 5px 0px; border:1px solid black}
+p {text-indent:2em; width:670px}
+
+address {text-align:center; font:11 bold; text-transform:normal; padding:10px; border-top:1px solid black; clear:left}
+
+#logo {margin:0px}
+#links {float:left; margin:0px 0px 0px 10px}
+#schedule {float:left; margin:0px 0px 0px 10px; border-left:1px solid black; padding-left:10px}
+#bullshit {clear:left; margin:0px; padding:10px 0px 10px 0px; border-top:1px solid black}
+#pageContent {width:800px}

@@ -1,0 +1,17 @@
+C:\Documents and Settings\John\Desktop\cis162ad\cs14\ic14TableAdapter\ic14TableAdapter\bin\Debug\ic14TableAdapter.exe.config
+C:\Documents and Settings\John\Desktop\cis162ad\cs14\ic14TableAdapter\ic14TableAdapter\bin\Debug\ic14TableAdapter.exe
+C:\Documents and Settings\John\Desktop\cis162ad\cs14\ic14TableAdapter\ic14TableAdapter\bin\Debug\ic14TableAdapter.pdb
+C:\Documents and Settings\John\Desktop\cis162ad\cs14\ic14TableAdapter\ic14TableAdapter\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\John\Desktop\cis162ad\cs14\ic14TableAdapter\ic14TableAdapter\obj\x86\Debug\ic14TableAdapter.Properties.Resources.resources
+C:\Documents and Settings\John\Desktop\cis162ad\cs14\ic14TableAdapter\ic14TableAdapter\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\John\Desktop\cis162ad\cs14\ic14TableAdapter\ic14TableAdapter\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\John\Desktop\cis162ad\cs14\ic14TableAdapter\ic14TableAdapter\obj\x86\Debug\ic14TableAdapter.exe
+C:\Documents and Settings\John\Desktop\cis162ad\cs14\ic14TableAdapter\ic14TableAdapter\obj\x86\Debug\ic14TableAdapter.pdb
+C:\Documents and Settings\John\Desktop\cis162ad\cs14\ic14TableAdapter\ic14TableAdapter\obj\x86\Debug\ic14TableAdapter.Form1.resources
+C:\Documents and Settings\John\Desktop\cis162ad\cs14\ic14TableAdapter\ic14TableAdapter\obj\x86\Debug\ic14TableAdapter.Form2.resources
+C:\Documents and Settings\John\Desktop\cis162ad_fall2012\cs14\ic14TableAdapter\ic14TableAdapter\bin\Debug\ic14TableAdapter.exe.config
+C:\Documents and Settings\John\Desktop\cis162ad_fall2012\cs14\ic14TableAdapter\ic14TableAdapter\obj\x86\Debug\ic14TableAdapter.exe
+C:\Documents and Settings\John\Desktop\cis162ad_fall2012\cs14\ic14TableAdapter\ic14TableAdapter\obj\x86\Debug\ic14TableAdapter.pdb
+E:\College Courses\CIS 162 C#\Classwork\2nd Attempt\IC14Finished\ic14TableAdapter\ic14TableAdapter\bin\Debug\ic14TableAdapter.exe.config
+E:\College Courses\CIS 162 C#\Classwork\2nd Attempt\IC14Finished\ic14TableAdapter\ic14TableAdapter\obj\x86\Debug\ic14TableAdapter.exe
+E:\College Courses\CIS 162 C#\Classwork\2nd Attempt\IC14Finished\ic14TableAdapter\ic14TableAdapter\obj\x86\Debug\ic14TableAdapter.pdb

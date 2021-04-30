@@ -1,0 +1,16 @@
+﻿* compiler errors
+ *      - variable or control name is misspelled or was never defined - "the name does not exist in the current context"
+ *      - event procedure was deleted but event handler still exists - 'xxxx.xxxxx' does not contain a definition for 'xxxxxxxxx_Click' and no extension method 'xxxxxxxxxxxxxxx_Click' 
+ *      - namespace mismatch between Form1 and Program - "The type or namspace name 'Form1' could not be found"  
+ *      
+ * logic errors
+ *      - totals are accrueing incorrectly (usually a class level variable isn't being cleared)
+ *      - Assigned values aren't showing in label/textbox (assigning to wrong control, maybe a label is hidden or misnamed, variable is being cleared somehow)
+ *      - Label/Textboxes are concatenating values (problem with += assignment to string/textbox)
+ *      - controls going invisble/disabled (visible *false / enabled *false)
+ *  
+ *		-
+ * run time errors
+ *      - object not set to an object
+ *      - cannot convert textbox value to numeric
+ * 

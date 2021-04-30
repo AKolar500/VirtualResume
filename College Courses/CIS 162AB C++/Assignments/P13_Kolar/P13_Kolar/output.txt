@@ -1,0 +1,20 @@
+
+P13     Alex Kolar
+
+Enter Sales Person ID (1000 - 9999): 1945
+Enter First Name without spaces: James
+Enter Last Name without spaces: Hoffa
+Enter a bonus rate between $5.00 and $10: 10
+Enter a quantity between 0 and 200:       12
+
+
+SalesPerson's Information Saved!
+1945  James             Hoffa              10.00  12
+
+
+SalesPerson's Information Saved!
+1002  Larry             Jones              10.00  50
+
+
+SalesPerson's Information Saved!
+1003  Paul              Sailor             15.00 150

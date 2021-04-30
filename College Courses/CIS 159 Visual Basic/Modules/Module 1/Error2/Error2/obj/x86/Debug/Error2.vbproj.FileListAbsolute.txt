@@ -1,0 +1,11 @@
+F:\College Courses\CIS 159 Visual Basic\Student Sample Programs\Student Sample Programs\Chap2\Error2\Error2\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\College Courses\CIS 159 Visual Basic\Student Sample Programs\Student Sample Programs\Chap2\Error2\Error2\obj\x86\Debug\Error2.Form1.resources
+F:\College Courses\CIS 159 Visual Basic\Student Sample Programs\Student Sample Programs\Chap2\Error2\Error2\obj\x86\Debug\Error2.Resources.resources
+F:\College Courses\CIS 159 Visual Basic\Student Sample Programs\Student Sample Programs\Chap2\Error2\Error2\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\College Courses\CIS 159 Visual Basic\Student Sample Programs\Student Sample Programs\Chap2\Error2\Error2\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\College Courses\CIS 159 Visual Basic\Student Sample Programs\Student Sample Programs\Chap2\Error2\Error2\bin\Debug\Error2.exe
+F:\College Courses\CIS 159 Visual Basic\Student Sample Programs\Student Sample Programs\Chap2\Error2\Error2\bin\Debug\Error2.pdb
+F:\College Courses\CIS 159 Visual Basic\Student Sample Programs\Student Sample Programs\Chap2\Error2\Error2\bin\Debug\Error2.xml
+F:\College Courses\CIS 159 Visual Basic\Student Sample Programs\Student Sample Programs\Chap2\Error2\Error2\obj\x86\Debug\Error2.exe
+F:\College Courses\CIS 159 Visual Basic\Student Sample Programs\Student Sample Programs\Chap2\Error2\Error2\obj\x86\Debug\Error2.xml
+F:\College Courses\CIS 159 Visual Basic\Student Sample Programs\Student Sample Programs\Chap2\Error2\Error2\obj\x86\Debug\Error2.pdb

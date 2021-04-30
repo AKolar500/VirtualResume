@@ -1,0 +1,19 @@
+﻿Build started 4/22/2014 11:34:06 AM.
+Project "E:\College Courses\CIS 162AB C++\Assignments\P12_Kolar\P12_Kolar\P12_Kolar.vcxproj" on node 2 (Build target(s)).
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\P12_Kolar.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+  stdafx.cpp
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\P12_Kolar.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt P12_Kolar.cpp
+  P12_Kolar.cpp
+e:\college courses\cis 162ab c++\assignments\p12_kolar\p12_kolar\p12_kolar.cpp(138): error C2678: binary '==' : no operator found which takes a left-hand operand of type 'std::ostream' (or there is no acceptable conversion)
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\system_error(410): could be 'bool std::operator ==(const std::error_condition &,const std::error_code &) throw()'
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\system_error(402): or       'bool std::operator ==(const std::error_code &,const std::error_condition &) throw()'
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(507): or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t)'
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(502): or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &)'
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(497): or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &)'
+          while trying to match the argument list '(std::ostream, std::ostream)'
+Done Building Project "E:\College Courses\CIS 162AB C++\Assignments\P12_Kolar\P12_Kolar\P12_Kolar.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:20.92

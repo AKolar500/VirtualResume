@@ -1,0 +1,12 @@
+C:\Users\Instructor\AppData\Local\Temporary Projects\ic05_021512\bin\Debug\ic05_021512.exe
+C:\Users\Instructor\AppData\Local\Temporary Projects\ic05_021512\bin\Debug\ic05_021512.pdb
+C:\Users\Instructor\AppData\Local\Temporary Projects\ic05_021512\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Instructor\AppData\Local\Temporary Projects\ic05_021512\obj\x86\Debug\ic05_021512.frmIC05a.resources
+C:\Users\Instructor\AppData\Local\Temporary Projects\ic05_021512\obj\x86\Debug\ic05_021512.frmIC05b.resources
+C:\Users\Instructor\AppData\Local\Temporary Projects\ic05_021512\obj\x86\Debug\ic05_021512.Properties.Resources.resources
+C:\Users\Instructor\AppData\Local\Temporary Projects\ic05_021512\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Instructor\AppData\Local\Temporary Projects\ic05_021512\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Instructor\AppData\Local\Temporary Projects\ic05_021512\obj\x86\Debug\ic05_021512.exe
+C:\Users\Instructor\AppData\Local\Temporary Projects\ic05_021512\obj\x86\Debug\ic05_021512.pdb
+E:\College Courses\CIS 162\ic05_021512\ic05_021512\obj\x86\Debug\ic05_021512.exe
+E:\College Courses\CIS 162\ic05_021512\ic05_021512\obj\x86\Debug\ic05_021512.pdb

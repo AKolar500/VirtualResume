@@ -1,0 +1,31 @@
+C:\Documents and Settings\John\Desktop\Mesa Community College\2011 Fall\cs162ad Projects\ic13\ic13\bin\Debug\ic13.exe
+C:\Documents and Settings\John\Desktop\Mesa Community College\2011 Fall\cs162ad Projects\ic13\ic13\bin\Debug\ic13.pdb
+C:\Documents and Settings\John\Desktop\Mesa Community College\2011 Fall\cs162ad Projects\ic13\ic13\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\John\Desktop\Mesa Community College\2011 Fall\cs162ad Projects\ic13\ic13\obj\x86\Debug\ic13.Form1.resources
+C:\Documents and Settings\John\Desktop\Mesa Community College\2011 Fall\cs162ad Projects\ic13\ic13\obj\x86\Debug\ic13.Properties.Resources.resources
+C:\Documents and Settings\John\Desktop\Mesa Community College\2011 Fall\cs162ad Projects\ic13\ic13\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\John\Desktop\Mesa Community College\2011 Fall\cs162ad Projects\ic13\ic13\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\John\Desktop\Mesa Community College\2011 Fall\cs162ad Projects\ic13\ic13\obj\x86\Debug\ic13.exe
+C:\Documents and Settings\John\Desktop\Mesa Community College\2011 Fall\cs162ad Projects\ic13\ic13\obj\x86\Debug\ic13.pdb
+C:\Documents and Settings\John\Desktop\Temp\ic13\ic13\obj\x86\Debug\ic13.exe
+C:\Documents and Settings\John\Desktop\Temp\ic13\ic13\obj\x86\Debug\ic13.pdb
+C:\Documents and Settings\John\Desktop\Temp\ic13_finish\ic13\obj\x86\Debug\ic13.exe
+C:\Documents and Settings\John\Desktop\Temp\ic13_finish\ic13\obj\x86\Debug\ic13.pdb
+C:\Documents and Settings\John\Desktop\Temp\ic13_Start\ic13\obj\x86\Debug\ic13.exe
+C:\Documents and Settings\John\Desktop\Temp\ic13_Start\ic13\obj\x86\Debug\ic13.pdb
+C:\Documents and Settings\John\Desktop\Temp\ic13_Start\ic13\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\John\Desktop\Temp\ic13_Start\ic13\obj\x86\Debug\ic13.Form1.resources
+C:\Documents and Settings\John\Desktop\Temp\ic13_Start\ic13\obj\x86\Debug\ic13.Properties.Resources.resources
+C:\Documents and Settings\John\Desktop\Temp\ic13_Start\ic13\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\John\Desktop\Temp\ic13_Start\ic13\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\John\Desktop\Temp\ic13_Start\ic13\bin\Debug\ic13.exe
+C:\Documents and Settings\John\Desktop\Temp\ic13_Start\ic13\bin\Debug\ic13.pdb
+F:\College Courses\CIS 162\Classwork\ic13_Start\ic13\obj\x86\Debug\ic13.exe
+F:\College Courses\CIS 162\Classwork\ic13_Start\ic13\obj\x86\Debug\ic13.pdb
+F:\College Courses\CIS 162\Classwork\ic13_Start\ic13\bin\Debug\ic13.exe
+F:\College Courses\CIS 162\Classwork\ic13_Start\ic13\bin\Debug\ic13.pdb
+F:\College Courses\CIS 162\Classwork\ic13_Start\ic13\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\College Courses\CIS 162\Classwork\ic13_Start\ic13\obj\x86\Debug\ic13.Form1.resources
+F:\College Courses\CIS 162\Classwork\ic13_Start\ic13\obj\x86\Debug\ic13.Properties.Resources.resources
+F:\College Courses\CIS 162\Classwork\ic13_Start\ic13\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\College Courses\CIS 162\Classwork\ic13_Start\ic13\obj\x86\Debug\GenerateResource.write.1.tlog

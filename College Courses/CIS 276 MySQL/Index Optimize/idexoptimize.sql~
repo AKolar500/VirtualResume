@@ -1,0 +1,158 @@
+/******************************
+This assignment has you create 3 tables
+Insert data into tables (will need about 40 books and at least 20 authors)
+Run queries with explain, remove/alter indices, and run them again ;)
+calculate optimal index length on title field
+
+Interesting reference:
+http://www.slideshare.net/techdude/how-to-kill-mysql-performance
+****************************/
+
+create table authors2 (
+author_id INT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+fname  varchar(50),
+lname  varchar(50)
+) character set utf8 collate utf8_unicode_ci engine = InnoDB;
+
+create table books2 (
+book_id INT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+title varchar(200),
+yearpub DATE
+)character set utf8 collate utf8_unicode_ci engine = InnoDB;
+
+/*note you can create the FK's directly with the table, or add them later */
+create table author_books2 (
+author_id INT unsigned,
+INDEX (author_id),
+book_id INT unsigned,
+INDEX (book_id),
+editor enum('primary','secondary','no')
+)character set utf8 collate utf8_unicode_ci engine = InnoDB;
+
+ALTER TABLE author_books2 ADD FOREIGN KEY (author_id) REFERENCES `authors2` (author_id);
+ALTER TABLE author_books2 ADD FOREIGN KEY (book_id) REFERENCES `books2` (book_id);
+/*Another way to add foreign keys
+alter table author_books add constraint fk_1 foreign key (author_id) references authors (author_id);
+alter table author_books add constraint fk_2 foreign key (book_id) references books (book_id);
+*/
+alter table author_books2 add primary key (author_id, book_id);
+
+/*You need to add at least 20 authors */
+INSERT INTO authors2 values
+(NULL, 'Phil', 'Waclawski'),
+(NULL, 'Al', 'Einstein'),
+(NULL, 'Genghis', 'Kahn'),
+(NULL, 'Stephen', 'Hawking');
+
+/*NOTE, you need to add a total of 40 book titles */ 
+
+INSERT INTO books2  values
+(NULL, 'Black Holes and You', '2004-01-23'),
+(NULL, 'It''s all relative', '1945-3-31'),
+(NULL, 'How to know when you have overstayed your welcome', '1111-02-21'),
+(NULL, 'How to know when you talk about your ferrets too much', '2255-07-14');
+
+/* some inserts to help you with join table */
+INSERT INTO author_books2 ( author_id, book_id, editor)
+(select author_id, book_id ,'primary' from authors2, books2 where fname='Phil' 
+AND lname='Waclawski' AND title LIKE '%ferrets%');
+
+INSERT INTO author_books2 ( author_id, book_id, editor)
+(select author_id, book_id ,'no' from authors2, books2 where  
+lname='Kahn' AND title LIKE '%ferrets%');
+
+INSERT INTO author_books2 ( author_id, book_id, editor)
+(select author_id, book_id ,'primary' from authors2, books2 
+where (fname='Al' 
+AND lname='Einstein') AND title LIKE 'Black%');
+
+/*Five queries to try out  using explain and different indices*/
+
+select a.fname, a.lname, b.title, b.yearpub, ab.editor 
+from authors2 a JOIN author_books2 ab USING(author_id)
+JOIN books2 b USING (book_id)
+where fname='Al' AND lname='Einstein'
+AND title LIKE '%Black%';
+
+select a.fname, a.lname, b.title, b.yearpub, ab.editor 
+from authors2 a JOIN author_books2 ab USING(author_id)
+JOIN books2 b USING (book_id)
+where lname='Einstein' AND fname='Al'
+AND title LIKE '%Black%';
+
+select a.fname, a.lname, b.title, b.yearpub, ab.editor 
+from authors2 a JOIN author_books2 ab USING(author_id)
+JOIN books2 b USING (book_id)
+where lname='Einstein'
+AND title LIKE '%Black%';
+
+select a.fname, a.lname, b.title, b.yearpub, ab.editor 
+from authors2 a JOIN author_books2 ab USING(author_id)
+JOIN books2 b USING (book_id)
+where fname='Al'
+AND title LIKE '%Black%';
+
+/*this one allows the title index to work */
+select a.fname, a.lname, b.title, b.yearpub, ab.editor 
+from authors a JOIN author_books ab USING(author_id)
+JOIN books b USING (book_id)
+where lname='Einstein' AND fname='Al'
+AND title LIKE 'Black%';
+
+/*************************************
+
+NOTE: Keep in mind that MySQL uses leftmost prefix indexing on multiple
+column indexes
+http://www.databasejournal.com/features/mysql/article.php/10897_1382791_3/Optimizing-MySQL-Queries-and-Indexes.htm
+
+**********************************************/
+
+
+/* use parentheses to join appropriate AND and OR statements */
+* Some additional methods of trying to optimize your database */
+
+set profiling = 1;
+/* run a query 
+   then immediately do
+   the following: */
+   
+show profile;
+
+/*  Figuring out optimal index length on a text field
+http://fernandoipar.com/2009/08/12/indexing-text-columns-in-mysql/
+*/
+
+ select * from table_name procedure analyse(0,0)\G
+/* to see  your indices on a table */
+ show index from table_name;
+ 
+ /* several ways to try and figure out optimal key length 
+ 	as our books table has a varchar(200) and the analyze
+ 	says the optimale would be a varchar(53) try the following
+ 	commands...
+ */
+ select count(distinct(substr(title,1,200))) / 
+ count(distinct(title)) * 100 from books2;
+ select count(distinct(substr(title,1,53))) / 
+ count(distinct(title)) * 100 from books2;
+ select count(distinct(substr(title,1,20))) / 
+ count(distinct(title)) * 100 from books2;
+ select count(distinct(substr(title,1,21))) / 
+ count(distinct(title)) * 100 from books2;
+ select count(distinct(substr(title,1,22))) / 
+ count(distinct(title)) * 100 from books2;
+ 
+/* ASSIGNMENT
+You may have to delete tables and recreate from time to time
+use the  following type of indices (index)  along with the parentheses and not
+and use the \G switch with explain
+FIRST: Add about 40 fields to authors and books
+1.  INDEX on LNAME, then remove LNAME and add an INDEX on FNAME (run explain both
+times)
+2. INDEX on LNAME AND FNAME  (but not a combined index) run explain
+3. combined index on LNAME and FNAME
+4. combined index on lname, fname, and then an index on title
+5. Try to make an index on title of varying length (first 10 chars, 20 chars?)
+6. how else to improve this query?
+7. use the count distinct trick above to figure out optimal index length on title field
+(and paste results into file, post file on our class website)

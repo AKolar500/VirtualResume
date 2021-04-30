@@ -1,0 +1,93 @@
+
+-- ---
+-- Globals
+-- ---
+
+-- SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+-- SET FOREIGN_KEY_CHECKS=0;
+
+-- ---
+-- Table 'recipes'
+-- 
+-- ---
+
+DROP TABLE IF EXISTS `recipes`;
+		
+CREATE TABLE `recipes` (
+  `recipe_id` INT(3) NULL AUTO_INCREMENT DEFAULT NULL,
+  `recipe_name` VARCHAR(100) NULL DEFAULT NULL,
+  `ing1` INT(3) NULL DEFAULT NULL,
+  `ing2` INT(3) NULL DEFAULT NULL,
+  `ing3` INT(3) NULL DEFAULT NULL,
+  `ing4` INT(3) NULL DEFAULT NULL,
+  `ing5` INT(3) NULL DEFAULT NULL,
+  `canmake` VARCHAR(3) NULL DEFAULT 'YES',
+  PRIMARY KEY (`recipe_id`)
+);
+
+-- ---
+-- Table 'ingredients'
+-- 
+-- ---
+
+DROP TABLE IF EXISTS `ingredients`;
+		
+CREATE TABLE `ingredients` (
+  `ingredient_id` INT(3) NULL AUTO_INCREMENT DEFAULT NULL,
+  `Ingredient_name` VARCHAR(25) NULL DEFAULT NULL,
+  `amount` INT(5) NULL DEFAULT NULL,
+  `low` VARCHAR(3) NULL DEFAULT 'NO',
+  `out` VARCHAR(3) NULL DEFAULT 'NO',
+  PRIMARY KEY (`ingredient_id`)
+);
+
+-- ---
+-- Table 'orders'
+-- 
+-- ---
+
+DROP TABLE IF EXISTS `orders`;
+		
+CREATE TABLE `orders` (
+  `order_id` INT(10) NULL AUTO_INCREMENT DEFAULT NULL,
+  `recipe1` INT(3) NULL DEFAULT NULL,
+  `recipe2` INT(3) NULL DEFAULT NULL,
+  `recipe3` INT(3) NULL DEFAULT NULL,
+  `recipe4` INT(3) NULL DEFAULT NULL,
+  `finished` VARCHAR(3) NULL DEFAULT 'NO',
+  PRIMARY KEY (`order_id`)
+);
+
+-- ---
+-- Foreign Keys 
+-- ---
+
+ALTER TABLE `recipes` ADD FOREIGN KEY (ing1) REFERENCES `ingredients` (`ingredient_id`);
+ALTER TABLE `recipes` ADD FOREIGN KEY (ing2) REFERENCES `ingredients` (`ingredient_id`);
+ALTER TABLE `recipes` ADD FOREIGN KEY (ing3) REFERENCES `ingredients` (`ingredient_id`);
+ALTER TABLE `recipes` ADD FOREIGN KEY (ing4) REFERENCES `ingredients` (`ingredient_id`);
+ALTER TABLE `recipes` ADD FOREIGN KEY (ing5) REFERENCES `ingredients` (`ingredient_id`);
+ALTER TABLE `orders` ADD FOREIGN KEY (recipe1) REFERENCES `recipes` (`recipe_id`);
+ALTER TABLE `orders` ADD FOREIGN KEY (recipe2) REFERENCES `recipes` (`recipe_id`);
+ALTER TABLE `orders` ADD FOREIGN KEY (recipe3) REFERENCES `recipes` (`recipe_id`);
+ALTER TABLE `orders` ADD FOREIGN KEY (recipe4) REFERENCES `recipes` (`recipe_id`);
+
+-- ---
+-- Table Properties
+-- ---
+
+-- ALTER TABLE `recipes` ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+-- ALTER TABLE `ingredients` ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+-- ALTER TABLE `orders` ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+
+-- ---
+-- Test Data
+-- ---
+
+-- INSERT INTO `recipes` (`recipe_id`,`recipe_name`,`ing1`,`ing2`,`ing3`,`ing4`,`ing5`,`canmake`) VALUES
+-- ('','','','','','','','');
+-- INSERT INTO `ingredients` (`ingredient_id`,`Ingredient_name`,`amount`,`low`,`out`) VALUES
+-- ('','','','','');
+-- INSERT INTO `orders` (`order_id`,`recipe1`,`recipe2`,`recipe3`,`recipe4`,`finished`) VALUES
+-- ('','','','','','');
+

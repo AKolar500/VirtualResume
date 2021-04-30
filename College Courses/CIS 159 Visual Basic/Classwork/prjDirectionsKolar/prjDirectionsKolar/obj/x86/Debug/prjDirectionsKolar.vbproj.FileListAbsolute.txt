@@ -1,0 +1,14 @@
+E:\College Courses\CIS 159\Classwork\prjDirectionsKolar\prjDirectionsKolar\bin\Debug\prjDirectionsKolar.exe
+E:\College Courses\CIS 159\Classwork\prjDirectionsKolar\prjDirectionsKolar\bin\Debug\prjDirectionsKolar.pdb
+E:\College Courses\CIS 159\Classwork\prjDirectionsKolar\prjDirectionsKolar\bin\Debug\prjDirectionsKolar.xml
+E:\College Courses\CIS 159\Classwork\prjDirectionsKolar\prjDirectionsKolar\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\College Courses\CIS 159\Classwork\prjDirectionsKolar\prjDirectionsKolar\obj\x86\Debug\prjDirectionsKolar.frmDirectionsKolar.resources
+E:\College Courses\CIS 159\Classwork\prjDirectionsKolar\prjDirectionsKolar\obj\x86\Debug\prjDirectionsKolar.Resources.resources
+E:\College Courses\CIS 159\Classwork\prjDirectionsKolar\prjDirectionsKolar\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\College Courses\CIS 159\Classwork\prjDirectionsKolar\prjDirectionsKolar\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\College Courses\CIS 159\Classwork\prjDirectionsKolar\prjDirectionsKolar\obj\x86\Debug\prjDirectionsKolar.exe
+E:\College Courses\CIS 159\Classwork\prjDirectionsKolar\prjDirectionsKolar\obj\x86\Debug\prjDirectionsKolar.xml
+E:\College Courses\CIS 159\Classwork\prjDirectionsKolar\prjDirectionsKolar\obj\x86\Debug\prjDirectionsKolar.pdb
+F:\College Courses\CIS 159\Classwork\prjDirectionsKolar\prjDirectionsKolar\obj\x86\Debug\prjDirectionsKolar.exe
+F:\College Courses\CIS 159\Classwork\prjDirectionsKolar\prjDirectionsKolar\obj\x86\Debug\prjDirectionsKolar.xml
+F:\College Courses\CIS 159\Classwork\prjDirectionsKolar\prjDirectionsKolar\obj\x86\Debug\prjDirectionsKolar.pdb

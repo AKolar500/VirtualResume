@@ -1,0 +1,11 @@
+E:\College Courses\CIS\Project 3\Math\Math\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\College Courses\CIS\Project 3\Math\Math\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+E:\College Courses\CIS\Project 3\Math\Math\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+E:\College Courses\CIS\Project 3\Math\Math\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\College Courses\CIS\Project 3\Math\Math\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\College Courses\CIS\Project 3\Math\Math\bin\Debug\Math.exe
+E:\College Courses\CIS\Project 3\Math\Math\bin\Debug\Math.pdb
+E:\College Courses\CIS\Project 3\Math\Math\obj\x86\Debug\Math.exe
+E:\College Courses\CIS\Project 3\Math\Math\obj\x86\Debug\Math.pdb
+E:\College Courses\CIS 162\Project 3\Math\Math\obj\x86\Debug\Math.exe
+E:\College Courses\CIS 162\Project 3\Math\Math\obj\x86\Debug\Math.pdb

@@ -1,0 +1,23 @@
+/*
+   New Perspectives on HTML and XHTML 5th Edition
+   Tutorial 5
+   Case Problem 1
+
+   Sudoku Puzzle Table Style Sheet
+   Author: Alex Kolar
+   Date: 6/30/2012
+
+   Filename:         stable.css
+   Supporting Files: green.jpg, gold.jpg
+
+*/
+
+table.spuzzle, table.subTable {border-collapse:collapse}
+table.spuzzle td {border:5px gray outset}
+table.spuzzle th {font-size:8px; color:gray}
+table.spuzzle tbody th {height:40px}
+
+table.subTable td {font-size:20px; color:blue; width:40px; height:40px; text-align:center; border:1px solid black}
+
+.goldBox td {background:url(gold.jpg) no-repeat 50% 50%}
+.greenBox td {background:url(green.jpg) no-repeat center}

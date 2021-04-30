@@ -1,0 +1,45 @@
+/*
+   New Perspectives on HTML and XHTML 5th Edition
+   Tutorial 5
+   Case Problem 2
+
+   Chamberlain Civic Center Style Sheet
+   Author: 
+   Date:   
+
+   Filename:         ccc.css
+   Supporting Files: bottom.jpg, bottomleft.jpg, bottomright.jpg, left.jpg
+                     tab.jpg, top.jpg, topleft.jpg, topright.jpg, right.jpg
+
+*/
+
+body         {font-family: Verdana, Geneva, sans-serif}
+#heading     {position: absolute; top: 0px; left: 15px; width: 920px; 
+              border-bottom: 1px solid red; }
+#leftColumn  {position: absolute; top: 170px; left: 15px; width: 280px}
+#rightColumn {position: absolute; top: 170px; left: 320px; width: 600px}
+
+
+
+#heading ul            {list-style-type: none; padding: 0px; margin: 0px; 
+                        height: 20px}
+#heading ul li         {float: left; margin: 0px 3px; width: 100px; height: 20px; 
+                        text-align: center; background: url(tab.jpg) no-repeat 100% 0%;}
+#heading ul li a       {display: block; width: 100px; font-size: 10px; 
+                        text-decoration: none; color: black}
+#heading ul li a:hover {color: red}
+
+ 
+
+#leftColumn h2   {font-size: 24px; color: red; margin: 0px 0px 10px 0px}
+#leftColumn p    {font-size: 10px; padding: 0px; margin: 0px 0px 10px 0px}
+#leftColumn p i  {color: red; font-style: normal}
+
+
+
+
+
+
+
+
+

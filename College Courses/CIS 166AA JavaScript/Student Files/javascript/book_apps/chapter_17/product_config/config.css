@@ -1,0 +1,43 @@
+.formLayout {
+    vertical-align: 4px;
+}
+
+.formLayout label {
+    float: left;
+    width: 10em;
+    text-align: right;
+}
+
+.formLayout input {
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.formLayout select {
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+    width: 12em;
+}
+
+.formLayout span.cost {
+    font-style: italic;
+}
+
+.formLayout p.error {
+    color: red;
+    font-weight: bold;
+}
+
+.formLayout br {
+    clear: both;
+}
+
+.formLayout br.double {
+    margin-bottom: 1.5em;
+}
+
+input.disabled {
+    color: black;
+    background-color: white;
+    border: 1px solid #7F9DBB;
+}

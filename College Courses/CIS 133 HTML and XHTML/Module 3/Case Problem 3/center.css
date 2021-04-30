@@ -1,0 +1,24 @@
+/*
+   New Perspectives on HTML and XHTML 5th Edition
+   Tutorial 3
+   Case Problem 3
+
+   Midwest Center for Diversity Style Sheet
+   Author: Alex Kolar
+   Date: 6/16/2012
+
+   Filename:         center.css
+   Supporting Files: none
+
+*/
+
+body {color:black; background:rgb(204, 204, 153); margin:0em}
+h1 {font-family:Arial, Helvetica, sans-serif; font-size:1.5em; letter-spacing:0.5em; padding:0.2em; color:rgb(204, 204, 153); background:rgb(102, 102, 204) }
+em {font-style:normal; font:bold; color:rgb(102, 102, 204) }
+
+address {text-transform:uppercase; font-style:normal; color:rgb(102, 102, 204); text-align:center; padding:0.5em; border-top:0.1em solid rgb(102, 102, 204) }
+
+span {float:left; font:3em bold; color:rgb(102, 102, 240); line-height:0.8em; border-right:0.05em rgb(102, 102, 204) solid; border-bottom:0.05em rgb(102, 102, 204) solid; padding-right:0.2em; padding-bottom:0.2em; margin-right:0.2em}
+
+#banner {float:left}
+#pageContent {width:42em; margin-left:4em}

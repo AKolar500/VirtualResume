@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #666666;
+}
+
+#content {
+    width: 760px;
+    min-height: 300px;
+    margin: 10px auto;
+    padding: 5px 20px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+}
+
+#main {
+    margin: auto;
+}
+
+.center { 
+    text-align: center; 
+}
+
+#goText {
+	text-align: center;
+}
+
+table {
+    margin-bottom: 1.5em;
+    width: 100%;
+}
+
+caption {
+    font-weight: bold;
+    border-bottom: 1px dashed black;
+}
+th { 
+    text-align: left; 
+}
+
+#imageList { 
+	display: none;
+}
+
+#btnSpeed { 
+    vertical-align: top; 
+}

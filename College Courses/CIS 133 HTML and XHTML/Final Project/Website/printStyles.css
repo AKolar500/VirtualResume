@@ -1,0 +1,29 @@
+/*
+Alex Kolar
+July 2012
+
+This is the stylesheet for the printed version of the website.
+*/
+
+#page {font-family:Arial, Helvetica, sans-serif; font-size:13; size:8.5in 11in portrait; margin:0.5in}
+#linksCol, #logo, #video, #atheist, #jew, #christian, #muslim, #hindu, #buddhist, #mormon, #scientologist, #noodler {display:none}
+
+#pageContent {font-size:14}
+
+#pageContent a {color:blue; text-decoration:none}
+
+#pageContent blockquote {text-indent:0.25in; font-size:12}
+#pageContent ol {margin-top:0.25in; line-height:150%}
+#pageContent lh {font-size:15; font-style:normal; text-decoration:underline}
+#pageContent em {font-variant:small-caps; font-weight:bold}
+#pageContent h3 {font-size:16}
+
+.firstPara {margin-top:0.25in}
+.firstPara:first-letter {float:left; font:3em bold; color:black; background-color:gray; line-height:0.8em; border:0.05em black solid; padding:0.2em; margin-right:0.2em}
+
+.otherPara {text-indent:0.5in; margin-top:0.25in}
+
+.caption {font-size:13}
+ol.numerals {list-style-type:upper-roman}
+ol.circleList {list-style-type:circle}
+blockquote {font-size:13.5; line-height:125%}

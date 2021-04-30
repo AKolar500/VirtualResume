@@ -1,0 +1,9 @@
+C:\Documents and Settings\John\Desktop\cis162ad\cs15\ic15DataReader\ic15DataReader\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\John\Desktop\cis162ad\cs15\ic15DataReader\ic15DataReader\obj\x86\Debug\ic15DataReader.Form1.resources
+C:\Documents and Settings\John\Desktop\cis162ad\cs15\ic15DataReader\ic15DataReader\obj\x86\Debug\ic15DataReader.Properties.Resources.resources
+C:\Documents and Settings\John\Desktop\cis162ad\cs15\ic15DataReader\ic15DataReader\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\John\Desktop\cis162ad\cs15\ic15DataReader\ic15DataReader\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\John\Desktop\cis162ad\cs15\ic15DataReader\ic15DataReader\bin\Debug\ic15DataReader.exe
+C:\Documents and Settings\John\Desktop\cis162ad\cs15\ic15DataReader\ic15DataReader\bin\Debug\ic15DataReader.pdb
+C:\Documents and Settings\John\Desktop\cis162ad\cs15\ic15DataReader\ic15DataReader\obj\x86\Debug\ic15DataReader.exe
+C:\Documents and Settings\John\Desktop\cis162ad\cs15\ic15DataReader\ic15DataReader\obj\x86\Debug\ic15DataReader.pdb

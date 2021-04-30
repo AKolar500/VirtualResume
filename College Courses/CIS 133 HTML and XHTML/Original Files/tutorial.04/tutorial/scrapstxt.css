@@ -1,0 +1,34 @@
+/*
+   New Perspectives on HTML and XHTML 5th Edition
+   Tutorial 4
+   Tutorial Case
+
+   Online Scrapbooks Style Sheet
+   Author: 
+   Date:   
+
+   Filename:         scraps.css
+   Supporting Files: back.jpg, bullet.jpg
+
+*/
+
+body       {margin: 0px; color: brown; 
+            background: white url(back.jpg) repeat-y}
+h1, h2, h3 {font-family: Arial, Helvetica, sans-serif; color: orange}
+h1         {border-bottom: 2px solid orange; background-color: white; margin: 0px; padding: 0px}
+ul         {margin-top:0px}
+
+#outer_container   {width: 780px}
+#head              {text-align: right}
+
+#links             {float: left; width: 200px}
+
+
+#article           {margin-left: 200px}
+
+#pullout           {float: right; width: 250px; margin: 0px 0px 10px 10px; 
+                    border: 5px outset orange; background-color: ivory;
+                    font-size: 10pt; font-family: Arial, Helvetica, sans-serif}
+
+address            {text-align: center; font-style: normal; font-variant: small-caps;
+                    border-top: 2px solid orange; color: orange}

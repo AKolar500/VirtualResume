@@ -1,0 +1,18 @@
+C:\Documents and Settings\John\Desktop\cis162ad\cs12\ic12_041013\ic12_041013\bin\Debug\ic12_041013.exe
+C:\Documents and Settings\John\Desktop\cis162ad\cs12\ic12_041013\ic12_041013\bin\Debug\ic12_041013.pdb
+C:\Documents and Settings\John\Desktop\cis162ad\cs12\ic12_041013\ic12_041013\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\John\Desktop\cis162ad\cs12\ic12_041013\ic12_041013\obj\x86\Debug\ic12_041013.Form1.resources
+C:\Documents and Settings\John\Desktop\cis162ad\cs12\ic12_041013\ic12_041013\obj\x86\Debug\ic12_041013.Properties.Resources.resources
+C:\Documents and Settings\John\Desktop\cis162ad\cs12\ic12_041013\ic12_041013\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\John\Desktop\cis162ad\cs12\ic12_041013\ic12_041013\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\John\Desktop\cis162ad\cs12\ic12_041013\ic12_041013\obj\x86\Debug\ic12_041013.exe
+C:\Documents and Settings\John\Desktop\cis162ad\cs12\ic12_041013\ic12_041013\obj\x86\Debug\ic12_041013.pdb
+F:\College Courses\CIS 162 C#\Classwork\2nd Attempt\ic12_041013\ic12_041013\obj\x86\Debug\ic12_041013.exe
+F:\College Courses\CIS 162 C#\Classwork\2nd Attempt\ic12_041013\ic12_041013\obj\x86\Debug\ic12_041013.pdb
+F:\College Courses\CIS 162 C#\Classwork\2nd Attempt\ic12_041013\ic12_041013\bin\Debug\ic12_041013.exe
+F:\College Courses\CIS 162 C#\Classwork\2nd Attempt\ic12_041013\ic12_041013\bin\Debug\ic12_041013.pdb
+F:\College Courses\CIS 162 C#\Classwork\2nd Attempt\ic12_041013\ic12_041013\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\College Courses\CIS 162 C#\Classwork\2nd Attempt\ic12_041013\ic12_041013\obj\x86\Debug\ic12_041013.Form1.resources
+F:\College Courses\CIS 162 C#\Classwork\2nd Attempt\ic12_041013\ic12_041013\obj\x86\Debug\ic12_041013.Properties.Resources.resources
+F:\College Courses\CIS 162 C#\Classwork\2nd Attempt\ic12_041013\ic12_041013\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\College Courses\CIS 162 C#\Classwork\2nd Attempt\ic12_041013\ic12_041013\obj\x86\Debug\GenerateResource.write.1.tlog

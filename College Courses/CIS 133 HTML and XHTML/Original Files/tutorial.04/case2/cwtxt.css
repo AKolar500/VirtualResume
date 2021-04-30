@@ -1,0 +1,23 @@
+/*
+   New Perspectives on HTML and XHTML 5th Edition
+   Tutorial 4
+   Case Problem 2
+
+   Civil War Studies Style Sheet
+   Author: 
+   Date:   
+
+   Filename:         cw.css
+   Supporting Files: tan.jpg
+
+*/
+
+body              {margin: 0px}
+h2                {font-size: 2.5em; margin: 0px}
+#head             {text-align: center; border-bottom: 1px solid black; 
+                   background-image: url(tan.jpg); margin: 0px}
+
+
+
+
+

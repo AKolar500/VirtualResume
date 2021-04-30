@@ -1,0 +1,57 @@
+/*
+Alex Kolar
+July 2012
+
+This is the mainStyles.css file, wherein the standard page format will be created for the website when viewed online.
+*/
+
+body {color:black; background-color:rgb(204, 204, 153); font-family:Arial, Helvetica, sans-serif}
+
+#atheist {float:left; border:2px solid rgb(254, 232, 130); width:100px; height:100px; background:url(Images/atheism.png) no-repeat; background-size:100px 100px}
+
+#jew {float:left; border:2px solid rgb(254, 232, 130); width:100px; height:100px; background:url(Images/judaism.jpg) no-repeat; background-size:100px 100px}
+
+#christian {float:left; border:2px solid rgb(254, 232, 130); width:60px; height:100px; background:url(Images/crucifix.jpg) no-repeat; background-size:60px 100px}
+
+#muslim {float:left; border:2px solid rgb(254, 232, 130); width:100px; height:100px; background:url(Images/islam.jpg) no-repeat; background-size:100px 100px}
+
+#hindu {float:left; border:2px solid rgb(254, 232, 130); width:100px; height:100px; background:url(Images/hinduism.jpg) no-repeat; background-size:100px 100px}
+
+#buddhist {float:left; border:2px solid rgb(254, 232, 130); width:100px; height:100px; background:url(Images/eightfoldpath.jpg) no-repeat; background-size:100px 100px}
+
+#mormon {float:left; border:2px solid rgb(254, 232, 130); width:100px; height:100px; background:url(Images/mormon.jpg) no-repeat; background-size:100px 100px}
+
+#scientologist {float:left; border:2px solid rgb(254, 232, 130); width:100px; height:100px; background:url(Images/scientology.jpg) no-repeat; background-size:100px 100px}
+
+#noodler {float:left; border:2px solid rgb(254, 232, 130); width:140px; height:100px; background:url(Images/fsm_logo.jpg) no-repeat; background-size:140px 100px}
+
+#linksCol {position:absolute; top:115px; left:5px; width:240px}
+#links                {background-color:black; padding:0px; margin:0px}
+#links ul             {list-style-type:none; font-size:16px; padding:10px; 
+                       margin:0px 0px 20px 0px; border:2px rgb(254, 232, 130) solid}
+#links ul li          {margin:0px 0px 0px 10px; line-height:1.6}
+#links ul a           {color:rgb(254, 232, 130); text-decoration:none}
+#links ul a:hover     {color:rgb(211,254,106); text-decoration:overline underline}
+
+#pageContent {position:absolute; top:115px; left:265px; width:600px; height:460px; overflow:auto; padding-left:5px; padding-right:5px; font-size:14px}
+
+#pageContent a {color:blue; text-decoration:none}
+#pageContent a:hover {color:blue; text-decoration:overline underline}
+
+#pageContent blockquote {text-indent:10px; font-size:12px}
+#pageContent ol {margin-top:5px; margin-bottom:5px; line-height:150%}
+#pageContent lh {font-size:16px; font-style:normal; text-decoration:underline}
+#pageContent em {font-variant:small-caps; font-weight:bold}
+#pageContent h3 {font-size:16px}
+
+.firstPara {padding-left:5px; padding-right:5px; padding-bottom:5px}
+.firstPara:first-letter {float:left; font:3em bold; color:rgb(254, 232, 130); background-color:black; line-height:0.8em; border:0.05em rgb(254, 232, 130) solid; padding:0.2em; margin-right:0.2em}
+
+.otherPara {text-indent:30px; padding:5px}
+ol.numerals {list-style-type:upper-roman}
+ol.circleList {list-style-type:circle}
+blockquote {font-size:13.5px; line-height:125%}
+
+#topLeft {background:url(Images/topleft.jpg) no-repeat left top}
+#top {background:url(Images/top.jpg) repeat-x top}
+#topRight {background:url(Images/topright.jpg) no-repeat right top}

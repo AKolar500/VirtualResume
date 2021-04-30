@@ -1,0 +1,14 @@
+F:\College Courses\CIS 159\Modules\Module 3\StadiumSeating_Kolar\StadiumSeating_Kolar\bin\Debug\StadiumSeating_Kolar.exe
+F:\College Courses\CIS 159\Modules\Module 3\StadiumSeating_Kolar\StadiumSeating_Kolar\bin\Debug\StadiumSeating_Kolar.pdb
+F:\College Courses\CIS 159\Modules\Module 3\StadiumSeating_Kolar\StadiumSeating_Kolar\bin\Debug\StadiumSeating_Kolar.xml
+F:\College Courses\CIS 159\Modules\Module 3\StadiumSeating_Kolar\StadiumSeating_Kolar\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\College Courses\CIS 159\Modules\Module 3\StadiumSeating_Kolar\StadiumSeating_Kolar\obj\x86\Debug\StadiumSeating_Kolar.Form1.resources
+F:\College Courses\CIS 159\Modules\Module 3\StadiumSeating_Kolar\StadiumSeating_Kolar\obj\x86\Debug\StadiumSeating_Kolar.Resources.resources
+F:\College Courses\CIS 159\Modules\Module 3\StadiumSeating_Kolar\StadiumSeating_Kolar\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\College Courses\CIS 159\Modules\Module 3\StadiumSeating_Kolar\StadiumSeating_Kolar\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\College Courses\CIS 159\Modules\Module 3\StadiumSeating_Kolar\StadiumSeating_Kolar\obj\x86\Debug\StadiumSeating_Kolar.exe
+F:\College Courses\CIS 159\Modules\Module 3\StadiumSeating_Kolar\StadiumSeating_Kolar\obj\x86\Debug\StadiumSeating_Kolar.xml
+F:\College Courses\CIS 159\Modules\Module 3\StadiumSeating_Kolar\StadiumSeating_Kolar\obj\x86\Debug\StadiumSeating_Kolar.pdb
+E:\College Courses\CIS 159 Visual Basic\Modules\Module 3\StadiumSeating_Kolar\StadiumSeating_Kolar\obj\x86\Debug\StadiumSeating_Kolar.exe
+E:\College Courses\CIS 159 Visual Basic\Modules\Module 3\StadiumSeating_Kolar\StadiumSeating_Kolar\obj\x86\Debug\StadiumSeating_Kolar.xml
+E:\College Courses\CIS 159 Visual Basic\Modules\Module 3\StadiumSeating_Kolar\StadiumSeating_Kolar\obj\x86\Debug\StadiumSeating_Kolar.pdb

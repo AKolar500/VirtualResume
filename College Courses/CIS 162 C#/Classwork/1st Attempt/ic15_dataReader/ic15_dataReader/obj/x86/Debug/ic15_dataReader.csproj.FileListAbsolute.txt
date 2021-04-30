@@ -1,0 +1,13 @@
+C:\Documents and Settings\John\Desktop\Temp\ic15_dataReader\ic15_dataReader\bin\Debug\ic15_dataReader.exe
+C:\Documents and Settings\John\Desktop\Temp\ic15_dataReader\ic15_dataReader\bin\Debug\ic15_dataReader.pdb
+C:\Documents and Settings\John\Desktop\Temp\ic15_dataReader\ic15_dataReader\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\John\Desktop\Temp\ic15_dataReader\ic15_dataReader\obj\x86\Debug\ic15_DataReader.Form2.resources
+C:\Documents and Settings\John\Desktop\Temp\ic15_dataReader\ic15_dataReader\obj\x86\Debug\ic15_DataReader.Form1.resources
+C:\Documents and Settings\John\Desktop\Temp\ic15_dataReader\ic15_dataReader\obj\x86\Debug\ic15_dataReader.Properties.Resources.resources
+C:\Documents and Settings\John\Desktop\Temp\ic15_dataReader\ic15_dataReader\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Documents and Settings\John\Desktop\Temp\ic15_dataReader\ic15_dataReader\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Documents and Settings\John\Desktop\Temp\ic15_dataReader\ic15_dataReader\obj\x86\Debug\ic15_dataReader.exe
+C:\Documents and Settings\John\Desktop\Temp\ic15_dataReader\ic15_dataReader\obj\x86\Debug\ic15_dataReader.pdb
+C:\Documents and Settings\John\Desktop\Temp\ic15_dataReader\ic15_dataReader\obj\x86\Debug\ic15_DataReader.Form3.resources
+F:\College Courses\CIS 162\Classwork\ic15_dataReader\ic15_dataReader\obj\x86\Debug\ic15_dataReader.exe
+F:\College Courses\CIS 162\Classwork\ic15_dataReader\ic15_dataReader\obj\x86\Debug\ic15_dataReader.pdb

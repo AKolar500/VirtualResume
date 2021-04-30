@@ -1,0 +1,27 @@
+
+P14    Alex Kolar
+
+Enter Sales Person ID (1000 - 9999): 1992
+Enter First Name without spaces: Alex
+Enter Last Name without spaces: Kolar
+Enter a bonus rate between $5.00 and $10: 10
+Enter a quantity between 0 and 200:       200
+
+
+SalesPerson's Information Saved!
+1992  Alex              Kolar              10.00 200
+
+
+SalesPerson's Information Saved!
+1002  Larry             Jones              10.00  50
+
+
+SalesPerson's Information Saved!
+1003  Paul              Sailor             15.00 150
+SalesInfo   Object going out of scope. Id = 1003
+
+SalesPerson Object going out of scope. Id = 1003
+SalesInfo   Object going out of scope. Id = 1002
+
+SalesPerson Object going out of scope. Id = 1002
+Press any key to continue . . .

@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Future Value Calculator</title>
+    <style type="text/css">
+        @import url("future_value.css");
+    </style>
+    <script type="text/javascript" src="future_value.js"></script>
+</head>
+
+<body>
+    <div id="content">
+        <h1>Future Value Calculator</h1>
+        <p><input type="radio" name="calctype" id="monthly"
+			value="monthly" checked />Monthly Interest</p>
+        <p><input type="radio" name="calctype" id="yearly"
+			value="yearly" />Yearly Interest</p>
+		<p>Enter the values below and click "Calculate".</p>
+        
+        <label for="investment">One-Time Investment:</label>
+        <select name="investment" id="investment"
+			<optgroup label="">
+				<option value="1000">$1,000</option>
+				<option value="5000">$5,000</option>
+				<option value="10000">$10,000</option>
+				<option value="25000">$25,000</option>
+				<option value="other">Other value</option>
+			</optgroup>
+		</select><br />
+		
+		<label for="rate">Yearly Interest Rate:</label>
+		<select name="rate" id="rate"
+			<optgroup label="">
+				<option value="4%">4%</option>
+				<option value="6%">6%</option>
+				<option value="8%">8%</option>
+				<option value="10%">10%</option>
+			</optgroup>
+		</select><br />
+        
+        <label for="years">Number of Years:</label>
+        <input type="text" id="years" /><br />
+        
+        <label for="futureValue">Future Value:</label>
+        <input type="text" id="futureValue" disabled="disabled" /><br />
+        
+        <label>&nbsp;</label>
+        <input type="button" id="calculate" value="Calculate" /><br />
+		
+		<p><input type="checkbox" name="display" id="display" value="display" checked />
+		Display both monthly and yearly results in the text area.</p>
+		
+		<p>Results</p>
+		<textarea name="results" id="results" rows="4" cols="50"></textarea>
+    </div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+C:\Documents and Settings\John\Local Settings\Application Data\Temporary Projects\ic04\bin\Debug\ic04.exe
+C:\Documents and Settings\John\Local Settings\Application Data\Temporary Projects\ic04\bin\Debug\ic04.pdb
+C:\Documents and Settings\John\Local Settings\Application Data\Temporary Projects\ic04\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\John\Local Settings\Application Data\Temporary Projects\ic04\obj\x86\Debug\ic04.frmCS04.resources
+C:\Documents and Settings\John\Local Settings\Application Data\Temporary Projects\ic04\obj\x86\Debug\ic04.Properties.Resources.resources
+C:\Documents and Settings\John\Local Settings\Application Data\Temporary Projects\ic04\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\John\Local Settings\Application Data\Temporary Projects\ic04\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\John\Local Settings\Application Data\Temporary Projects\ic04\obj\x86\Debug\ic04.exe
+C:\Documents and Settings\John\Local Settings\Application Data\Temporary Projects\ic04\obj\x86\Debug\ic04.pdb
+C:\Users\Instructor\Desktop\ic04\ic04\ic04\obj\x86\Debug\ic04.exe
+C:\Users\Instructor\Desktop\ic04\ic04\ic04\obj\x86\Debug\ic04.pdb
+C:\Users\Instructor\Desktop\ic04\ic04\ic04\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Instructor\Desktop\ic04\ic04\ic04\obj\x86\Debug\ic04.frmCS04.resources
+C:\Users\Instructor\Desktop\ic04\ic04\ic04\obj\x86\Debug\ic04.Properties.Resources.resources
+C:\Users\Instructor\Desktop\ic04\ic04\ic04\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Instructor\Desktop\ic04\ic04\ic04\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Instructor\Desktop\ic04\ic04\ic04\bin\Debug\ic04.exe
+C:\Users\Instructor\Desktop\ic04\ic04\ic04\bin\Debug\ic04.pdb
+C:\Documents and Settings\John\Desktop\Temp\ic04-02.10.11\ic04\ic04\obj\x86\Debug\ic04.exe
+C:\Documents and Settings\John\Desktop\Temp\ic04-02.10.11\ic04\ic04\obj\x86\Debug\ic04.pdb
+C:\Documents and Settings\John\Desktop\Temp\ic04-02.10.11\ic04\ic04\bin\Debug\ic04.exe
+C:\Documents and Settings\John\Desktop\Temp\ic04-02.10.11\ic04\ic04\bin\Debug\ic04.pdb
+C:\Documents and Settings\John\Desktop\Temp\ic04-02.10.11\ic04\ic04\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\John\Desktop\Temp\ic04-02.10.11\ic04\ic04\obj\x86\Debug\ic04.frmCS04.resources
+C:\Documents and Settings\John\Desktop\Temp\ic04-02.10.11\ic04\ic04\obj\x86\Debug\ic04.Properties.Resources.resources
+C:\Documents and Settings\John\Desktop\Temp\ic04-02.10.11\ic04\ic04\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\John\Desktop\Temp\ic04-02.10.11\ic04\ic04\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\College Courses\CIS 162\ic04\ic04\ic04\ic04\obj\x86\Debug\ic04.exe
+E:\College Courses\CIS 162\ic04\ic04\ic04\ic04\obj\x86\Debug\ic04.pdb
+E:\College Courses\CIS 162\ic04\ic04\ic04\ic04\bin\Debug\ic04.exe
+E:\College Courses\CIS 162\ic04\ic04\ic04\ic04\bin\Debug\ic04.pdb
+E:\College Courses\CIS 162\ic04\ic04\ic04\ic04\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\College Courses\CIS 162\ic04\ic04\ic04\ic04\obj\x86\Debug\ic04.frmCS04.resources
+E:\College Courses\CIS 162\ic04\ic04\ic04\ic04\obj\x86\Debug\ic04.Properties.Resources.resources
+E:\College Courses\CIS 162\ic04\ic04\ic04\ic04\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\College Courses\CIS 162\ic04\ic04\ic04\ic04\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\College Courses\CIS 162\ic04\ic04\ic04\ic04\obj\x86\Debug\ic04.frmCS05.resources
+E:\College Courses\CIS 162\Classwork\ic04\ic04\ic04\ic04\obj\x86\Debug\ic04.exe
+E:\College Courses\CIS 162\Classwork\ic04\ic04\ic04\ic04\obj\x86\Debug\ic04.pdb
+F:\College Courses\CIS 162\Classwork\ic04\ic04\ic04\ic04\obj\x86\Debug\ic04.exe
+F:\College Courses\CIS 162\Classwork\ic04\ic04\ic04\ic04\obj\x86\Debug\ic04.pdb

@@ -1,0 +1,9 @@
+F:\College Courses\CIS 162 C#\Classwork\2nd Attempt\IC07b\IC07b\bin\Debug\IC07b.exe
+F:\College Courses\CIS 162 C#\Classwork\2nd Attempt\IC07b\IC07b\bin\Debug\IC07b.pdb
+F:\College Courses\CIS 162 C#\Classwork\2nd Attempt\IC07b\IC07b\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\College Courses\CIS 162 C#\Classwork\2nd Attempt\IC07b\IC07b\obj\x86\Debug\IC07b.Form1.resources
+F:\College Courses\CIS 162 C#\Classwork\2nd Attempt\IC07b\IC07b\obj\x86\Debug\IC07b.Properties.Resources.resources
+F:\College Courses\CIS 162 C#\Classwork\2nd Attempt\IC07b\IC07b\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\College Courses\CIS 162 C#\Classwork\2nd Attempt\IC07b\IC07b\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\College Courses\CIS 162 C#\Classwork\2nd Attempt\IC07b\IC07b\obj\x86\Debug\IC07b.exe
+F:\College Courses\CIS 162 C#\Classwork\2nd Attempt\IC07b\IC07b\obj\x86\Debug\IC07b.pdb

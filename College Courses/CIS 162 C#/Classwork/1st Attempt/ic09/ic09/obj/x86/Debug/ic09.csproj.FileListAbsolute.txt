@@ -1,0 +1,25 @@
+C:\Documents and Settings\John\Desktop\Temp\ic09\ic09\bin\Debug\ic09.exe
+C:\Documents and Settings\John\Desktop\Temp\ic09\ic09\bin\Debug\ic09.pdb
+C:\Documents and Settings\John\Desktop\Temp\ic09\ic09\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\John\Desktop\Temp\ic09\ic09\obj\x86\Debug\ic09.Form1.resources
+C:\Documents and Settings\John\Desktop\Temp\ic09\ic09\obj\x86\Debug\ic09.Properties.Resources.resources
+C:\Documents and Settings\John\Desktop\Temp\ic09\ic09\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\John\Desktop\Temp\ic09\ic09\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\John\Desktop\Temp\ic09\ic09\obj\x86\Debug\ic09.exe
+C:\Documents and Settings\John\Desktop\Temp\ic09\ic09\obj\x86\Debug\ic09.pdb
+C:\Documents and Settings\John\Desktop\Temp\ic09\ic09\obj\x86\Debug\ic09.Form2.resources
+C:\Documents and Settings\John\Desktop\Temp\ic09\ic09\obj\x86\Debug\ic09.Form3.resources
+C:\Users\Instructor\Desktop\ic09\ic09\obj\x86\Debug\ic09.exe
+C:\Users\Instructor\Desktop\ic09\ic09\obj\x86\Debug\ic09.pdb
+F:\College Courses\CIS 162\Classwork\ic09\ic09\obj\x86\Debug\ic09.exe
+F:\College Courses\CIS 162\Classwork\ic09\ic09\obj\x86\Debug\ic09.pdb
+F:\College Courses\CIS 162\Classwork\ic09\ic09\bin\Debug\ic09.exe
+F:\College Courses\CIS 162\Classwork\ic09\ic09\bin\Debug\ic09.pdb
+F:\College Courses\CIS 162\Classwork\ic09\ic09\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\College Courses\CIS 162\Classwork\ic09\ic09\obj\x86\Debug\ic09.Form2a.resources
+F:\College Courses\CIS 162\Classwork\ic09\ic09\obj\x86\Debug\ic09.Form3.resources
+F:\College Courses\CIS 162\Classwork\ic09\ic09\obj\x86\Debug\ic09.Form2.resources
+F:\College Courses\CIS 162\Classwork\ic09\ic09\obj\x86\Debug\ic09.Form1.resources
+F:\College Courses\CIS 162\Classwork\ic09\ic09\obj\x86\Debug\ic09.Properties.Resources.resources
+F:\College Courses\CIS 162\Classwork\ic09\ic09\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\College Courses\CIS 162\Classwork\ic09\ic09\obj\x86\Debug\GenerateResource.write.1.tlog

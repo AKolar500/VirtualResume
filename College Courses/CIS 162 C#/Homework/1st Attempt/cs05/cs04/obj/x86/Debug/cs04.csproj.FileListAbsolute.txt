@@ -1,0 +1,11 @@
+E:\College Courses\CIS 162\Homework\cs04\cs04\bin\Debug\cs04.exe
+E:\College Courses\CIS 162\Homework\cs04\cs04\bin\Debug\cs04.pdb
+E:\College Courses\CIS 162\Homework\cs04\cs04\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\College Courses\CIS 162\Homework\cs04\cs04\obj\x86\Debug\cs04.Form1.resources
+E:\College Courses\CIS 162\Homework\cs04\cs04\obj\x86\Debug\cs04.Properties.Resources.resources
+E:\College Courses\CIS 162\Homework\cs04\cs04\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\College Courses\CIS 162\Homework\cs04\cs04\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\College Courses\CIS 162\Homework\cs04\cs04\obj\x86\Debug\cs04.exe
+E:\College Courses\CIS 162\Homework\cs04\cs04\obj\x86\Debug\cs04.pdb
+E:\College Courses\CIS 162\Homework\cs05\cs04\obj\x86\Debug\cs04.exe
+E:\College Courses\CIS 162\Homework\cs05\cs04\obj\x86\Debug\cs04.pdb

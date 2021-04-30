@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #666666;
+}
+
+#content {
+    width: 760px;
+    margin: 10px auto;
+    padding: 5px 20px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+}
+
+.center { text-align: center; }
+
+#register_form label {
+    display: block;
+    width: 12em;
+    float: left;
+    margin-bottom: 0.5em;
+}
+
+#register_form br {
+    clear: both;
+}
+
+.notice {
+    color: red;
+    font-size: 67%;
+    text-align: right;
+}

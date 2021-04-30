@@ -1,0 +1,10 @@
+1018 Smit            Bruce            9.50  50  10  25  30
+1005 Bob             Billy            5.00  30  35  40  50
+1002 Long_Last_Name1 Long_First_Name  8.00  50  50  10  40
+1004 Flores          Jose             9.00  35  40  50  60
+1010 Smitts          Scott            7.00  10  30  50  30
+1001 Smith           Joe              6.00  35  40  50  60
+1007 Lee             JJ               8.00  35  40  50  60
+1006 Sanchez         Maria            7.00  10  50  50  60
+1009 Eldridge        Melissa          6.50  20  20  30  40
+1003 Jones           Larry           10.00  25  45  30  35

@@ -1,0 +1,11 @@
+F:\College Courses\CIS 159 Visual Basic\Modules\Module 5\Distance Calculator\prjDistanceCalculator-Kolar\prjDistanceCalculator-Kolar\bin\Debug\prjDistanceCalculator-Kolar.exe
+F:\College Courses\CIS 159 Visual Basic\Modules\Module 5\Distance Calculator\prjDistanceCalculator-Kolar\prjDistanceCalculator-Kolar\bin\Debug\prjDistanceCalculator-Kolar.pdb
+F:\College Courses\CIS 159 Visual Basic\Modules\Module 5\Distance Calculator\prjDistanceCalculator-Kolar\prjDistanceCalculator-Kolar\bin\Debug\prjDistanceCalculator-Kolar.xml
+F:\College Courses\CIS 159 Visual Basic\Modules\Module 5\Distance Calculator\prjDistanceCalculator-Kolar\prjDistanceCalculator-Kolar\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\College Courses\CIS 159 Visual Basic\Modules\Module 5\Distance Calculator\prjDistanceCalculator-Kolar\prjDistanceCalculator-Kolar\obj\x86\Debug\prjDistanceCalculator_Kolar.Form1.resources
+F:\College Courses\CIS 159 Visual Basic\Modules\Module 5\Distance Calculator\prjDistanceCalculator-Kolar\prjDistanceCalculator-Kolar\obj\x86\Debug\prjDistanceCalculator_Kolar.Resources.resources
+F:\College Courses\CIS 159 Visual Basic\Modules\Module 5\Distance Calculator\prjDistanceCalculator-Kolar\prjDistanceCalculator-Kolar\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\College Courses\CIS 159 Visual Basic\Modules\Module 5\Distance Calculator\prjDistanceCalculator-Kolar\prjDistanceCalculator-Kolar\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\College Courses\CIS 159 Visual Basic\Modules\Module 5\Distance Calculator\prjDistanceCalculator-Kolar\prjDistanceCalculator-Kolar\obj\x86\Debug\prjDistanceCalculator-Kolar.exe
+F:\College Courses\CIS 159 Visual Basic\Modules\Module 5\Distance Calculator\prjDistanceCalculator-Kolar\prjDistanceCalculator-Kolar\obj\x86\Debug\prjDistanceCalculator-Kolar.xml
+F:\College Courses\CIS 159 Visual Basic\Modules\Module 5\Distance Calculator\prjDistanceCalculator-Kolar\prjDistanceCalculator-Kolar\obj\x86\Debug\prjDistanceCalculator-Kolar.pdb

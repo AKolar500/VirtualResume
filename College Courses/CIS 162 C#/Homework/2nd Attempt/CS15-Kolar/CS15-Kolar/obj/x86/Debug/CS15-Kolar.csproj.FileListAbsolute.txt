@@ -1,0 +1,14 @@
+E:\College Courses\CIS 162 C#\Homework\2nd Attempt\CS15-Kolar\CS15-Kolar\bin\Debug\dbTranscripts.mdf
+E:\College Courses\CIS 162 C#\Homework\2nd Attempt\CS15-Kolar\CS15-Kolar\bin\Debug\dbTranscripts_log.ldf
+E:\College Courses\CIS 162 C#\Homework\2nd Attempt\CS15-Kolar\CS15-Kolar\bin\Debug\CS15-Kolar.exe.config
+E:\College Courses\CIS 162 C#\Homework\2nd Attempt\CS15-Kolar\CS15-Kolar\bin\Debug\CS15-Kolar.exe
+E:\College Courses\CIS 162 C#\Homework\2nd Attempt\CS15-Kolar\CS15-Kolar\bin\Debug\CS15-Kolar.pdb
+E:\College Courses\CIS 162 C#\Homework\2nd Attempt\CS15-Kolar\CS15-Kolar\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\College Courses\CIS 162 C#\Homework\2nd Attempt\CS15-Kolar\CS15-Kolar\obj\x86\Debug\CS15_Kolar.Form1.resources
+E:\College Courses\CIS 162 C#\Homework\2nd Attempt\CS15-Kolar\CS15-Kolar\obj\x86\Debug\CS15_Kolar.Properties.Resources.resources
+E:\College Courses\CIS 162 C#\Homework\2nd Attempt\CS15-Kolar\CS15-Kolar\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\College Courses\CIS 162 C#\Homework\2nd Attempt\CS15-Kolar\CS15-Kolar\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\College Courses\CIS 162 C#\Homework\2nd Attempt\CS15-Kolar\CS15-Kolar\obj\x86\Debug\CS15-Kolar.exe
+E:\College Courses\CIS 162 C#\Homework\2nd Attempt\CS15-Kolar\CS15-Kolar\obj\x86\Debug\CS15-Kolar.pdb
+E:\College Courses\CIS 162 C#\Homework\2nd Attempt\CS15-Kolar\CS15-Kolar\bin\Debug\ClassLibrary1.dll
+E:\College Courses\CIS 162 C#\Homework\2nd Attempt\CS15-Kolar\CS15-Kolar\bin\Debug\ClassLibrary1.pdb

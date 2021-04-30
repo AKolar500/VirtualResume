@@ -1,0 +1,27 @@
+/*
+Alex Kolar
+7/2/2012
+
+This file is for the table that is the first to be floating on the left.
+*/
+
+table.reservations {position:relative; left:0px; top:0px; font-size:12px; margin:0px; border-collapse:collapse}
+table.reservations caption {font-size:13px; letter-spacing:2px; text-align:center; vertical-align:top}
+
+table.reservations.leftCol, table.reservations.rightCol {width:25%}
+table.reservations.middleCols {width:50%}
+
+table.reservations thead {height:16px}
+table.reservations tfoot {height:16px}
+
+table.reservations tr th.topLeft {background:url(topleft.png) no-repeat left top}
+table.reservations tr th.top {background:url(top.png) repeat-x top; text-align:center}
+table.reservations tr th.topRight {background:url(topright.png) no-repeat right top}
+table.reservations tr td.bottomLeft {background:url(bottomleft.png) no-repeat left bottom}
+table.reservations tr td.bottom {background:url(bottom.png) repeat-x bottom}
+table.reservations tr td.bottomRight {background:url(bottomright.png) no-repeat right bottom}
+
+table.reservations thead tr {border-bottom:2px solid gray}
+
+table.reservations.leftCol {background:url(left.png) repeat-y left}
+table.reservations.rightCol {background:url(right.png) repeat-y right}

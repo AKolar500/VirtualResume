@@ -1,0 +1,9 @@
+F:\College Courses\CIS 162\Classwork\IC02\IC02\IC02\bin\Debug\IC02.exe
+F:\College Courses\CIS 162\Classwork\IC02\IC02\IC02\bin\Debug\IC02.pdb
+F:\College Courses\CIS 162\Classwork\IC02\IC02\IC02\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\College Courses\CIS 162\Classwork\IC02\IC02\IC02\obj\x86\Debug\IC02.Form1.resources
+F:\College Courses\CIS 162\Classwork\IC02\IC02\IC02\obj\x86\Debug\IC02.Properties.Resources.resources
+F:\College Courses\CIS 162\Classwork\IC02\IC02\IC02\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\College Courses\CIS 162\Classwork\IC02\IC02\IC02\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\College Courses\CIS 162\Classwork\IC02\IC02\IC02\obj\x86\Debug\IC02.exe
+F:\College Courses\CIS 162\Classwork\IC02\IC02\IC02\obj\x86\Debug\IC02.pdb

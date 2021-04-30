@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Final Project - Tutorial</title>
+
+<link rel="stylesheet" type="text/css" href="photos.css" />
+
+</head>
+
+<body>
+<div id="content">
+	<h1 class="center">Tutorial</h1>
+	<p>Since the first assignment was the most fun for me, I'll give you a tutorial on how to do the first assignment. I'm just going to limit the tutorial to the .js file, since we can assume we all know how to code the html and css for the page.</p>
+	<h1 class="center">-----------------------------------------------------------------------</h1>
+	<p>The first thing we need to do is initiate the variables inside the calculate_click method. Copy and paste the following code:</p>
+	<p>var length = parseFloat( $("length").value );</p>
+	<p>var width = parseFloat( $("width").value );</p>
+	<p>Next, we need to calculate the area. The following code will do just that.</p>
+	<p>var area = length * width;</p>
+	<p>I like to make the last two digits visible, so you can omit the following code if you don't want it.</p>
+	<p>area = parseFloat( area.toFixed(2) );</p>
+	<p>Next, we need to calculate the perimeter.</p>
+	<p>var perimeter = 2 * (length + width);</p>
+	<p>Like I said, I like to make the last two digits visible, so if you want to do the same, just copy and paste the previous section of optional code and replace every instance of the word, "area" with "perimeter".</p>
+	<p>Finally, we need to display the results in their appropriate fields. Copy and paste these last bits of code into the last section of your calculate_click function.</p>
+	<p>$("area").value = area;</p>
+	<p>$("perimeter").value = perimeter;</p>
+	<p>And you're done!</p>
+</div>
+</body>
+</html>

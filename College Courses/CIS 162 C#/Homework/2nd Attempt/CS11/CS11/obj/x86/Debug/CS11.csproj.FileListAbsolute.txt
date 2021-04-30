@@ -1,0 +1,9 @@
+E:\College Courses\CIS 162 C#\Homework\2nd Attempt\CS11\CS11\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\College Courses\CIS 162 C#\Homework\2nd Attempt\CS11\CS11\obj\x86\Debug\CS11.Properties.Resources.resources
+E:\College Courses\CIS 162 C#\Homework\2nd Attempt\CS11\CS11\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\College Courses\CIS 162 C#\Homework\2nd Attempt\CS11\CS11\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\College Courses\CIS 162 C#\Homework\2nd Attempt\CS11\CS11\bin\Debug\CS11.exe
+E:\College Courses\CIS 162 C#\Homework\2nd Attempt\CS11\CS11\bin\Debug\CS11.pdb
+E:\College Courses\CIS 162 C#\Homework\2nd Attempt\CS11\CS11\obj\x86\Debug\CS11.Form1.resources
+E:\College Courses\CIS 162 C#\Homework\2nd Attempt\CS11\CS11\obj\x86\Debug\CS11.exe
+E:\College Courses\CIS 162 C#\Homework\2nd Attempt\CS11\CS11\obj\x86\Debug\CS11.pdb

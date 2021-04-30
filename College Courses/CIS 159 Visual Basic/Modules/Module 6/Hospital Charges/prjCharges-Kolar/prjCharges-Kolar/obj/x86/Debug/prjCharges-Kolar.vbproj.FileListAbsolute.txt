@@ -1,0 +1,11 @@
+F:\College Courses\CIS 159 Visual Basic\Modules\Module 6\Hospital Charges\prjCharges-Kolar\prjCharges-Kolar\bin\Debug\prjCharges-Kolar.exe
+F:\College Courses\CIS 159 Visual Basic\Modules\Module 6\Hospital Charges\prjCharges-Kolar\prjCharges-Kolar\bin\Debug\prjCharges-Kolar.pdb
+F:\College Courses\CIS 159 Visual Basic\Modules\Module 6\Hospital Charges\prjCharges-Kolar\prjCharges-Kolar\bin\Debug\prjCharges-Kolar.xml
+F:\College Courses\CIS 159 Visual Basic\Modules\Module 6\Hospital Charges\prjCharges-Kolar\prjCharges-Kolar\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\College Courses\CIS 159 Visual Basic\Modules\Module 6\Hospital Charges\prjCharges-Kolar\prjCharges-Kolar\obj\x86\Debug\prjCharges.Form1.resources
+F:\College Courses\CIS 159 Visual Basic\Modules\Module 6\Hospital Charges\prjCharges-Kolar\prjCharges-Kolar\obj\x86\Debug\prjCharges.Resources.resources
+F:\College Courses\CIS 159 Visual Basic\Modules\Module 6\Hospital Charges\prjCharges-Kolar\prjCharges-Kolar\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\College Courses\CIS 159 Visual Basic\Modules\Module 6\Hospital Charges\prjCharges-Kolar\prjCharges-Kolar\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\College Courses\CIS 159 Visual Basic\Modules\Module 6\Hospital Charges\prjCharges-Kolar\prjCharges-Kolar\obj\x86\Debug\prjCharges-Kolar.exe
+F:\College Courses\CIS 159 Visual Basic\Modules\Module 6\Hospital Charges\prjCharges-Kolar\prjCharges-Kolar\obj\x86\Debug\prjCharges-Kolar.xml
+F:\College Courses\CIS 159 Visual Basic\Modules\Module 6\Hospital Charges\prjCharges-Kolar\prjCharges-Kolar\obj\x86\Debug\prjCharges-Kolar.pdb

@@ -1,0 +1,42 @@
+/*
+   New Perspectives on HTML and XHTML 5th Edition
+   Tutorial 4
+   Case Problem 2
+
+   Civil War Studies Style Sheet
+   Author: Alex Kolar
+   Date: 6/20/2012
+
+   Filename:         cw.css
+   Supporting Files: tan.jpg
+
+*/
+
+body              {margin: 0px}
+
+h2                {position:absolute; left:320px; top:125px; color:rgb(237, 227, 178); z-index:2; font-size: 2.5em; margin: 0px}
+.shadow {position:absolute; left:321px; top:126px; color:black; z-index:1}
+
+#head             {text-align: center; border-bottom: 1px solid black; 
+                   background-image: url(tan.jpg); margin: 0px}
+
+#page_content {position:relative; left:0px; top:0px; width:95%; min-width:800px; max-width:1000px}
+
+#linkList {position:absolute; left:5px; top:140px; width:280px; border-right:1px solid black}
+#linkList a {text-decoration:none; color:black}
+#linkList a:link {text-decoration:none}
+#linkList a:visited {text-decoration:none}
+#linkList a:hover {text-decoration:underline}
+#linkList a:active {text-decoration:none}
+
+#roman {list-style-type:upper-roman; font-size:0.9em}
+#subCategory {list-style-type:upper-alpha}
+
+#article {position:absolute; left:320px; top:190px}
+
+.first_para:first-line {text-transform:uppercase}
+.first_para:first-letter {float:left; margin:0px 5px 5px 0px; font-size:300%; line-height:0.75}
+
+.second_para {text-indent:10px}
+.third_para {text-indent:10px}
+.fourth_para {text-indent:10px}

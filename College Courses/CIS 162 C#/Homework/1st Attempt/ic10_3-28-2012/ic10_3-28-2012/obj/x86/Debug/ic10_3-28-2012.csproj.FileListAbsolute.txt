@@ -1,0 +1,9 @@
+F:\College Courses\CIS 162\Homework\ic10_3-28-2012\ic10_3-28-2012\bin\Debug\ic10_3-28-2012.exe
+F:\College Courses\CIS 162\Homework\ic10_3-28-2012\ic10_3-28-2012\bin\Debug\ic10_3-28-2012.pdb
+F:\College Courses\CIS 162\Homework\ic10_3-28-2012\ic10_3-28-2012\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\College Courses\CIS 162\Homework\ic10_3-28-2012\ic10_3-28-2012\obj\x86\Debug\ic10_3_28_2012.Form1.resources
+F:\College Courses\CIS 162\Homework\ic10_3-28-2012\ic10_3-28-2012\obj\x86\Debug\ic10_3_28_2012.Properties.Resources.resources
+F:\College Courses\CIS 162\Homework\ic10_3-28-2012\ic10_3-28-2012\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\College Courses\CIS 162\Homework\ic10_3-28-2012\ic10_3-28-2012\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\College Courses\CIS 162\Homework\ic10_3-28-2012\ic10_3-28-2012\obj\x86\Debug\ic10_3-28-2012.exe
+F:\College Courses\CIS 162\Homework\ic10_3-28-2012\ic10_3-28-2012\obj\x86\Debug\ic10_3-28-2012.pdb

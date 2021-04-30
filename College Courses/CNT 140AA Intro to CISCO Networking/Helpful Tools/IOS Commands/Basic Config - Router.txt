@@ -1,0 +1,31 @@
+enable
+conf t
+enable secret class
+banner motd "Authorized Users only!"
+no ip domain-lookup
+line con 0
+password cisco
+login
+exec-timeout 0 0
+logging sync
+line vty 0 4
+password cisco
+login
+logging sync
+exec-timeout 0 0
+exit
+hostname
+
+
+To copy and paste, select all text you want to copy, CTRL + C, go to IOS screen, CLICK THE PASTE BUTTON.
+Then, finish defining the hostname.
+Then, copy and paste the following:
+
+exit
+copy running-config startup-config
+
+Additional notes:
+
+enable - enter privileged-exec mode
+conf t - enter global config mode
+line con 0 - enter line config mode

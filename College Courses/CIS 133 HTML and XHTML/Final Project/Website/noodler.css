@@ -1,0 +1,39 @@
+/*
+Alex Kolar
+July 2012
+
+This is the stylesheet for the Pastafarian page of the website
+*/
+
+body {color:black; background-color:rgb(204, 204, 153); font-family:Arial, Helvetica, sans-serif}
+
+#linksCol {position:absolute; top:115px; left:5px; width:240px}
+#links                {background-color:black; padding:0px; margin:0px}
+#links ul             {list-style-type:none; font-size:16px; padding:10px; 
+                       margin:0px 0px 20px 0px; border:2px rgb(254, 232, 130) solid}
+#links ul li          {margin:0px 0px 0px 10px; line-height:1.6}
+#links ul a           {color:rgb(254, 232, 130); text-decoration:none}
+#links ul a:hover     {color:rgb(211,254,106); text-decoration:overline underline}
+
+#pageContent {position:absolute; top:115px; left:265px; width:600px; height:400px; overflow:auto; padding-left:5px; padding-right:5px; font-size:14px}
+
+#pageContent a {color:blue; text-decoration:none}
+#pageContent a:hover {color:blue; text-decoration:overline underline}
+
+#pageContent blockquote {text-indent:10px; font-size:12px}
+#pageContent ol {margin-top:5px; margin-bottom:5px; line-height:150%}
+#pageContent lh {font-size:16px; font-style:normal; text-decoration:underline}
+#pageContent em {font-variant:small-caps; font-weight:bold}
+#pageContent h3 {font-size:16px}
+
+.firstPara {padding-left:5px; padding-right:5px; padding-bottom:5px}
+.firstPara:first-letter {float:left; font:3em bold; color:rgb(254, 232, 130); background-color:black; line-height:0.8em; border:0.05em rgb(254, 232, 130) solid; padding:0.2em; margin-right:0.2em}
+
+.otherPara {text-indent:30px; padding:5px}
+.caption {font-size:13px}
+
+#topLeft {background:url(Images/topleft.jpg) no-repeat left top}
+#top {background:url(Images/top.jpg) repeat-x top}
+#topRight {background:url(Images/topright.jpg) no-repeat right top}
+
+#video {position:absolute; top:525px; left:5px; width:570px; height:325px; background-color:black; padding-left:10px; padding-top:10px; border:2px rgb(254, 232, 130) solid}

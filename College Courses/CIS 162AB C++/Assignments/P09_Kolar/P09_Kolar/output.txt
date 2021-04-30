@@ -1,0 +1,17 @@
+P09   Your Name Here
+
+Enter the letter of the desired menu option.
+Press the Enter key after entering the letter
+
+  A: Display Employee Id (current order)
+  B: Display Employee Id Ascending Order
+  C: Display Employee Id Descending Order
+  D: Search Employee Id List
+  X: Exit the program
+
+Choice: b
+Employee Ids sorted ascending:
+
+
+
+Procedure completed. Press Enter to continue:

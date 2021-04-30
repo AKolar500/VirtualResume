@@ -1,0 +1,36 @@
+<!--The standard header is on the .js file.-->
+<!--Yes, this code is just a modified version of my completed Sales_Tax exercise.-->
+<!--I also copied and pasted the css code from that assignment as well. Why do it manually when it
+is already done for you?-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Area and Perimeter Calculator</title>
+    <link rel="stylesheet" type="text/css" href="area_perimeter.css" />
+    <script type="text/javascript" src="area_perimeter.js"></script>
+</head>
+<body>
+<div id="content">
+    <h1>Area and Perimeter Calculator</h1>
+    <p>Enter the Length and Width below and click "Calculate".</p>
+    <div id="taxCalc">
+        <label for="length">Length:</label>
+        <input type="text" id="length" /><br />
+
+        <label for="width">Width:</label>
+        <input type="text" id="width" /><br />
+
+        <label for="area">Area:</label>
+        <input type="text" id="area" disabled="disabled" /><br />
+
+        <label for="perimeter">Perimeter:</label>
+        <input type="text" id="perimeter" disabled="disabled" /><br />
+
+        <label>&nbsp;</label>
+        <input type="button" id="calculate" value="Calculate" /><br />
+    </div>
+</div>
+</body>
+</html>

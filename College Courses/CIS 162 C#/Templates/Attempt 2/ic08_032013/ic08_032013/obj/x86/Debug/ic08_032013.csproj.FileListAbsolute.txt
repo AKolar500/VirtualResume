@@ -1,0 +1,11 @@
+C:\Documents and Settings\John\Desktop\cis162ad\cs08\ic08_032013\ic08_032013\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\John\Desktop\cis162ad\cs08\ic08_032013\ic08_032013\obj\x86\Debug\ic08_032013.Properties.Resources.resources
+C:\Documents and Settings\John\Desktop\cis162ad\cs08\ic08_032013\ic08_032013\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\John\Desktop\cis162ad\cs08\ic08_032013\ic08_032013\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\John\Desktop\cis162ad\cs08\ic08_032013\ic08_032013\bin\Debug\ic08_032013.exe
+C:\Documents and Settings\John\Desktop\cis162ad\cs08\ic08_032013\ic08_032013\bin\Debug\ic08_032013.pdb
+C:\Documents and Settings\John\Desktop\cis162ad\cs08\ic08_032013\ic08_032013\obj\x86\Debug\ic08_032013.Form1.resources
+C:\Documents and Settings\John\Desktop\cis162ad\cs08\ic08_032013\ic08_032013\obj\x86\Debug\ic08_032013.exe
+C:\Documents and Settings\John\Desktop\cis162ad\cs08\ic08_032013\ic08_032013\obj\x86\Debug\ic08_032013.pdb
+F:\College Courses\CIS 162 C#\Templates\Attempt 2\ic08_032013\ic08_032013\obj\x86\Debug\ic08_032013.exe
+F:\College Courses\CIS 162 C#\Templates\Attempt 2\ic08_032013\ic08_032013\obj\x86\Debug\ic08_032013.pdb

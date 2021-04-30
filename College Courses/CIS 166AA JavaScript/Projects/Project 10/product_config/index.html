@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Desktop Configuration</title>
+<link rel="stylesheet" type="text/css" href="default.css" />
+<link rel="stylesheet" type="text/css" href="config.css" />
+<script type="text/javascript" src="jslib_event.js"></script>
+<script type="text/javascript" src="jslib_dom_ready.js"></script>
+<script type="text/javascript" src="config_library.js"></script>
+<script type="text/javascript" src="config.js"></script>
+</head>
+
+<body>
+<div id="content">
+    <h1>Desktop Configuration</h1>
+    <p>System Cost: <span id="system_cost">&nbsp;</span></p>
+    <div class="formLayout">
+        <form action="#" method="get" id="product_form">
+        <label for="proc">Processor:</label>
+        <input type="radio" 
+            name="proc" value="0" id="proc0" checked="checked" />
+        Dual-Core 2.5 GHz <span class="cost" id="proc0_cost">&nbsp;</span>
+        <br />
+        <label>&nbsp;</label>
+        <input type="radio" name="proc" value="1" id="proc1" />
+        Dual-Core 3.0 GHz <span class="cost" id="proc1_cost">&nbsp;</span>
+        <br />
+        <label>&nbsp;</label>
+        <input type="radio" name="proc" value="2" id="proc2" />
+        Quad-Core 2.5 GHz <span class="cost" id="proc2_cost">&nbsp;</span>
+        <br />
+        <label>&nbsp;</label>
+        <input type="radio" name="proc" value="3" id="proc3" />
+        Quad-Core 3.0 GHz <span class="cost" id="proc3_cost">&nbsp;</span>
+        <br class="double" />
+        
+        <label for="mem">Memory:</label>
+        <input type="radio"
+            name="mem" value="0" id="mem0" checked="checked" />
+        2 GB <span class="cost" id="mem0_cost">&nbsp;</span>
+        <br />
+        <label for="">&nbsp;</label>
+        <input type="radio" name="mem" value="1" id="mem1" />
+        4 GB <span class="cost" id="mem1_cost">&nbsp;</span>
+        <br />
+        <label for="">&nbsp;</label>
+        <input type="radio" name="mem" value="2" id="mem2" />
+        8 GB <span class="cost" id="mem2_cost">&nbsp;</span>
+        <br class="double" />
+        
+        <p class="error" id="os_err_p"><span id="os_err">&nbsp;</span></p>
+        <label for="os">Operating System:</label>
+        <input type="radio"
+            name="os" value="0" id="os0" checked="checked" />
+        Home <span class="cost" id="os0_cost">&nbsp;</span>
+        <br />
+        <label for="">&nbsp;</label>
+        <input type="radio" name="os" value="1" id="os1" />
+        Business <span class="cost" id="os1_cost">&nbsp;</span>
+        <br />
+        <label for="">&nbsp;</label>
+        <input type="radio" name="os" value="2" id="os2" />
+        Premium <span class="cost" id="os2_cost">&nbsp;</span>
+        <br class="double" />
+        
+        <p class="error" id="optical_err_p">
+            <span id="optical_err">&nbsp;</span></p>
+        <label for="optical0">First Optical Drive:</label>
+        <select name="optical0" id="optical0">
+            <option value="0">DVD-RW</option>
+            <option value="1">BD-ROM</option>
+            <option value="2">BD-RW</option>
+        </select>
+        <br />
+        <label for="optical1">Second Optical Drive:</label>
+        <select name="optical1" id="optical1">
+            <option value="0">None</option>
+            <option value="1">DVD-RW</option>
+            <option value="2">BD-ROM</option>
+            <option value="3">BD-RW</option>
+        </select>
+        <br class="double" />
+
+        <p class="error" id="hd_err_p"><span id="hd_err">&nbsp;</span></p>
+        <label for="hd_num">Number of Drives:</label>
+        <select name="hd_num" id="hd_num">
+            <option value="0">1</option>
+            <option value="1">2</option>
+            <option value="2">3</option>
+            <option value="3">4</option>
+        </select>
+        <br />
+        <label for="hd_size">Drive Size:</label>
+        <select name="hd_size" id="hd_size">
+            <option value="0">500 GB</option>
+            <option value="1">750 GB</option>
+            <option value="2">1.0 TB</option>
+        </select>
+        <br />
+        <label for="hd_raid">RAID:</label>
+        <select name="hd_raid" id="hd_raid">
+            <option value="0">None</option>
+            <option value="1">RAID 0</option>
+            <option value="2">RAID 1</option>
+            <option value="3">RAID 5</option>
+        </select>
+        <br />
+        <label>Total Drive Size:</label>
+        <input type="text" name="hd_total" id="hd_total"
+            class="disabled" disabled="disabled" />
+        <br class="double" />
+
+        <p class="error" id="display_err_p">
+            <span id="display_err">&nbsp;</span></p>
+        <label for="display_num">Number of Displays:</label>
+        <select name="display_num" id="display_num">
+            <option value="0">None</option>
+            <option value="1" selected="selected">1</option>
+            <option value="2">2</option>
+        </select>
+        <br />
+        <label for="display_size">Display Size:</label>
+        <select name="display_size" id="display_size">
+            <option value="0">19"</option>
+            <option value="1">22"</option>
+            <option value="2">24"</option>
+        </select>
+        <br class="double" />
+        
+        <label>&nbsp;</label>
+        <input type="submit" id="config_submit"
+            value="Place Order" />
+        <input type="button" id="config_reset"
+            value="Reset Form" />
+        <br />
+        </form>
+    </div>
+</body>
+</html>

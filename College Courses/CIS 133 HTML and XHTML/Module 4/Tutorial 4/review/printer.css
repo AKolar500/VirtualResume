@@ -1,0 +1,19 @@
+/*
+   New Perspectives on HTML and XHTML 5th Edition
+   Tutorial 4
+   Review Assignment
+
+   Online Scrapbooks Printer Style Sheet
+   Author: Alex Kolar
+   Date: 6/20/2012
+
+   Filename:         printer.css
+   Supporting Files: none
+
+*/
+
+#page {size:8.5in 11in portrait; margin:0.5in}
+#head, #links, address, #content ul, #content h2, #content p {display:none}
+.samples {text-align:center; page-break-after:always}
+.samples h3 {font-size:18; font-family:sans-serif}
+.samples img {width:6.5in; height:8.35in; border-width:0px}

@@ -1,0 +1,18 @@
+C:\Users\AlexJKolar\AppData\Local\Temporary Projects\IC03\bin\Debug\IC03.exe
+C:\Users\AlexJKolar\AppData\Local\Temporary Projects\IC03\bin\Debug\IC03.pdb
+C:\Users\AlexJKolar\AppData\Local\Temporary Projects\IC03\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\AlexJKolar\AppData\Local\Temporary Projects\IC03\obj\x86\Debug\IC03.Form1.resources
+C:\Users\AlexJKolar\AppData\Local\Temporary Projects\IC03\obj\x86\Debug\IC03.Properties.Resources.resources
+C:\Users\AlexJKolar\AppData\Local\Temporary Projects\IC03\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\AlexJKolar\AppData\Local\Temporary Projects\IC03\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\AlexJKolar\AppData\Local\Temporary Projects\IC03\obj\x86\Debug\IC03.exe
+C:\Users\AlexJKolar\AppData\Local\Temporary Projects\IC03\obj\x86\Debug\IC03.pdb
+F:\College Courses\CIS 162\Classwork\IC03\IC03\IC03\obj\x86\Debug\IC03.exe
+F:\College Courses\CIS 162\Classwork\IC03\IC03\IC03\obj\x86\Debug\IC03.pdb
+F:\College Courses\CIS 162\Classwork\IC03\IC03\IC03\bin\Debug\IC03.exe
+F:\College Courses\CIS 162\Classwork\IC03\IC03\IC03\bin\Debug\IC03.pdb
+F:\College Courses\CIS 162\Classwork\IC03\IC03\IC03\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\College Courses\CIS 162\Classwork\IC03\IC03\IC03\obj\x86\Debug\IC03.Form1.resources
+F:\College Courses\CIS 162\Classwork\IC03\IC03\IC03\obj\x86\Debug\IC03.Properties.Resources.resources
+F:\College Courses\CIS 162\Classwork\IC03\IC03\IC03\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\College Courses\CIS 162\Classwork\IC03\IC03\IC03\obj\x86\Debug\GenerateResource.write.1.tlog

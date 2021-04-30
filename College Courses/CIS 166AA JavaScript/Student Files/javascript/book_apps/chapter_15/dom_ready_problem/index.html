@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>DOM Ready Test</title>
+<link rel="stylesheet" type="text/css" href="ready_test.css"/>style>
+<script type="text/javascript" src="jslib_dom_ready.js"></script>
+<script type="text/javascript" src="ready_test.js"></script>
+</head>
+
+<body>
+<div id="content">
+    <h1 class="center">DOM Ready Test</h1>
+    <p>DOM Status: <span id="status">Not Ready</span></p>
+    <p><button id="btnTest">Test</button></p>
+    <p>
+        <!-- this script prevents the browser from caching the image -->
+        <script type="text/javascript">
+            var ms = (new Date()).getTime();
+            var site = "http://solarsystem.nasa.gov";
+            var path = "/multimedia/gallery/GPN-2001-000009.jpg";            
+            var url = site + path + "?ms=" + ms;           
+            document.write( '<img src="' + url + '" width="600" />' );
+        </script>
+    </p>
+</div>
+</body>
+</html>

@@ -1,0 +1,14 @@
+C:\Documents and Settings\John\Desktop\cis162ad\cs15\Entity\ic15Entity\ic15Entity\bin\Debug\ic15Entity.exe
+C:\Documents and Settings\John\Desktop\cis162ad\cs15\Entity\ic15Entity\ic15Entity\bin\Debug\ic15Entity.pdb
+C:\Documents and Settings\John\Desktop\cis162ad\cs15\Entity\ic15Entity\ic15Entity\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\John\Desktop\cis162ad\cs15\Entity\ic15Entity\ic15Entity\obj\x86\Debug\ic15Entity.Properties.Resources.resources
+C:\Documents and Settings\John\Desktop\cis162ad\cs15\Entity\ic15Entity\ic15Entity\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\John\Desktop\cis162ad\cs15\Entity\ic15Entity\ic15Entity\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\John\Desktop\cis162ad\cs15\Entity\ic15Entity\ic15Entity\obj\x86\Debug\ic15Entity.exe
+C:\Documents and Settings\John\Desktop\cis162ad\cs15\Entity\ic15Entity\ic15Entity\obj\x86\Debug\ic15Entity.pdb
+C:\Documents and Settings\John\Desktop\cis162ad\cs15\Entity\ic15Entity\ic15Entity\obj\x86\Debug\ic15Entity.Form1.resources
+C:\Documents and Settings\John\Desktop\cis162ad\cs15\Entity\ic15Entity\ic15Entity\bin\Debug\dbTranscripts.mdf
+C:\Documents and Settings\John\Desktop\cis162ad\cs15\Entity\ic15Entity\ic15Entity\bin\Debug\dbTranscripts_log.ldf
+C:\Documents and Settings\John\Desktop\cis162ad\cs15\Entity\ic15Entity\ic15Entity\bin\Debug\ClassLibrary1.dll
+C:\Documents and Settings\John\Desktop\cis162ad\cs15\Entity\ic15Entity\ic15Entity\bin\Debug\ClassLibrary1.pdb
+C:\Documents and Settings\John\Desktop\cis162ad\cs15\Entity\ic15Entity\ic15Entity\bin\Debug\ic15Entity.exe.config

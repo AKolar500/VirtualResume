@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #666666;
+    margin: 0;
+    padding: 0;
+}
+
+#content {
+    width: 454px;
+    margin: 10px auto;
+    padding: 5px 20px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+}
+
+.center {
+    text-align: center;
+}
+
+.outerbar {
+    border: 2px solid black;
+}
+
+.innerbar {
+    background-color: green;
+    width: 0%;
+}
+
+#toggle {
+    width: 8em;
+    margin-top: 1em;
+}

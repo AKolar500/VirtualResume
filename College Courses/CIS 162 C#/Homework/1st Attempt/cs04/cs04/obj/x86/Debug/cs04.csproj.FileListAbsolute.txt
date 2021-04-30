@@ -1,0 +1,22 @@
+E:\College Courses\CIS 162\Homework\cs04\cs04\bin\Debug\cs04.exe
+E:\College Courses\CIS 162\Homework\cs04\cs04\bin\Debug\cs04.pdb
+E:\College Courses\CIS 162\Homework\cs04\cs04\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\College Courses\CIS 162\Homework\cs04\cs04\obj\x86\Debug\cs04.Form1.resources
+E:\College Courses\CIS 162\Homework\cs04\cs04\obj\x86\Debug\cs04.Properties.Resources.resources
+E:\College Courses\CIS 162\Homework\cs04\cs04\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\College Courses\CIS 162\Homework\cs04\cs04\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\College Courses\CIS 162\Homework\cs04\cs04\obj\x86\Debug\cs04.exe
+E:\College Courses\CIS 162\Homework\cs04\cs04\obj\x86\Debug\cs04.pdb
+F:\College Courses\CIS 162\Homework\cs04\cs04\obj\x86\Debug\cs04.exe
+F:\College Courses\CIS 162\Homework\cs04\cs04\obj\x86\Debug\cs04.pdb
+F:\College Courses\CIS 162\Homework\1st Attempt\cs04\cs04\obj\x86\Debug\cs04.exe
+F:\College Courses\CIS 162\Homework\1st Attempt\cs04\cs04\obj\x86\Debug\cs04.pdb
+F:\College Courses\CIS 162\Homework\1st Attempt\cs04\cs04\bin\Debug\cs04.exe
+F:\College Courses\CIS 162\Homework\1st Attempt\cs04\cs04\bin\Debug\cs04.pdb
+F:\College Courses\CIS 162\Homework\1st Attempt\cs04\cs04\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\College Courses\CIS 162\Homework\1st Attempt\cs04\cs04\obj\x86\Debug\cs04.Form1.resources
+F:\College Courses\CIS 162\Homework\1st Attempt\cs04\cs04\obj\x86\Debug\cs04.Properties.Resources.resources
+F:\College Courses\CIS 162\Homework\1st Attempt\cs04\cs04\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\College Courses\CIS 162\Homework\1st Attempt\cs04\cs04\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\College Courses\CIS 162 C#\Homework\1st Attempt\cs04\cs04\obj\x86\Debug\cs04.exe
+F:\College Courses\CIS 162 C#\Homework\1st Attempt\cs04\cs04\obj\x86\Debug\cs04.pdb

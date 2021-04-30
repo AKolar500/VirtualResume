@@ -1,0 +1,14 @@
+C:\Users\Chris\documents\visual studio 10\Projects\Argument Demo\Argument Demo\bin\Debug\Argument Demo.exe
+C:\Users\Chris\documents\visual studio 10\Projects\Argument Demo\Argument Demo\bin\Debug\Argument Demo.pdb
+C:\Users\Chris\documents\visual studio 10\Projects\Argument Demo\Argument Demo\bin\Debug\Argument Demo.xml
+C:\Users\Chris\documents\visual studio 10\Projects\Argument Demo\Argument Demo\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Chris\documents\visual studio 10\Projects\Argument Demo\Argument Demo\obj\x86\Debug\Argument_Demo.Form1.resources
+C:\Users\Chris\documents\visual studio 10\Projects\Argument Demo\Argument Demo\obj\x86\Debug\Argument_Demo.Resources.resources
+C:\Users\Chris\documents\visual studio 10\Projects\Argument Demo\Argument Demo\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Chris\documents\visual studio 10\Projects\Argument Demo\Argument Demo\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Chris\documents\visual studio 10\Projects\Argument Demo\Argument Demo\obj\x86\Debug\Argument Demo.exe
+C:\Users\Chris\documents\visual studio 10\Projects\Argument Demo\Argument Demo\obj\x86\Debug\Argument Demo.xml
+C:\Users\Chris\documents\visual studio 10\Projects\Argument Demo\Argument Demo\obj\x86\Debug\Argument Demo.pdb
+C:\Users\Tony\Documents\Books\VB\VB 5th Edition\Student Sample Programs\Chap6\Argument Demo\Argument Demo\obj\x86\Debug\Argument Demo.exe
+C:\Users\Tony\Documents\Books\VB\VB 5th Edition\Student Sample Programs\Chap6\Argument Demo\Argument Demo\obj\x86\Debug\Argument Demo.xml
+C:\Users\Tony\Documents\Books\VB\VB 5th Edition\Student Sample Programs\Chap6\Argument Demo\Argument Demo\obj\x86\Debug\Argument Demo.pdb

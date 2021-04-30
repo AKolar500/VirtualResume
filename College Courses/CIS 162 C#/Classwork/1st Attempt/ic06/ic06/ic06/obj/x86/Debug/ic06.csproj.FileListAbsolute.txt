@@ -1,0 +1,10 @@
+E:\College Courses\CIS 162\ic06\ic06\ic06\bin\Debug\ic06.exe
+E:\College Courses\CIS 162\ic06\ic06\ic06\bin\Debug\ic06.pdb
+E:\College Courses\CIS 162\ic06\ic06\ic06\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\College Courses\CIS 162\ic06\ic06\ic06\obj\x86\Debug\ic05_021512.frmIC05a.resources
+E:\College Courses\CIS 162\ic06\ic06\ic06\obj\x86\Debug\ic05_021512.frmIC05b.resources
+E:\College Courses\CIS 162\ic06\ic06\ic06\obj\x86\Debug\ic06.Properties.Resources.resources
+E:\College Courses\CIS 162\ic06\ic06\ic06\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\College Courses\CIS 162\ic06\ic06\ic06\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\College Courses\CIS 162\ic06\ic06\ic06\obj\x86\Debug\ic06.exe
+E:\College Courses\CIS 162\ic06\ic06\ic06\obj\x86\Debug\ic06.pdb

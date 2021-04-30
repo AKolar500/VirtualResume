@@ -1,0 +1,3 @@
+T|love|7|A
+H|peace|3|A
+H|war|4|A

@@ -1,0 +1,25 @@
+C:\Documents and Settings\John\Local Settings\Application Data\Temporary Projects\cs8Start\bin\Debug\cs8Start.exe
+C:\Documents and Settings\John\Local Settings\Application Data\Temporary Projects\cs8Start\bin\Debug\cs8Start.pdb
+C:\Documents and Settings\John\Local Settings\Application Data\Temporary Projects\cs8Start\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\John\Local Settings\Application Data\Temporary Projects\cs8Start\obj\x86\Debug\cs08.Form1.resources
+C:\Documents and Settings\John\Local Settings\Application Data\Temporary Projects\cs8Start\obj\x86\Debug\cs08.Properties.Resources.resources
+C:\Documents and Settings\John\Local Settings\Application Data\Temporary Projects\cs8Start\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\John\Local Settings\Application Data\Temporary Projects\cs8Start\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\John\Local Settings\Application Data\Temporary Projects\cs8Start\obj\x86\Debug\cs8Start.exe
+C:\Documents and Settings\John\Local Settings\Application Data\Temporary Projects\cs8Start\obj\x86\Debug\cs8Start.pdb
+C:\Documents and Settings\John\Desktop\cis159\cis162ad Projects\cs8Start\cs8Start\obj\x86\Debug\cs8Start.exe
+C:\Documents and Settings\John\Desktop\Temp\cs8Start\cs8Start\obj\x86\Debug\cs8Start.exe
+C:\Documents and Settings\John\Desktop\Temp\cs8Start\cs8Start\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\John\Desktop\Temp\cs8Start\cs8Start\obj\x86\Debug\cs08.Form1.resources
+C:\Documents and Settings\John\Desktop\Temp\cs8Start\cs8Start\obj\x86\Debug\cs08.Properties.Resources.resources
+C:\Documents and Settings\John\Desktop\Temp\cs8Start\cs8Start\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\John\Desktop\Temp\cs8Start\cs8Start\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\College Courses\CIS 162 C#\Homework\2nd Attempt\cs8Start\cs8Start\obj\x86\Debug\cs8Start.exe
+F:\College Courses\CIS 162 C#\Homework\2nd Attempt\cs8Start\cs8Start\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\College Courses\CIS 162 C#\Homework\2nd Attempt\cs8Start\cs8Start\obj\x86\Debug\cs08.Form1.resources
+F:\College Courses\CIS 162 C#\Homework\2nd Attempt\cs8Start\cs8Start\obj\x86\Debug\cs08.Properties.Resources.resources
+F:\College Courses\CIS 162 C#\Homework\2nd Attempt\cs8Start\cs8Start\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\College Courses\CIS 162 C#\Homework\2nd Attempt\cs8Start\cs8Start\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\College Courses\CIS 162 C#\Homework\2nd Attempt\cs8Start\cs8Start\bin\Debug\cs8Start.exe
+F:\College Courses\CIS 162 C#\Homework\2nd Attempt\cs8Start\cs8Start\bin\Debug\cs8Start.pdb
+F:\College Courses\CIS 162 C#\Homework\2nd Attempt\cs8Start\cs8Start\obj\x86\Debug\cs8Start.pdb

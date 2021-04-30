@@ -1,0 +1,10 @@
+E:\College Courses\CIS 162\Homework\cs05\cs5\cs5\bin\Debug\cs5.exe
+E:\College Courses\CIS 162\Homework\cs05\cs5\cs5\bin\Debug\cs5.pdb
+E:\College Courses\CIS 162\Homework\cs05\cs5\cs5\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\College Courses\CIS 162\Homework\cs05\cs5\cs5\obj\x86\Debug\cs04.Form1.resources
+E:\College Courses\CIS 162\Homework\cs05\cs5\cs5\obj\x86\Debug\cs05.Form2.resources
+E:\College Courses\CIS 162\Homework\cs05\cs5\cs5\obj\x86\Debug\cs05.Properties.Resources.resources
+E:\College Courses\CIS 162\Homework\cs05\cs5\cs5\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\College Courses\CIS 162\Homework\cs05\cs5\cs5\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\College Courses\CIS 162\Homework\cs05\cs5\cs5\obj\x86\Debug\cs5.exe
+E:\College Courses\CIS 162\Homework\cs05\cs5\cs5\obj\x86\Debug\cs5.pdb

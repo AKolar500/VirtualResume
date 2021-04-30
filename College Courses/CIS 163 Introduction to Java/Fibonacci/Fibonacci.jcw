@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspace>
+	<settings>
+		<label>Fibonacci</label>
+		<id>66</id>
+		<version>0</version>
+	</settings>
+	<users>
+		<user>
+			<path>Fibonacci.jcu</path>
+		</user>
+	</users>
+	<projects>
+		<project>
+			<path>Fibonacci.jcp</path>
+		</project>
+		<project>
+			<path>..\NewFibonacci\NewFibonacci.jcp</path>
+		</project>
+	</projects>
+</workspace>

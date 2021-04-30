@@ -1,0 +1,28 @@
+/*
+   New Perspectives on HTML and XHTML 5th Edition
+   Tutorial 3
+   Review Assignment
+
+   Sunny Acres Holiday Festival Style Sheet
+   Author: Alex Kolar
+   Date: 6/15/2012
+
+   Filename:         sunny.css
+   Supporting Files: greenbar.jpg
+
+*/
+
+body {margin:0px; font-family:Arial, Helvetica, sans-serif; background-color:white; background-image:url(greenbar.jpg) }
+h1 {border-bottom:3px solid green; margin:0px}
+h2 {background-color:green; color:white; padding-left:5px; letter-spacing:7px}
+h3 {background-color:green; color:white; padding-left:5px; letter-spacing:7px; width:200px}
+address {font:8 green; text-align:center; padding-top:5px; border-top:3px solid green}
+
+#outer {width:770px}
+#inner {margin-left:225px; padding-left:10px}
+#photobox {float:right; text-align:center; font:italic 8; background-color:rgb(255, 215, 71); margin:10px 0px 10px 10px; border:solid black; border-width: 1px 4px 4px 1px}
+#photo {display:block; margin: 4px 4px 0px 4px}
+#links {float:left}
+
+
+a {display:block; text-decoration:none; width:180px; margin:5px; padding:5px; background-color:rgb(255,215,71); border:solid black; border-width:1px 3px 3px 1px}

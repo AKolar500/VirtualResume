@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Monthly Balance Calculator</title>
+<link rel="stylesheet" type="text/css" href="monthly_balance.css" />
+<script type="text/javascript" src="monthly_balance_library.js"></script>
+<script type="text/javascript" src="monthly_balance.js"></script>
+</head>
+
+<body>
+<div id="content">
+    <h1>Monthly Balance Calculator</h1><br />
+	<h1>Add Transaction</h1>
+    <div class="formLayout">
+        <label for="date">Date:</label>
+            <input type="text" name="date" id="date" /><br />
+        <label for="types">Type:</label>
+            <select name="types" id="types" size="2">
+				<option value="withdrawal">Withdrawal</option>
+				<option value="deposit">Deposit</option>
+			</select><br />
+        <label for="amount">Amount:</label>
+            <input type="text" name="amount" id="amount" /><br />
+        <label>&nbsp;</label>
+            <input type="button" id="item_add" value="Add Transaction" /><br />
+    </div><br />
+	
+	<h1>Transactions</h1>
+	<div class="formLayout">
+		<p><textarea id="transactions" rows="10" cols="80"></textarea></p>
+	</div><br />
+	
+	<h1>Summary</h1>
+    <div class="formLayout">
+        <label for="starting_balance">Starting Balance:</label>
+            <input type="text" name="starting_balance" id="starting_balance" 
+                    class="disabled" disabled="disabled" /><br />
+        <label for="total_deposits">Total Deposits:</label>
+            <input type="text" name="total_deposits" id="total_deposits" 
+                    class="disabled" disabled="disabled" /><br />
+        <label for="total_withdrawals">Total Withdrawals:</label>
+            <input type="text" name="total_withdrawals" id="total_withdrawals" 
+                    class="disabled" disabled="disabled" /><br />
+        <label for="ending_balance">Ending Balance:</label>
+            <input type="text" name="ending_balance" id="ending_balance" 
+                    class="disabled" disabled="disabled" /><br />
+    </div>
+</body>
+</html>

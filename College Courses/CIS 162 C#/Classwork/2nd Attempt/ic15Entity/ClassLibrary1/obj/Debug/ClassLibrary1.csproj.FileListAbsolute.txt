@@ -1,0 +1,8 @@
+C:\Documents and Settings\John\Desktop\cis162ad\cs15\Entity\ic15Entity\ClassLibrary1\bin\Debug\dbTranscripts.mdf
+C:\Documents and Settings\John\Desktop\cis162ad\cs15\Entity\ic15Entity\ClassLibrary1\bin\Debug\dbTranscripts_log.ldf
+C:\Documents and Settings\John\Desktop\cis162ad\cs15\Entity\ic15Entity\ClassLibrary1\bin\Debug\ClassLibrary1.dll.config
+C:\Documents and Settings\John\Desktop\cis162ad\cs15\Entity\ic15Entity\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+C:\Documents and Settings\John\Desktop\cis162ad\cs15\Entity\ic15Entity\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\Documents and Settings\John\Desktop\cis162ad\cs15\Entity\ic15Entity\ClassLibrary1\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\John\Desktop\cis162ad\cs15\Entity\ic15Entity\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+C:\Documents and Settings\John\Desktop\cis162ad\cs15\Entity\ic15Entity\ClassLibrary1\obj\Debug\ClassLibrary1.pdb

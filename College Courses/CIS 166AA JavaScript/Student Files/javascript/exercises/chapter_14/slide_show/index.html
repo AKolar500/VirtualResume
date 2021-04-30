@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Slide Show</title>
+    <link rel="stylesheet" type="text/css" href="slide_show.css"/>
+    <script type="text/javascript" src="jslib_event.js"></script>
+    <script type="text/javascript" src="jslib_event_mouse.js"></script>
+    <script type="text/javascript" src="jslib_event_keyboard.js"></script>
+    <script type="text/javascript" src="slide_show_library.js"></script>
+    <script type="text/javascript" src="slide_show.js"></script>
+</head>
+
+<body>
+<div id="content">
+    <h1 class="center">Fishing Slide Show</h1>
+    <div id="instructions">
+        <table border="0" cellpadding="3" cellspacing="0">
+            <caption>Keyboard Controls</caption>
+            <tr><th>Key</th><th>Action</th></tr>
+            <tr><td>Space</td><td>Toggle Pause/Play</td></tr>
+            <tr><td>Left-arrow</td><td>Previous Image When Paused</td></tr>
+            <tr><td>Right-arrow</td><td>Next Image When Paused</td></tr>
+            <tr><td>Esc</td><td>Reset Slide Show</td></tr>
+        </table>
+        <table border="0" cellpadding="3" cellspacing="0">
+            <caption>Mouse Controls for Image</caption>
+            <tr><th>Mouse</th><th>Action</th></tr>
+            <tr><td>Shift+Click</td><td>Toggle Pause/Play</td></tr>
+            <tr><td>Click</td><td>Next Image When Paused</td></tr>
+            <tr><td>Right-click</td><td>Previous Image When Paused</td></tr>
+        </table>
+        <p>Note: Right click doesn't work in Opera.</p>
+    </div>
+    <div id="main">
+        <ul class="center" id="imageList">
+            <li><a href="casting1.jpg" title="Casting 1">Casting 1</a></li>
+            <li><a href="casting2.jpg" title="Casting 2">Casting 2</a></li>
+            <li><a href="catchrelease.jpg" title="Catch and Release">
+                Catch and Release</a></li>
+            <li><a href="fish.jpg" title="Fish">Fish</a></li>
+            <li><a href="lures.jpg" title="Lures">Lures</a></li>
+        </ul>
+        <p class="center">
+            <button id="btnPrevious" disabled="disabled">
+                <img src="prev.gif" alt="Previous Image" />
+            </button>
+            <button id="btnPlay">
+                <img src="pause.gif" alt="Play or Pause" id="imgPlayPause" />
+            </button>
+            <input type="button" id="btnSpeed" value="Fast" />
+            <button id="btnNext" disabled="disabled">
+                <img src="next.gif" alt="Next Image" />
+            </button>
+        </p>
+        <p class="center"><span id="caption">Casting 1</span></p>
+        <p class="center">
+            <img src="casting1.jpg" alt="Casting 1" id="image" />
+        </p>
+    </div>
+</div>
+</body>
+</html>

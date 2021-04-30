@@ -1,0 +1,98 @@
+/********************************************************************
+* Description: Primary style sheet for Mike's Bait and Tackel Shop
+* Author:      Joel Murach
+********************************************************************/
+
+/* the styles for the body tag */
+body {
+    margin-top: 0;
+    background-color: dodgerBlue;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 81.25%;
+}
+
+/* the styles for the div tags that divide the page into sections */
+#page {
+    width: 760px;
+    margin: 0 auto;
+    background-color: white;
+    border: 3px solid black;
+    border-top: none;
+}
+
+#header, #main, #footer {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+#header {
+    border-bottom: 1px solid gray;
+}
+
+#main {
+    padding-top: 1em;
+    padding-left: 0;
+}
+#sidebar {
+    position: absolute;
+    width: 10em;
+}
+#content {
+    margin-left: 10em;
+}
+
+#footer {
+    border-top: 1px solid gray;
+    padding-bottom: 0.5em;
+}
+
+/* the styles for the XHTML elements */
+h1, h2 {
+    color: darkOrange;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+h1 { 
+    font-size: 150%;
+    margin-top: 0;
+    padding-top: 0.5em;
+}
+h2 { 
+    font-size: 120%; 
+}
+
+ul {
+    margin: 0 0 1em 0;
+    padding: 0 0 0 2.5em;
+}
+li {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: mediumBlue;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 1px dashed darkOrange;
+}
+a:hover {
+    border-bottom: 1px solid darkOrange;
+}
+
+/* the styles for the XHTML classes */
+.copyright {
+    color: gray;
+    font-size: 80%;
+    text-align: right;
+    margin-bottom: 0;
+}
+p.first {
+    margin-top: 0;
+}
+ul.nav {
+    margin: 0;
+    padding-left: 1.25em;
+    list-style-type: none;
+}
+ul.nav li {
+    padding-bottom: 0.5em;
+}

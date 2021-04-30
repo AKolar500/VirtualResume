@@ -1,0 +1,25 @@
+/*
+   New Perspectives on HTML and XHTML 5th Edition
+   Tutorial 4
+   Case Problem 1
+
+   Willet Creek Screen Style Sheet
+   Author: 
+   Date:   
+
+   Filename:         willet.css
+   Supporting Files: 
+
+*/
+
+body                  {background-color: white; margin: 0px; padding: 0px; 
+                       font-family: sans-serif}
+a                     {text-decoration:none}
+#page_content         {width: 780px}
+#head                 {text-align: center; background-color: rgb(53, 43, 48); 
+                       margin: 0px}
+#hole_list            {text-align: center; height: 30px; margin: 0px;  
+                       background-color: rgb(53, 43, 48)}
+#hole_stats           {width: 120px; height: 200px; 
+                       color: white; background-color: rgb(53, 43, 48)}
+#hole_summary         {height: 200px; width: 660px; border: 1px solid rgb(53, 43, 48) }

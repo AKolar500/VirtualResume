@@ -1,0 +1,3 @@
+1945  James             Hoffa              10.00  12
+1002  Larry             Jones              10.00  50
+1003  Paul              Sailor             15.00 150

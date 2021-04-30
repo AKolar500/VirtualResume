@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Invoice Manager</title>
+<link rel="stylesheet" type="text/css" href="invoice.css" />
+<script type="text/javascript" src="invoice_library.js"></script>
+<script type="text/javascript" src="invoice.js"></script>
+</head>
+
+<body>
+<div id="content">
+    <h1>Invoice Manager</h1>
+    <div class="formLayout">
+        <label for="item_code">Item Code:</label>
+            <input type="text" name="item_code" id="item_code" /><br />
+        <label for="item_name">Item Name:</label>
+            <input type="text" name="item_name" id="item_name" /><br />
+        <label for="item_cost">Item Cost:</label>
+            <input type="text" name="item_cost" id="item_cost" /><br />
+        <label for="item_qty">Quantity:</label>
+            <input type="text" name="item_qty" id="item_qty"
+                    value="1" /><br />
+        <label for="notes">Notes</label>
+            <input type="text" name="item_notes" id="item_notes" /><br />
+		<label>&nbsp;</label>
+            <input type="button" id="item_add"
+                value="Add/Update Item" /><br />
+    </div>
+    <div class="formLayout deleteForm">
+        <label for="item_delete_code">Item Code:</label>
+            <input type="text"
+                name="item_delete_code" id="item_delete_code" /><br />
+        <label>&nbsp;</label>
+            <input type="button" id="item_delete"
+                value="Delete Item" /><br />
+    </div>    <p class="startInvoice">Current Invoice</p>
+    <p><textarea id="item_list" rows="5" cols="90"></textarea></p>
+    <div class="formLayout">
+        <label for="subtotal">Subtotal:</label>
+            <input type="text" name="subtotal" id="subtotal" 
+                    class="disabled" disabled="disabled" /><br />
+        <label for="sales_tax">Sales Tax:</label>
+            <input type="text" name="sales_tax" id="sales_tax" 
+                    class="disabled" disabled="disabled" /><br />
+        <label for="total">Total:</label>
+            <input type="text" name="total" id="total" 
+                    class="disabled" disabled="disabled" /><br />
+    </div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+C:\Users\Chris\documents\visual studio 10\Projects\Selected Text Demo\Selected Text Demo\bin\Debug\Selected Text Demo.exe
+C:\Users\Chris\documents\visual studio 10\Projects\Selected Text Demo\Selected Text Demo\bin\Debug\Selected Text Demo.pdb
+C:\Users\Chris\documents\visual studio 10\Projects\Selected Text Demo\Selected Text Demo\bin\Debug\Selected Text Demo.xml
+C:\Users\Chris\documents\visual studio 10\Projects\Selected Text Demo\Selected Text Demo\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Chris\documents\visual studio 10\Projects\Selected Text Demo\Selected Text Demo\obj\x86\Debug\Selected_Text_Demo.Form1.resources
+C:\Users\Chris\documents\visual studio 10\Projects\Selected Text Demo\Selected Text Demo\obj\x86\Debug\Selected_Text_Demo.Resources.resources
+C:\Users\Chris\documents\visual studio 10\Projects\Selected Text Demo\Selected Text Demo\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Chris\documents\visual studio 10\Projects\Selected Text Demo\Selected Text Demo\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Chris\documents\visual studio 10\Projects\Selected Text Demo\Selected Text Demo\obj\x86\Debug\Selected Text Demo.exe
+C:\Users\Chris\documents\visual studio 10\Projects\Selected Text Demo\Selected Text Demo\obj\x86\Debug\Selected Text Demo.xml
+C:\Users\Chris\documents\visual studio 10\Projects\Selected Text Demo\Selected Text Demo\obj\x86\Debug\Selected Text Demo.pdb

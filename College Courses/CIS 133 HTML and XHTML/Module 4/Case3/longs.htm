@@ -1,0 +1,187 @@
+<html>
+<head>
+<!-- 
+   New Perspectives on HTML and XHTML
+   Tutorial 4
+   Case Problem 3
+
+   Longs Peak Online Map
+   Author: Alex Kolar
+   Date: 6/21/2012
+
+   Filename:         longs.htm
+   Supporting files: image.jpg - image9.jpg, lpmap.jpg
+-->
+   <title>Longs Peak Online Map</title>
+
+   <style type="text/css" media="screen, tv">
+      body           {font-family: sans-serif; margin: 20px; margin-bottom: 150px}
+      h2             {margin-top: 0px}
+      img            {border-width: 0px; display: block}
+      #summary       {width: 600px; margin-bottom: 20px}
+
+	a {text-decoration:none}
+	#online_map {width:600px; height:294px; border:1px solid black; background-image:url(Lpmap.jpg); repeat:no-repeat; position:relative; left:0px; top:0px}
+	#point0 {position:absolute; left:560px; top:60px}
+	#point1 {position:absolute; left:277px; top:90px}
+	#point2 {position:absolute; left:175px; top:0px}
+	#point3 {position:absolute; left:110px; top:115px}
+	#point4 {position:absolute; left:55px; top:165px}
+	#point5 {position:absolute; left:5px; top:180px}
+	#point6 {position:absolute; left:15px; top:222px}
+	#point7 {position:absolute; left:50px; top:245px}
+	#point8 {position:absolute; left:100px; top:245px}
+	#point9 {position:absolute; left:90px; top:220px}
+
+	.notes p {font-size:8; margin:5px}
+	.notes span {color:yellow}
+	.notes a {width:20px; height:20px; overflow:hidden; background-color:blue; color:white; z-index:1}
+	.notes a:link {text-decoration:none}
+	.notes a:visited {text-decoration:none}
+	.notes a:hover {text-decoration:none; width:150px; height:170px; overflow:visible; z-index:2}
+	.notes a:active {text-decoration:none}
+   </style>
+
+<style type="text/css" media="print">
+	#page {font-family:sans-serif}
+	a {text-decoration:none}
+	#instructions, h2 span, .notes img {display:none}
+	.notes {list-style-type:disc; margin:20px}
+	.notes p {display:inline}
+	.notes span {font-style:bold}
+	h2:after {content:"Trail Itinerary"}
+</style>
+
+</head>
+
+<body>
+   <div id="summary">
+
+      <h2>Longs Peak <span>Online Trail Map</span></h2>
+
+      <p>
+         At 14,255 feet, Longs Peak towers above all other summits in Rocky Mountain 
+         National Park. The summer is the only season in which the peak can be climbed 
+         by a non-technical route. Early mornings break calm, clouds build in the 
+         afternoon sky, often exploding in storms of brief, heavy rain, thunder and 
+         dangerous lightning. Begin your hike early, way before dawn, to be back below 
+         timberline before the weather turns for the worse.
+      </p>
+      <p>
+         The Keyhole Route, Longs Peak's only non-technical hiking pathway, is a 16 
+         mile round trip with an elevation gain of 4,850 feet. Though non-technical, 
+         the Keyhole Route is still challenging and is not recommended for those who 
+         are afraid of heights or exposed ledges. Hikers should be properly outfitted 
+         with clothing, food and water. Use caution when ascending or descending steep 
+         areas. Don't be afraid to back down when bad weather threatens.
+      </p>
+      <p id="instruction">
+         Move your mouse pointer over the numbered landmarks in the map to preview the hike.
+      </p>
+   </div>
+
+
+   <div id="online_map">
+
+      <div class="notes" id="point0">
+<a href="#">
+            <img src="image0.jpg" alt="" />
+            <p>
+               <span>3:30 a.m.</span> Start from the Longs Peak Ranger Station, 
+                nine miles south of Estes Park. Be sure to pack food, extra water, 
+                sunblock, and warm clothes, gloves, and caps.
+            </p>
+</a>
+      </div>
+
+      <div class="notes" id="point1">
+<a href="#">
+            <img src="image1.jpg" alt="" />
+            <p>
+               <span>5:30 a.m.</span> Stop at Mills Moraine for a view of the 
+               sunrise.
+           </p>
+</a>
+      </div>
+
+      <div class="notes" id="point2">
+<a href="#">
+            <img src="image2.jpg" alt="" />
+            <p>
+               <span>7:30 a.m.</span> Time for break at Granite Pass.
+            </p>
+</a>
+      </div>
+
+      <div class="notes" id="point3">
+<a href="#">
+            <img src="image3.jpg" alt="" />
+            <p>
+               <span>8:30 a.m.</span> Climb through the Boulder Field on the 
+               way to the Keyhole.
+            </p>
+</a>
+      </div>
+
+      <div class="notes" id="point4">
+<a href="#">
+            <img src="image4.jpg" alt="" />
+            <p>
+               <span>9:00 a.m.</span> Stop at the
+               Agnes Vaille shelter for a well-deserved breakfast.
+            </p>
+</a>
+      </div>
+
+      <div class="notes" id="point5">
+<a href="#">
+            <img src="image5.jpg" alt="" />
+            <p>
+               <span>9:30 a.m.</span> It's time to go through
+               the Keyhole. Be prepared for heavy winds.
+            </p>
+</a>
+      </div>
+
+      <div class="notes" id="point6">
+<a href="#">
+            <img src="image6.jpg" alt="" />
+            <p>
+               <span>10:00 a.m.</span> Follow the painted targets along the Ledges.
+            </p>
+</a>
+      </div>
+
+      <div class="notes" id="point7">
+<a href="#">
+            <img src="image7.jpg" alt="" />
+            <p>
+               <span>11:00 a.m.</span> Take special care when crossing the Narrows.
+            </p>
+</a>
+      </div>
+
+      <div class="notes" id="point8">
+<a href="#">
+            <img src="image8.jpg" alt="" />
+            <p>
+               <span>11:15 a.m.</span> You're almost there! Climb the Homestretch
+               to reach the summit.
+            </p>
+</a>
+      </div>
+
+      <div class="notes" id="point9">
+<a href="#">
+            <img src="image9.jpg" alt="" />
+            <p>
+               <span>11:45 a.m.</span> Congratulations, you've reached the top!
+               Time for lunch and a few photos.
+            </p>
+</a>
+      </div>
+
+   </div>
+
+</body>
+</html>

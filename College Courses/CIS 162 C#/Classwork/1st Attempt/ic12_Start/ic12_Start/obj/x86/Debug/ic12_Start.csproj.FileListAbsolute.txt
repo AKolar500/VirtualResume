@@ -1,0 +1,9 @@
+F:\College Courses\CIS 162\Classwork\ic12_Start\ic12_Start\bin\Debug\ic12_Start.exe
+F:\College Courses\CIS 162\Classwork\ic12_Start\ic12_Start\bin\Debug\ic12_Start.pdb
+F:\College Courses\CIS 162\Classwork\ic12_Start\ic12_Start\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\College Courses\CIS 162\Classwork\ic12_Start\ic12_Start\obj\x86\Debug\ic12_Start.Form1.resources
+F:\College Courses\CIS 162\Classwork\ic12_Start\ic12_Start\obj\x86\Debug\ic12_Start.Properties.Resources.resources
+F:\College Courses\CIS 162\Classwork\ic12_Start\ic12_Start\obj\x86\Debug\ResGen.read.1.tlog
+F:\College Courses\CIS 162\Classwork\ic12_Start\ic12_Start\obj\x86\Debug\ResGen.write.1.tlog
+F:\College Courses\CIS 162\Classwork\ic12_Start\ic12_Start\obj\x86\Debug\ic12_Start.exe
+F:\College Courses\CIS 162\Classwork\ic12_Start\ic12_Start\obj\x86\Debug\ic12_Start.pdb

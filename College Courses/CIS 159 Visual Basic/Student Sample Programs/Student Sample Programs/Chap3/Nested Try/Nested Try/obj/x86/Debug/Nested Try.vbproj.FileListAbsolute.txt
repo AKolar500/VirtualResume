@@ -1,0 +1,14 @@
+C:\Users\Chris\AppData\Local\Temporary Projects\Nested Try\bin\Debug\Nested Try.exe
+C:\Users\Chris\AppData\Local\Temporary Projects\Nested Try\bin\Debug\Nested Try.pdb
+C:\Users\Chris\AppData\Local\Temporary Projects\Nested Try\bin\Debug\Nested Try.xml
+C:\Users\Chris\AppData\Local\Temporary Projects\Nested Try\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Chris\AppData\Local\Temporary Projects\Nested Try\obj\x86\Debug\Nested_Try.Form1.resources
+C:\Users\Chris\AppData\Local\Temporary Projects\Nested Try\obj\x86\Debug\Nested_Try.Resources.resources
+C:\Users\Chris\AppData\Local\Temporary Projects\Nested Try\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Chris\AppData\Local\Temporary Projects\Nested Try\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Chris\AppData\Local\Temporary Projects\Nested Try\obj\x86\Debug\Nested Try.exe
+C:\Users\Chris\AppData\Local\Temporary Projects\Nested Try\obj\x86\Debug\Nested Try.xml
+C:\Users\Chris\AppData\Local\Temporary Projects\Nested Try\obj\x86\Debug\Nested Try.pdb
+C:\Users\Chris\documents\visual studio 10\Projects\Nested Try\Nested Try\obj\x86\Debug\Nested Try.exe
+C:\Users\Chris\documents\visual studio 10\Projects\Nested Try\Nested Try\obj\x86\Debug\Nested Try.xml
+C:\Users\Chris\documents\visual studio 10\Projects\Nested Try\Nested Try\obj\x86\Debug\Nested Try.pdb

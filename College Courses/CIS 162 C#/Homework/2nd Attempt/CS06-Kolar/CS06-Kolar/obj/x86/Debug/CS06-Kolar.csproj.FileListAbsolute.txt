@@ -1,0 +1,10 @@
+F:\College Courses\CIS 162 C#\Homework\2nd Attempt\CS06-Kolar\CS06-Kolar\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\College Courses\CIS 162 C#\Homework\2nd Attempt\CS06-Kolar\CS06-Kolar\obj\x86\Debug\CS05_Kolar.Form1.resources
+F:\College Courses\CIS 162 C#\Homework\2nd Attempt\CS06-Kolar\CS06-Kolar\obj\x86\Debug\CS05_Kolar.Form2.resources
+F:\College Courses\CIS 162 C#\Homework\2nd Attempt\CS06-Kolar\CS06-Kolar\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\College Courses\CIS 162 C#\Homework\2nd Attempt\CS06-Kolar\CS06-Kolar\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\College Courses\CIS 162 C#\Homework\2nd Attempt\CS06-Kolar\CS06-Kolar\bin\Debug\CS06-Kolar.exe
+F:\College Courses\CIS 162 C#\Homework\2nd Attempt\CS06-Kolar\CS06-Kolar\bin\Debug\CS06-Kolar.pdb
+F:\College Courses\CIS 162 C#\Homework\2nd Attempt\CS06-Kolar\CS06-Kolar\obj\x86\Debug\CS05_Kolar.Properties.Resources.resources
+F:\College Courses\CIS 162 C#\Homework\2nd Attempt\CS06-Kolar\CS06-Kolar\obj\x86\Debug\CS06-Kolar.exe
+F:\College Courses\CIS 162 C#\Homework\2nd Attempt\CS06-Kolar\CS06-Kolar\obj\x86\Debug\CS06-Kolar.pdb

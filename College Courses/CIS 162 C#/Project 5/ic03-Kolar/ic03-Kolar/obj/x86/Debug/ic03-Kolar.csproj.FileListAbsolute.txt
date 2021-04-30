@@ -1,0 +1,11 @@
+E:\College Courses\CIS\Project 5\ic03-Kolar\ic03-Kolar\bin\Debug\ic03-Kolar.exe
+E:\College Courses\CIS\Project 5\ic03-Kolar\ic03-Kolar\bin\Debug\ic03-Kolar.pdb
+E:\College Courses\CIS\Project 5\ic03-Kolar\ic03-Kolar\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\College Courses\CIS\Project 5\ic03-Kolar\ic03-Kolar\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+E:\College Courses\CIS\Project 5\ic03-Kolar\ic03-Kolar\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+E:\College Courses\CIS\Project 5\ic03-Kolar\ic03-Kolar\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\College Courses\CIS\Project 5\ic03-Kolar\ic03-Kolar\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\College Courses\CIS\Project 5\ic03-Kolar\ic03-Kolar\obj\x86\Debug\ic03-Kolar.exe
+E:\College Courses\CIS\Project 5\ic03-Kolar\ic03-Kolar\obj\x86\Debug\ic03-Kolar.pdb
+E:\College Courses\CIS 162\Project 5\ic03-Kolar\ic03-Kolar\obj\x86\Debug\ic03-Kolar.exe
+E:\College Courses\CIS 162\Project 5\ic03-Kolar\ic03-Kolar\obj\x86\Debug\ic03-Kolar.pdb

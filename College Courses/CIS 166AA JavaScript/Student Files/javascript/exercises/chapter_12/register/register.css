@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #666666;
+}
+
+#content {
+    width: 760px;
+    margin: 10px auto;
+    padding: 5px 20px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+}
+
+.center { text-align: center; }
+
+fieldset {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+legend {
+    color: black;
+    font-weight: bold;
+    font-size: 85%;
+}
+
+.formLayout {
+    padding-top: 1em;
+}
+
+.formLayout label {
+    float: left;
+    width: 10em;
+    text-align: right;
+}
+
+.formLayout input, .formLayout select {
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.formLayout select {
+    width: 11em;
+}
+
+.formLayout br {
+    clear: both;
+}
+
+.error {
+    color: red;
+}
+
+.notice {
+    color: red;
+    font-size: 67%;
+    text-align: right;
+}

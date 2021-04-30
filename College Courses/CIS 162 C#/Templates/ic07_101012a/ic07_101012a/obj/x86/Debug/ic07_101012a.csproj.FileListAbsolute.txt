@@ -1,0 +1,9 @@
+C:\Documents and Settings\John\Desktop\cis162ad\cs07\ic07_101012a\ic07_101012a\bin\Debug\ic07_101012a.exe
+C:\Documents and Settings\John\Desktop\cis162ad\cs07\ic07_101012a\ic07_101012a\bin\Debug\ic07_101012a.pdb
+C:\Documents and Settings\John\Desktop\cis162ad\cs07\ic07_101012a\ic07_101012a\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\John\Desktop\cis162ad\cs07\ic07_101012a\ic07_101012a\obj\x86\Debug\ic07_101012a.Form1.resources
+C:\Documents and Settings\John\Desktop\cis162ad\cs07\ic07_101012a\ic07_101012a\obj\x86\Debug\ic07_101012a.Properties.Resources.resources
+C:\Documents and Settings\John\Desktop\cis162ad\cs07\ic07_101012a\ic07_101012a\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\John\Desktop\cis162ad\cs07\ic07_101012a\ic07_101012a\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\John\Desktop\cis162ad\cs07\ic07_101012a\ic07_101012a\obj\x86\Debug\ic07_101012a.exe
+C:\Documents and Settings\John\Desktop\cis162ad\cs07\ic07_101012a\ic07_101012a\obj\x86\Debug\ic07_101012a.pdb

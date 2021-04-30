@@ -1,0 +1,13 @@
+C:\Users\Instructor\Desktop\ic06_100312\ic06_100312\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Instructor\Desktop\ic06_100312\ic06_100312\obj\x86\Debug\ic06_100312.Properties.Resources.resources
+C:\Users\Instructor\Desktop\ic06_100312\ic06_100312\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Instructor\Desktop\ic06_100312\ic06_100312\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Instructor\Desktop\ic06_100312\ic06_100312\bin\Debug\ic06_100312.exe
+C:\Users\Instructor\Desktop\ic06_100312\ic06_100312\bin\Debug\ic06_100312.pdb
+C:\Users\Instructor\Desktop\ic06_100312\ic06_100312\obj\x86\Debug\ic06_100312.Form1.resources
+C:\Users\Instructor\Desktop\ic06_100312\ic06_100312\obj\x86\Debug\ic06_100312.exe
+C:\Users\Instructor\Desktop\ic06_100312\ic06_100312\obj\x86\Debug\ic06_100312.pdb
+C:\Documents and Settings\John\Desktop\cis162ad\cs06\ic06_100312_1\ic06_100312\obj\x86\Debug\ic06_100312.exe
+C:\Documents and Settings\John\Desktop\cis162ad\cs06\ic06_100312_1\ic06_100312\obj\x86\Debug\ic06_100312.pdb
+F:\College Courses\CIS 162 C#\Classwork\2nd Attempt\ic06_100312_1\ic06_100312\obj\x86\Debug\ic06_100312.exe
+F:\College Courses\CIS 162 C#\Classwork\2nd Attempt\ic06_100312_1\ic06_100312\obj\x86\Debug\ic06_100312.pdb

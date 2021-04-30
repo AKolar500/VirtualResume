@@ -1,0 +1,9 @@
+F:\College Courses\CIS 162\Homework\cs01\CS01-Alex_Kolar\CS01-Alex_Kolar\bin\Debug\CS01-Alex_Kolar.exe
+F:\College Courses\CIS 162\Homework\cs01\CS01-Alex_Kolar\CS01-Alex_Kolar\bin\Debug\CS01-Alex_Kolar.pdb
+F:\College Courses\CIS 162\Homework\cs01\CS01-Alex_Kolar\CS01-Alex_Kolar\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\College Courses\CIS 162\Homework\cs01\CS01-Alex_Kolar\CS01-Alex_Kolar\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+F:\College Courses\CIS 162\Homework\cs01\CS01-Alex_Kolar\CS01-Alex_Kolar\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+F:\College Courses\CIS 162\Homework\cs01\CS01-Alex_Kolar\CS01-Alex_Kolar\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\College Courses\CIS 162\Homework\cs01\CS01-Alex_Kolar\CS01-Alex_Kolar\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\College Courses\CIS 162\Homework\cs01\CS01-Alex_Kolar\CS01-Alex_Kolar\obj\x86\Debug\CS01-Alex_Kolar.exe
+F:\College Courses\CIS 162\Homework\cs01\CS01-Alex_Kolar\CS01-Alex_Kolar\obj\x86\Debug\CS01-Alex_Kolar.pdb

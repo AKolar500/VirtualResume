@@ -1,0 +1,17 @@
+C:\Users\Chris\AppData\Local\Temporary Projects\Simple Calculator\bin\Debug\Simple Calculator.exe
+C:\Users\Chris\AppData\Local\Temporary Projects\Simple Calculator\bin\Debug\Simple Calculator.pdb
+C:\Users\Chris\AppData\Local\Temporary Projects\Simple Calculator\bin\Debug\Simple Calculator.xml
+C:\Users\Chris\AppData\Local\Temporary Projects\Simple Calculator\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Chris\AppData\Local\Temporary Projects\Simple Calculator\obj\x86\Debug\Simple_Calculator.Form1.resources
+C:\Users\Chris\AppData\Local\Temporary Projects\Simple Calculator\obj\x86\Debug\Simple_Calculator.Resources.resources
+C:\Users\Chris\AppData\Local\Temporary Projects\Simple Calculator\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Chris\AppData\Local\Temporary Projects\Simple Calculator\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Chris\AppData\Local\Temporary Projects\Simple Calculator\obj\x86\Debug\Simple Calculator.exe
+C:\Users\Chris\AppData\Local\Temporary Projects\Simple Calculator\obj\x86\Debug\Simple Calculator.xml
+C:\Users\Chris\AppData\Local\Temporary Projects\Simple Calculator\obj\x86\Debug\Simple Calculator.pdb
+C:\Users\Chris\documents\visual studio 10\Projects\Simple Calculator\Simple Calculator\obj\x86\Debug\Simple Calculator.exe
+C:\Users\Chris\documents\visual studio 10\Projects\Simple Calculator\Simple Calculator\obj\x86\Debug\Simple Calculator.xml
+C:\Users\Chris\documents\visual studio 10\Projects\Simple Calculator\Simple Calculator\obj\x86\Debug\Simple Calculator.pdb
+C:\Users\Tony\Documents\Books\VB\VB 5th Edition\Student Sample Programs\Chap3\Simple Calculator\Simple Calculator\obj\x86\Debug\Simple Calculator.exe
+C:\Users\Tony\Documents\Books\VB\VB 5th Edition\Student Sample Programs\Chap3\Simple Calculator\Simple Calculator\obj\x86\Debug\Simple Calculator.xml
+C:\Users\Tony\Documents\Books\VB\VB 5th Edition\Student Sample Programs\Chap3\Simple Calculator\Simple Calculator\obj\x86\Debug\Simple Calculator.pdb

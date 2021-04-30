@@ -1,0 +1,16 @@
+/*Alex Kolar
+6/23/2012
+*/
+
+#page {width:8.5in; height:11in; margin:0.5in; font-family:sans-serif}
+
+#Links {display:none}
+
+#Portrait, #List {float:left}
+.TopList {list-style-type:none; font-size:20}
+.SubList {list-style-type:upper-alpha; font-size:17}
+
+#Content {clear:left}
+.first:first-line {font-variant:small-caps}
+.first:first-letter {float:left; margin:0px 5px 5px 0px; font-size:300%; line-height:0.75; color:purple}
+.beyond {text-indent:2em}

@@ -1,0 +1,14 @@
+E:\College Courses\CIS 159 Visual Basic\Modules\Module 13 - Appendix A\prjAdvancedControls\prjAdvancedControls\bin\Debug\prjAdvancedControls.exe
+E:\College Courses\CIS 159 Visual Basic\Modules\Module 13 - Appendix A\prjAdvancedControls\prjAdvancedControls\bin\Debug\prjAdvancedControls.pdb
+E:\College Courses\CIS 159 Visual Basic\Modules\Module 13 - Appendix A\prjAdvancedControls\prjAdvancedControls\bin\Debug\prjAdvancedControls.xml
+E:\College Courses\CIS 159 Visual Basic\Modules\Module 13 - Appendix A\prjAdvancedControls\prjAdvancedControls\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\College Courses\CIS 159 Visual Basic\Modules\Module 13 - Appendix A\prjAdvancedControls\prjAdvancedControls\obj\x86\Debug\prjAdvancedControls.MainForm.resources
+E:\College Courses\CIS 159 Visual Basic\Modules\Module 13 - Appendix A\prjAdvancedControls\prjAdvancedControls\obj\x86\Debug\prjAdvancedControls.Resources.resources
+E:\College Courses\CIS 159 Visual Basic\Modules\Module 13 - Appendix A\prjAdvancedControls\prjAdvancedControls\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\College Courses\CIS 159 Visual Basic\Modules\Module 13 - Appendix A\prjAdvancedControls\prjAdvancedControls\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\College Courses\CIS 159 Visual Basic\Modules\Module 13 - Appendix A\prjAdvancedControls\prjAdvancedControls\obj\x86\Debug\prjAdvancedControls.exe
+E:\College Courses\CIS 159 Visual Basic\Modules\Module 13 - Appendix A\prjAdvancedControls\prjAdvancedControls\obj\x86\Debug\prjAdvancedControls.xml
+E:\College Courses\CIS 159 Visual Basic\Modules\Module 13 - Appendix A\prjAdvancedControls\prjAdvancedControls\obj\x86\Debug\prjAdvancedControls.pdb
+E:\College Courses\CIS 159 Visual Basic\Modules\Module 13 - Appendix A\Appendix A\prjAdvancedControls\prjAdvancedControls\obj\x86\Debug\prjAdvancedControls.exe
+E:\College Courses\CIS 159 Visual Basic\Modules\Module 13 - Appendix A\Appendix A\prjAdvancedControls\prjAdvancedControls\obj\x86\Debug\prjAdvancedControls.xml
+E:\College Courses\CIS 159 Visual Basic\Modules\Module 13 - Appendix A\Appendix A\prjAdvancedControls\prjAdvancedControls\obj\x86\Debug\prjAdvancedControls.pdb

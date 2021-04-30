@@ -1,0 +1,93 @@
+/* the styles for the body tag */
+body {
+    margin-top: 0;
+    background-color: dodgerBlue;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 10pt;
+}
+
+/* the styles for the div tags that divide the page into sections */
+#page {
+    width: 760px;
+    margin: 0 auto;
+    background-color: white;
+    border: medium solid black;
+    border-top: none;
+}
+
+#header, #main, #footer {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+#header {
+    border-bottom: thin solid gray;
+}
+#header > *:first-child {
+    margin-top: 0;
+    padding-top: 0.5em;
+}
+
+#main {
+    position: relative;
+    padding-top: 1em;
+    padding-left: 0;
+}
+#sidebar {
+    position: absolute;
+    width: 10em;
+    left: 0;
+}
+#content {
+    margin-left: 10em;
+}
+#content > *:first-child {
+    margin-top: 0;
+}
+
+#footer {
+    border-top: thin solid gray;
+    padding-bottom: 0.5em;
+}
+
+/* the styles for the XHTML elements */
+h1, h2 {
+    color: darkOrange;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+h1 { font-size: 150%; }
+h2 { font-size: 120%; }
+
+ul {
+    margin: 0 0 1em 0;
+    padding: 0 0 0 2.5em;
+}
+li {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: mediumBlue;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 1px dashed darkOrange;
+}
+a:hover {
+    border-bottom: 1px solid darkOrange;
+}
+
+/* the styles for the XHTML classes */
+ul.nav {
+    margin: 0;
+    padding-left: 1.25em;
+    list-style-type: none;
+}
+ul.nav > li {
+    padding-bottom: 0.5em;
+}
+.copyright {
+    color: gray;
+    font-size: smaller;
+    text-align: right;
+    margin-bottom: 0;
+}

@@ -1,0 +1,11 @@
+F:\College Courses\CIS 162\Classwork\IC14a\IC14a\bin\Debug\Northwind.accdb
+F:\College Courses\CIS 162\Classwork\IC14a\IC14a\bin\Debug\IC14a.exe.config
+F:\College Courses\CIS 162\Classwork\IC14a\IC14a\bin\Debug\IC14a.exe
+F:\College Courses\CIS 162\Classwork\IC14a\IC14a\bin\Debug\IC14a.pdb
+F:\College Courses\CIS 162\Classwork\IC14a\IC14a\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\College Courses\CIS 162\Classwork\IC14a\IC14a\obj\x86\Debug\IC14a.Form1.resources
+F:\College Courses\CIS 162\Classwork\IC14a\IC14a\obj\x86\Debug\IC14a.Properties.Resources.resources
+F:\College Courses\CIS 162\Classwork\IC14a\IC14a\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\College Courses\CIS 162\Classwork\IC14a\IC14a\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\College Courses\CIS 162\Classwork\IC14a\IC14a\obj\x86\Debug\IC14a.exe
+F:\College Courses\CIS 162\Classwork\IC14a\IC14a\obj\x86\Debug\IC14a.pdb

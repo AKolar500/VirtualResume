@@ -1,0 +1,15 @@
+enable - enter privileged-exec mode
+conf t - enter global config mode
+enable secret class
+banner motd "Authorized users only"
+no ip domain-lookup
+line con 0 - enter line config mode
+password cisco
+login
+exec-timeout 0 0
+logging sync
+line vty 0 x (x=4 for routers, x=15 for switches)
+password cisco
+login
+logging sync
+exec-timeout 0 0

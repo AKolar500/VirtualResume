@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Desktop Configuration</title>
+<link rel="stylesheet" type="text/css" href="default.css" />
+<link rel="stylesheet" type="text/css" href="config.css" />
+<script type="text/javascript" src="jslib_event.js"></script>
+<script type="text/javascript" src="jslib_dom_ready.js"></script>
+<script type="text/javascript" src="config_library.js"></script>
+<script type="text/javascript" src="config.js"></script>
+</head>
+
+<body>
+<div id="content">
+    <h1>Desktop Configuration</h1>
+    <p>System Cost: <span id="system_cost">&nbsp;</span></p>
+    <div class="formLayout">
+        <form action="#" method="get" id="product_form">
+
+        <label for="proc">Processor:</label>
+        <input type="radio" name="proc" value="0" id="proc0" 
+               checked="checked" />
+        Dual-Core 2.5 GHz <span class="cost" id="proc0_cost">&nbsp;</span>
+        <br />
+        <label>&nbsp;</label>
+        <input type="radio" name="proc" value="1" id="proc1" />
+        Dual-Core 3.0 GHz <span class="cost" id="proc1_cost">&nbsp;</span>
+        <br />
+        <label>&nbsp;</label>
+        <input type="radio" name="proc" value="2" id="proc2" />
+        Quad-Core 2.5 GHz <span class="cost" id="proc2_cost">&nbsp;</span>
+        <br />
+        <label>&nbsp;</label>
+        <input type="radio" name="proc" value="3" id="proc3" />
+        Quad-Core 3.0 GHz <span class="cost" id="proc3_cost">&nbsp;</span>
+        <br class="double" />
+        
+        <p class="error" id="optical_err_p">
+            <span id="optical_err">&nbsp;</span></p>
+
+        <label for="optical0">First Optical Drive:</label>
+        <select name="optical0" id="optical0">
+            <option value="0">DVD-RW</option>
+            <option value="1">BD-ROM</option>
+            <option value="2">BD-RW</option>
+        </select>
+        <br />
+
+        <label for="optical1">Second Optical Drive:</label>
+        <select name="optical1" id="optical1">
+            <option value="0">None</option>
+            <option value="1">DVD-RW</option>
+            <option value="2">BD-ROM</option>
+            <option value="3">BD-RW</option>
+        </select>
+        <br class="double" />
+
+        <label>&nbsp;</label>
+        <input type="submit" id="config_submit"
+            value="Place Order" />
+        <input type="button" id="config_reset"
+            value="Reset Form" />
+        <br />
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Account Registration</title>
+<link rel="stylesheet" type="text/css" href="register.css" />
+<link rel="stylesheet" type="text/css"
+	href="http://ajax.googleapis.com/ajax/libs/dojo/1.2/dijit/themes/tundra/tundra.css" />
+<script src="http://ajax.googleapis.com/ajax/libs/dojo/1.2/dojo/dojo.xd.js"
+    type="text/javascript" djConfig="parseOnLoad:false">
+</script>
+<script type="text/javascript" src="register.js"></script>
+</head>
+
+<body class="tundra">
+<div id="content">
+    <h1>Register for an Account</h1>
+    <form action="register_account.html" method="get" id="register_form" 
+        dojoType="dijit.form.Form" >
+    <h2>Account Information</h2>
+    <label for="email">E-Mail:</label>
+        <input type="text" name="email" id="email"
+            dojoType="dijit.form.ValidationTextBox" required="true"
+            regExpGen="dojox.regexp.emailAddress"
+            invalidMessage="E-mail is required."
+        /><br />
+    <label for="password">Password:</label>
+        <input type="password" name="password" id="password" 
+            dojoType="dijit.form.ValidationTextBox" required="true"
+            regExp=".{6,}"
+            invalidMessage="Password must be at least six characters."
+        /><br />
+    <label for="verify">Verify Password:</label>
+        <input type="password" name="verify" id="verify"
+            dojoType="dijit.form.ValidationTextBox" required="true"
+            validator="matchValues"
+            constraints="{matchId: 'password'}"
+            invalidMessage="Passwords do not match."
+        /><br />
+    <h2>Contact Information</h2>
+    <label for="first_name">First Name:</label>
+        <input type="text" name="first_name" id="first_name"
+            dojoType="dijit.form.ValidationTextBox"
+            required="true" trim="true"
+            invalidMessage="First name is required."
+        /><br />
+    <label for="last_name">Last Name:</label>
+        <input type="text" name="last_name" id="last_name"
+            dojoType="dijit.form.ValidationTextBox"
+            required="true" trim="true"
+            invalidMessage="Last name is required."
+        /><br />
+    <label for="address">Address:</label>
+        <input type="text" name="address" id="address"
+            dojoType="dijit.form.ValidationTextBox"
+            required="true" trim="true"
+            invalidMessage="Address is required."
+        /><br />
+    <label for="city">City:</label>
+        <input type="text" name="city" id="city"
+            dojoType="dijit.form.ValidationTextBox"
+            required="true" trim="true"
+            invalidMessage="City is required."
+        /><br />
+    <label for="state">State:</label>
+        <input type="text" name="state" id="state"
+            dojoType="dijit.form.FilteringSelect" store="stateList" />
+        <br />
+    <label for="zip">ZIP Code:</label>
+        <input type="text" name="zip" id="zip"
+            dojoType="dijit.form.ValidationTextBox" required="true"
+            regExp="[\d]{5}(-[\d]{4})?"
+            invalidMessage="Required. Use 5 or 9 digit ZIP code."
+        /><br />
+    <label for="phone">Phone Number:</label>
+        <input type="text" name="phone" id="phone"
+            dojoType="dijit.form.ValidationTextBox" required="true"
+            regExp="[\d]{3}-[\d]{3}-[\d]{4}"
+            invalidMessage="Required. Use 999-999-9999 format."
+        /><br />
+    <h2>Payment Information</h2>
+    <label for="card_type">Card Type:</label>
+        <input type="radio" name="card_type" value="mc" checked="checked"
+            dojoType="dijit.form.RadioButton" /> MasterCard
+        <input type="radio" name="card_type" value="vi"
+            dojoType="dijit.form.RadioButton" /> Visa
+        <input type="radio" name="card_type" value="ax"
+            dojoType="dijit.form.RadioButton" /> American Express
+        <input type="radio" name="card_type" value="di"
+            dojoType="dijit.form.RadioButton" /> Discover
+        <br />
+    <label for="card_number">Card Number:</label>
+        <input type="text" name="card_number" id="card_number"
+            dojoType="dijit.form.ValidationTextBox" required="true"
+            validator="checkCardNumber"
+            constraints="{ ccTypeName: 'card_type' }"
+            invalidMessage="Valid card number required."
+        /><br />
+    <label for="card_number">Card CVV:</label>
+        <input type="text" name="card_cvv" id="card_cvv"
+            dojoType="dijit.form.ValidationTextBox" required="true"
+            validator="checkCardCVV"
+            constraints="{ ccTypeName: 'card_type' }"
+            invalidMessage="Valid card CVV number required."
+        /><br />
+    <label for="exp_date">Expiration Date:</label>
+        <input type="text" name="exp_date" id="exp_date"
+            dojoType="dijit.form.ValidationTextBox" required="true"
+            regExp="(0?[\d]|1[012])\/[\d]{4}"
+            invalidMessage="Required. Use mm/yyyy format."
+        /><br />
+    <h2>Submit Registration</h2>
+    <label>&nbsp;</label>
+        <button type="submit" id="submit_button"
+            dojoType="dijit.form.Button" >Register</button>
+        <button  type="reset" id="reset_button"
+            dojoType="dijit.form.Button" >Reset</button>
+        <br />
+    </form>
+    <p class="notice">All fields are required.</p>
+</div>
+</body>
+</html>

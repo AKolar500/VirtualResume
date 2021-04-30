@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspace>
+	<settings>
+		<label>Assignment4-Kolar</label>
+		<id>6</id>
+		<version>0</version>
+	</settings>
+	<users>
+		<user>
+			<path>Assignment4-Kolar.jcu</path>
+		</user>
+	</users>
+	<projects>
+		<project>
+			<path>Assignment4-Kolar.jcp</path>
+		</project>
+	</projects>
+</workspace>

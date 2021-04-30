@@ -1,0 +1,59 @@
+Scenarios for CS08 Debugging Assignment
+
+1) Scenario 1
+a) Place a breakpoint around statement 81. It should look like this:
+ if (!chkSesame.Checked && !chkPoppy.Checked && !chkRaisin.Checked)
+
+b) Run the program and leave all checkboxes blank. Click the Ok button.
+
+c) Question 1: What is in the checked property of each checkedbox?
+Unchecked
+
+
+d) Question 2: What will happen when you press F11?
+It will execute the next statement.
+
+
+e) Press F11twice.
+
+f) Question 3: Where did the execution go?
+To the MessageBox.Show("No Bagels Checked"); statement.
+
+
+
+g) Press F11 till you reach this statement (about 2 times):
+         return isValid;
+
+h) Question 4: What is the value of isValid?
+False
+
+
+i) Unset the breakpoint and press F5 (continue execution)
+
+2) Scenario 2
+a) Without ending the program, set a breakpoint around statement 61 (it should look like this):
+decSubtotal = decSesameTotal + decPoppyTotal + decRaisinTotal;)
+
+b) Go back to the running form and add 3 sesame seed bagel and 5 poppy seed bagels 
+
+c) Click the Ok button (you should now be at your breakpoint)
+
+d) Question 5: What is the value of each of these variables?
+
+
+
+e) Advance the pointer one line (Press F11)
+
+f) Question 6: What is the value of decSubtotal
+
+
+
+g) Advance the instruction pointer 2 line to line 66 (it should look like this:
+        lblTaxes.Text = decTaxes.ToString("c");
+
+h) Question 7: What is the value of decTaxes, decSubtotal, and decTAX_RATE;
+
+
+
+i) Remove any break points and press F5 (continue)
+ 

@@ -1,0 +1,20 @@
+C:\Users\Chris\AppData\Local\Temporary Projects\Exception Demo\bin\Debug\Exception Demo.exe
+C:\Users\Chris\AppData\Local\Temporary Projects\Exception Demo\bin\Debug\Exception Demo.pdb
+C:\Users\Chris\AppData\Local\Temporary Projects\Exception Demo\bin\Debug\Exception Demo.xml
+C:\Users\Chris\AppData\Local\Temporary Projects\Exception Demo\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Chris\AppData\Local\Temporary Projects\Exception Demo\obj\x86\Debug\Exception_Demo.Form1.resources
+C:\Users\Chris\AppData\Local\Temporary Projects\Exception Demo\obj\x86\Debug\Exception_Demo.Resources.resources
+C:\Users\Chris\AppData\Local\Temporary Projects\Exception Demo\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Chris\AppData\Local\Temporary Projects\Exception Demo\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Chris\AppData\Local\Temporary Projects\Exception Demo\obj\x86\Debug\Exception Demo.exe
+C:\Users\Chris\AppData\Local\Temporary Projects\Exception Demo\obj\x86\Debug\Exception Demo.xml
+C:\Users\Chris\AppData\Local\Temporary Projects\Exception Demo\obj\x86\Debug\Exception Demo.pdb
+C:\Users\Chris\documents\visual studio 10\Projects\Exception Demo\Exception Demo\obj\x86\Debug\Exception Demo.exe
+C:\Users\Chris\documents\visual studio 10\Projects\Exception Demo\Exception Demo\obj\x86\Debug\Exception Demo.xml
+C:\Users\Chris\documents\visual studio 10\Projects\Exception Demo\Exception Demo\obj\x86\Debug\Exception Demo.pdb
+C:\Users\Chris\Desktop\VB 2010 Supplements\Student Sample Programs\Chap3\Exception Demo\Exception Demo\obj\x86\Debug\Exception Demo.exe
+C:\Users\Chris\Desktop\VB 2010 Supplements\Student Sample Programs\Chap3\Exception Demo\Exception Demo\obj\x86\Debug\Exception Demo.xml
+C:\Users\Chris\Desktop\VB 2010 Supplements\Student Sample Programs\Chap3\Exception Demo\Exception Demo\obj\x86\Debug\Exception Demo.pdb
+C:\Users\Tony\Documents\Books\VB\VB 5th Edition\Student Sample Programs\Chap3\Exception Demo\Exception Demo\obj\x86\Debug\Exception Demo.exe
+C:\Users\Tony\Documents\Books\VB\VB 5th Edition\Student Sample Programs\Chap3\Exception Demo\Exception Demo\obj\x86\Debug\Exception Demo.xml
+C:\Users\Tony\Documents\Books\VB\VB 5th Edition\Student Sample Programs\Chap3\Exception Demo\Exception Demo\obj\x86\Debug\Exception Demo.pdb

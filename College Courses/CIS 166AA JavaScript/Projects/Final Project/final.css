@@ -1,0 +1,37 @@
+body {
+    font-family: "Courier New", Courier, monospace;
+    background: #000000;
+}
+
+#matrixcode1 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 200px;
+	height: 800px;
+	z-index: 1;
+}
+#matrixcode2 {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 200px;
+	height: 800px;
+	z-index: 2;
+}
+
+#content {
+	position: relative;
+	margin-left: 200px;
+	width: 800px;
+	height: 800px;
+	z-index: 3;
+}
+
+#links {
+	position: relative;
+	margin-left: 200px;
+	width: 800px;
+	height: 60px;
+	z-index: 4;
+}

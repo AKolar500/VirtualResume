@@ -1,0 +1,26 @@
+/*
+   New Perspectives on HTML and XHTML 5th Edition
+   Tutorial 4
+   Case Problem 1
+
+   Willet Creek Print Style Sheet
+   Author: Alex Kolar
+   Date: 6/20/2012
+
+   Filename:         print.css
+   Supporting Files: 
+
+*/
+
+#page {size:8.5in 11in portrait}
+h1, h2, h3 {font-family:sans-serif}
+#head {text-align:center}
+#hole_list, #flags {display:none}
+#hole_stats {float:left; margin-right:0.2in; padding:0.1in; border-right:0.1in double black; border-bottom:0.1in double black}
+#hole_stats h2 {font-size:12}
+
+#hole_image {position:absolute; left:3in; top:3in}
+#hole_image img {width:3.54in; height:5in}
+
+#hole_description span {display:block; font:20 bold sans-serif}
+/*span:before {content:Hole}*/
