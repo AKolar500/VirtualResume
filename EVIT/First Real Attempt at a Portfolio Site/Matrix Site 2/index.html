@@ -1,0 +1,110 @@
+<html>
+<head>
+<title>Alexander J. Kolar</title>
+<style type="text/css">
+body{
+	background-color:#000000;
+}
+#matrixcode {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:800px;
+	height:600px;
+	z-index:1;
+}
+#longdoors {
+	position:absolute;
+	background-color:transparent;
+	left:0px;
+	top:0px;
+	width:800px;
+	height:600px;
+	z-index:2;
+}
+#choices {
+	position:absolute;
+	left:800px;
+	top:0px;
+	width:250px;
+	height:750px;
+	z-index:3;
+}
+#mainframe {
+	position:absolute;
+	background-color:transparent;
+	left:150px;
+	top:100px;
+	width:470px;
+	height:380px;
+	overflow:auto;
+	z-index:4;
+}
+#mainframeabove{
+	position:absolute;
+	background-color:transparent;
+	left:150px;
+	top:100px;
+	width:440px;
+	height:350px;
+	z-index:6;
+	border:4px solid #666666;
+}
+#music {
+	position:absolute;
+	background:black;
+	border:1px solid #666666;
+	left:450px;
+	top:510px;
+	width:200px;
+	height:70px;
+	z-index:7;
+}
+#bottomborder {
+	position:absolute;
+	left:150px;
+	top:450px;
+	width:470px;
+	height:30px;
+	z-index:8;
+	background-color: #666666;
+}
+#topborder {
+	position:absolute;
+	left:590px;
+	top:100px;
+	width:30px;
+	height:4px;
+	z-index:9;
+	background-color: #666666;
+}
+#rightborder {
+	position:absolute;
+	left:616px;
+	top:104px;
+	width:4px;
+	height:350px;
+	z-index:10;
+	background-color: #666666;
+}
+</style>
+</head>
+
+<body>
+<div id="matrixcode">
+	<iframe src="../matrixcode.html" width="800" height="600" scrolling="no"></iframe></div>
+<div id="choices">
+	<iframe name="choices" src="choices.html" width="250" height="600"></iframe></div>
+<div id="mainframe" class="mainframe">
+	<iframe name="mainframe" src="intro.html" width="470" height="360" align="center" frameborder="0"></iframe></div>
+<div id="mainframeabove"></div>
+<div id="music">
+	<iframe src="music.html" width="200" height="70" scrolling="no"></iframe></div>
+<div id="bottomborder"></div>
+<!--<div id="longdoors">
+	<iframe src="longdoors2.html" width="800" height="600" scrolling="no"></iframe>
+</div>-->
+<div id="topborder"></div>
+<div id="rightborder"></div>
+</body>
+</html>

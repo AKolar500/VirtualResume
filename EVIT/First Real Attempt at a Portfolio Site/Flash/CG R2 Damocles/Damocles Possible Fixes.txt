@@ -1,0 +1,135 @@
+The Tank: Part 2: Rotating and Shooting The Cannon
+by admin @ 2:26 pm. Filed under Flash Tutorials 
+Click here to see the completed swf file.
+Begin by downloading the following Flash MX 2004 file: tankPart2_rotation_artillery.fla. This file contains all the movieclips that you will need without the actionscript. We will fill that in during the tutorial.
+Edited: Here is the source file.
+This tutorial is broken up into two main sections:
+i. Cannon Movement
+ii. Firing the Cannon
+
+Cannon Movement
+**The method we are going to use to detect the mouse angle is only approximate. Its not perfect, but it is fine for our purposes and for most games or movies that you can create with it.
+First familiarize yourself with the project file. Notice the cannon movieclip is named ‘cannon_mc’. There is also an invisible movieClip named ‘mouseTarget’ Also notice that we have 3 frames in the timeline. In the ‘Cannon Actions’ layer we have 3 keyframes.
+1. In the first keyframe place the following action:
+
+    startDrag(”mouseTarget”, true); 
+
+This action allows the movieClip ‘mouseTarget’ to follow the mouse around wherever it goes. This is how we will be able to detect the mouse’s position relative to the tank, think of this as the crosshairs of where you will shoot.
+2. In the 3rd keyframe place the following action:
+
+    gotoAndPlay(2); 
+
+By placing this action is frame 3 we have created a continuous loop between the 2nd and 3rd frames. This is necessary so that we can continuously recalculate the mouse?s position.
+3. We calculate the mouse angle in the 2nd keyframe. All of the following actions will be placed in the 2nd keyframe of the ‘Cannon Actions’ layer.
+i. First we figure out the x and y distances of the mouseTarget from the tank.
+
+    // calculate the distance from tank
+    // to mouse click in terms of (x,y)
+    xDistance = mouseTarget._x - tank_mc._x;
+    yDistance = mouseTarget._y - tank_mc._y; 
+
+ii. Next we calculate the normalisation factor and use it to determine the mouse angle. I am not going to get into all the details of this mathmatical equation. Basically, normalization is the process of breaking up two values into relative proportions of each other. We use normalisation to figure out the approximate percentage of rotation within each of the four quadrants surrounding the tank. All you need to know is that this formula works in calculating the approximate mouse angle (its not exact, but good enough for this tutorial). Without further ado here is the code:
+
+    // the normalisation factor is equal to
+    // the sum of the absolute distances of
+    // x and y.
+    normalise = Math.abs(xDistance) + Math.abs(yDistance);
+    // determine the direction
+    if ((xDistance >= 0) & (yDistance >= 0)) {
+
+        mouseDirection = 90 * (yDistance/normalise); 
+
+    } else if ((xDistance <= 0) && (yDistance >= 0)) {
+
+        mouseDirection = -90 * (xDistance/normalise) + 90; 
+
+    } else if (((xDistance)<=0) && ((yDistance)<=0)) {
+
+        mouseDirection = -90 * (yDistance/normalise) + 180; 
+
+    } else {
+
+        mouseDirection = 90 * (xDistance/normalise) + 270; 
+
+    } 
+
+iii. Finally, lets make the cannon rotate appropriately. We just take the mouseDirection calculated in the last step and rotate the cannon appropriately. Luckily Flash comes with a built-in function for rotating movieClips. Insert this after the last bit of code (in the 2nd keyframe of the ‘Cannon Actions’ layer):
+
+    cannon_mc._rotation = mouseDirection; 
+
+Okay, thats it for the ‘Cannon Movement’ section. Run your movie and see if it worked!
+Firing the Cannon
+To uncover the bullet movieClip, first hide the tank and cannon layers ( do this by clicking the on the first dot next to the layer name). Now you should see a little green dot (our bullet). I have named this movieClip ‘bullet_new’. The basic concept behind making the bullet fire is to duplicate the bullet_new movieClip and make it move towards where the mouse was click. Okay lets get started.
+i. Click on the second frame of the ‘Cannon Actions’ layer and add the following:
+
+    // set mouse values for artillary
+    // initially these will be ‘nil,nil’ before
+    // this frame loads
+    mouse_x = mouseTarget._x;
+    mouse_y = mouseTarget._y; 
+
+These coordinates will be used to tell the bullet where to go. The reason we put them in the second frame is so that the initial bullet_new movieClip will always keep its original coordinates.
+ii. Click on the first frame of the ‘Bullet Actions’ layer and add the following actionscript:
+
+    // initialize newBullet which will
+    // be used to denumerate the new movieclips
+    // created below.
+X = 0;
+onMouseDown = function() {
+
+X++;
+duplicateMovieClip(”_root.bullet_new”, “_root.bullet_new.bullet” add X, X); 
+
+} 
+
+This basically creates a new movieClip named ?bullet_new.bulletX?. Each mouse click creates a new movieclip. The ?X++? is short for ?X = X + 1?. So each new movieclip has a unique name and identifier. Review duplicateMovieClip in the ActionScript Dictionary if you don?t understand this.
+iii. Now for the actionscript to make the ‘bullet_new’ movieclip move. Click on the ‘bullet_new’ movieclip and insert the following actions onto the movieclip:
+
+// when the movieclip loads…
+onClipEvent(load){
+
+// Set the variables up to be equal to where mouse is when clicked.
+xDest = _root.mouse_x;
+yDest = _root.mouse_y;
+// Set the alpha visibility to be full.
+this._alpha = 100; 
+
+}
+onClipEvent(enterframe){
+
+// if the xDest has been changed then
+// move bullet from the cannon to
+// the mouse location
+if ((this._x != xDest)) {
+
+// move bullet towards mouse click
+this._x += (xDest-this._x)*.1;
+// slowly make bullet disappear
+this._alpha -= 4; 
+
+}
+// See if the yDest has been changed
+if (this._y != yDest) {
+
+this._y += (yDest-this._y)*.1;
+this._alpha -= 4;
+
+}
+
+}
+
+Okay, thats it! Now test your movie and see if it works.
+Add-on to the Tank: Part 1: Basic Movement
+If you add all of the code from the last part, then making this work for the movable tank is quite simple.
+i. Add the following code to each of your LEFT and RIGHT arrow key press functions:
+
+_root.bullet_new._x = _root.cannon._x; 
+
+ii. Add the following code to each of your UP and DOWN arrow key press functions:
+
+_root.bullet_new._y = _root.cannon._y; 
+
+iii. Delete the SPACEBAR key press function and of course use the new mouseDown function from Part 2 and delete the one from Part 1.
+Thats it, we’re done! Here’s the final result:
+
+  [link] 

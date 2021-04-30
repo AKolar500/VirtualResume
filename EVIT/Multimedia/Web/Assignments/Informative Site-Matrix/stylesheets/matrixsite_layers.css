@@ -1,0 +1,62 @@
+body{
+	background-color:black;
+	color:gray;
+	font-family:arial;
+	font-size:12px;
+}
+html{
+	overflow-x:hidden;
+}
+div.box {
+	/*Any properties you'd want the box to have.*/
+	/*Would probably be position, dimension type stuff.*/
+	/*Though personally I would have a div outside this to control the dimensions.*/
+	position:absolute;
+	height:350px;
+	width:440px;
+	left:0px;
+	top:0px;
+}
+/*Make this box the Flash box*/
+/*Original: position:relative;*/
+div.flash {
+	background-color:transparent;
+	height:100%;
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:100%;
+	z-index:2;
+}
+/*Make this box the text box*/
+div.text {
+	background-color:black;
+	height:100%;
+	filter:alpha(opacity=40); /* IE's opacity*/
+	left:0px;
+	opacity:0.40;
+	position:absolute;
+	top:0px;
+	width:100%;
+	padding:5px 9px 5px 9px;
+	z-index:1;
+}
+div.sound{
+	position:absolute;
+	height:100px;
+	width:100px;
+	filter:alpha(opacity=0);
+	left:0px;
+	top:0px;
+	opacity:0.00;
+	z-index:3;
+}
+body{
+	background-color:black;
+	color:gray;
+	font-family:arial;
+	font-size:12px;
+}
+.style1{
+	padding:0px 14px 0px 0px;
+}

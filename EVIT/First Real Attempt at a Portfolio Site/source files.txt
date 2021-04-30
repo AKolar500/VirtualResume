@@ -1,0 +1,6 @@
+Matrix site sources:
+
+show/hide layers:
+1-http://www.quirksmode.org/js/events_properties.html#target
+2-http://www.daniweb.com/forums/thread23676.html#
+Primary-http://www.brenz.net/snippets/open_close_div.asp

@@ -1,0 +1,64 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Alex Kolar's Photos</title>
+<style type="text/css">
+<!--
+body {
+	background-color: #FFFF99;
+	background-image: url(../images/quilttexture.jpg);
+}
+div{
+	border-top:2px solid white;
+	border-right:2px solid #666;
+	border-bottom:2px solid #666;
+	border-left:2px solid white;
+}
+#navbar {
+	position:absolute;
+	left:30px;
+	top:20px;
+	width:679px;
+	height:50px;
+	z-index:1;
+}
+#navbar img{
+	border-top:1px solid white;
+	border-right:1px solid #666;
+	border-bottom:1px solid #666;
+	border-left:1px solid white;
+}
+#main {
+	position:absolute;
+	left:30px;
+	top:90px;
+	width:940px;
+	height:505px;
+	z-index:2;
+	background-image: url(../images/quiltpatch.jpg);
+}
+p{
+	color:white;
+	font-family:Arial;
+}
+-->
+</style>
+<script type="text/JavaScript" language="javascript" src="photonavscript.js">
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('../Navigation/images/home-over.jpg','../Navigation/images/gallery-over.jpg','../Navigation/images/info-over.jpg','../Navigation/images/location-over.jpg','../Navigation/images/store-over.jpg','../Navigation/images/contact-over.jpg')">
+<div id="navbar"><a href="#"><img src="../Navigation/images/home-active.jpg" width="111" height="50" /></a><a href="gallery.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('gallery','','../Navigation/images/gallery-over.jpg',1)"><img src="../Navigation/images/gallery.jpg" name="gallery" width="125" height="50" border="0" id="gallery" /></a><a href="information.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('information','','../Navigation/images/info-over.jpg',1)"><img src="../Navigation/images/info.jpg" name="information" width="182" height="50" border="0" id="information" /></a><!--</a><a href="location.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('location','','../Navigation/images/location-over.jpg',1)"><img src="../Navigation/images/location.jpg" name="location" width="137" height="50" border="1" id="location" /></a>--><a href="store.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('store','','../Navigation/images/store-over.jpg',1)"><img src="../Navigation/images/store.jpg" name="store" width="91" height="50" border="0" id="store" /></a><a href="contact.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('contact','','../Navigation/images/contact-over.jpg',1)"><img src="../Navigation/images/contact.jpg" name="contact" width="160" height="50" border="0" id="contact" /></a></div>
+<div id="main">
+  <p>
+    <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="940" height="624">
+      <param name="movie" value="../museum_pics_banner.swf">
+      <param name="quality" value="high">
+      <embed src="../museum_pics_banner.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="940" height="624"></embed>
+    </object>
+	<!--flash banner: original=1000px wide, 667px tall; adjusted=940px wide, 624px tall-->
+  </p>
+  <p>For IE browser support: In the javascript file, edit the "#" area in the "preloadimages" function. If it doesn't work, try tweaking this function until it works for IE.</p>
+</div>
+</body>
+</html>

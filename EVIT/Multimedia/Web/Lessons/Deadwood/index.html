@@ -1,0 +1,133 @@
+<html>
+<head>
+<title>Deadwood Design</title>
+<style type="text/css">
+body{
+	margin:0px;
+	font-family:Courier;
+	font-size:medium;
+	background:#999 url(images/bg_gradient.png) repeat-x;
+	color:white;
+}
+div#tree{
+	position:absolute;
+	bottom:0px;
+	right:40px;
+	z-index:1;
+	width:331px;
+	height:400px;
+	background:url(images/tree.gif);
+	visibility: visible;
+}
+h1{
+	position:absolute;
+	top:70px;
+	right:80px;
+	width:334px;
+	height:36px;
+	margin-top:0px;
+	overflow:hidden;
+	visibility: visible;
+}
+h1 span{
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0px;
+	left:0px;
+	background:#666 url(images/logo.gif) no-repeat;
+	visibility: visible;
+}
+div#logotext{
+	position:absolute;
+	top:110px;
+	left:50px;
+	z-index:2;
+	width:230px;
+	height:150px;
+	overflow:hidden;
+	background:url(images/d.gif) no-repeat top left;
+	padding:4px 0px 0px 62px;
+	visibility: visible;
+}
+div#mainbox{
+	position:absolute;
+	width:100%;
+	height:280px;
+	top:280px;
+	left:0px;
+	background-color:#666;
+	border-top:solid 2px white;
+	border-bottom:solid 4px black;
+	visibility: visible;
+}
+div#photobox{
+	position:absolute;
+	width:500px;
+	height:280px;
+	top:282px;
+	left:10px;
+	z-index:4;
+	visibility: visible;
+}
+div#photobox ul{
+	list-style:none;
+	margin-top:10px;
+}
+div#photobox li{
+	display:inline;
+	margin-right:20px;
+}
+div#photobox img{
+	padding:10px;
+	background:url(images/bg_checkered_dark.gif) repeat;
+}
+#truck {
+	position:absolute;
+	left:358px;
+	top:22px;
+	width:400px;
+	height:250px;
+	z-index:5;
+	background-image: url(images/truck.png);
+}
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script type="text/JavaScript">
+<!--
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_showHideLayers() { //v6.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) if ((obj=MM_findObj(args[i]))!=null) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+//-->
+</script>
+</head>
+<body>
+<h1><span></span>Deadwood Design</h1>
+<div id="logotext">eadwood Design is located in Phoenix, Arizona. We specialize in custom photography.</div>
+<div id="mainbox"></div>
+<div id="photobox">
+<ul id="toprow">
+<li><img src="images/portfolio1.jpg" /></li>
+<li><img src="images/portfolio2.jpg" /></li>
+<li><a href="#"><img src="images/portfolio3.jpg" name="cat" border="0" id="cat" onClick="MM_showHideLayers('truck','','show')" /></a></li>
+</ul>
+<ul id="bottomrow">
+<li><img src="images/portfolio4.jpg" /></li>
+<li><img src="images/portfolio5.jpg" /></li>
+<li><img src="images/portfolio6.jpg" /></li>
+</ul></div>
+<div id="tree"></div>
+<div id="truck" onfocus="MM_showHideLayers('truck','','hide')"></div>
+</body>
+</html>

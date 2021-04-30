@@ -1,0 +1,91 @@
+<html>
+<head>
+<title>Nice Form with a Table</title>
+<style type="text/css">
+body{
+	font-family:Arial;
+	font-size:medium;
+	background-color:tan;
+}
+table{
+	border:solid 5px black;
+	margin-top:36px;
+}
+td{
+	border:0px;
+}
+.left{
+	width:250px;
+	height:30px;
+	text-align:right;
+	background-color:olive;
+	color:white;
+	padding:5px 20px;
+}
+.right{
+	width:400px;
+	background-color:khaki;
+	padding:5px 10px;
+}
+</style>
+</head>
+<body>
+<form method="post" action="mailto:alexkolar@msn.com">
+<table width="650" cellspacing="0" align="center">
+<caption>Please Fill in the Form</caption>
+	<tr>
+	<td class="left">Name: </td>
+	<td class="right"><input type="text" name="name" size="40" maxlength="50" /></td>
+	</tr>
+	<tr>
+	<td class="left">Address: </td>
+	<td class="right"><input type="text" name="address" size="40" maxlength="50" /></td>
+	</tr>
+	<tr>
+	<td class="left">City: </td>
+	<td class="right"><input type="text" name="city" size="40" maxlength="50" /></td>
+	</tr>
+	<tr>
+	<td class="left">State: </td>
+	<td class="right"><select name="state">
+	<option value="AZ">AZ</option>
+	<option value="CA">CA</option>
+	<option value="NM">NM</option>
+	<option value="OR">OR</option>
+	<option value="WA">WA</option>
+	<option value="RI">RI</option></select><br /></td>
+	</tr>
+	<tr>
+	<td class="left">What is your favorite color?<br /></td>
+	<td class="right">
+	<input type="radio" name="color" value="red" />Red
+	<input type="radio" name="color" value="orange" />Orange
+	<input type="radio" name="color" value="yellow" />Yellow
+	<input type="radio" name="color" value="green" />Green
+	<input type="radio" name="color" value="blue" />Blue<br /></td>
+	</tr>
+	<tr>
+	<td class="left">What pets do you own?<br /></td>
+	<td class="right">
+	<input type="checkbox" name="pets" value="bird" />Bird
+	<input type="checkbox" name="pets" value="cat" />Cat
+	<input type="checkbox" name="pets" value="dog" checked="checked" />Dog
+	<input type="checkbox" name="pets" value="ferret" />Ferret
+	<input type="checkbox" name="pets" value="fish" />Fish</td>
+	</tr>
+	<tr>
+	<td class="left">Comments:</td>
+	<td class="right"><textarea rows="5" cols="40" name="comments"></textarea><br /></td>
+	</tr>
+	<tr>
+	<td class="left"><input type="hidden" name="survey" value="sent" /></td>
+	<td class="right"><input type="submit" value="Submit" /><input type="reset" value="Clear the Form" /></td>
+	</tr>
+	<tr>
+	<td class="left"></td>
+	<td class="right"><input type="password" name="PW" /></td>
+	</tr>
+</table>
+</form>
+</body>
+</html>
